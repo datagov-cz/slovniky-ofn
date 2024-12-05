@@ -1316,5 +1316,5 @@
         skos:ConceptScheme ;
     dcterms:modified [ a time:Instant ;
             time:inXSDDateTimeStamp "2024-12-05T20:46:48.981831"^^xsd:dateTimeStamp ] ;
-    skos:prefLabel "Šablona pro popis dat - Archi (v04)"@cs .
+    skos:prefLabel "Slovník obecných pojmů veřejné správy"@cs .
 

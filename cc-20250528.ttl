@@ -1,0 +1,1716 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <https://slovník.gov.cz/agendový/104/pojem/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/adresa-dodavatele-ne-cloudových-služeb> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/dodavatel-ne-cloudových-služeb> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Adresa dodavatele ne-cloudových služeb"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-úroveň-využívaného-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Bezpečnostní úroveň využívaného cloud computingu vyjadřuje možné dopady kybernetického bezpečnostního incidentu na tento cloud computing. Bezpečnostní úrovně jsou nízká (1), střední (2), vysoká (3) nebo kritická (4)."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/využívaný-cloud-computing> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Bezpečnostní úroveň využívaného cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezúhonnost-v-rozsahu-bezúhonnosti-požadované-po-kvalifikovaném-správci-kvalifikovaného-systému-elektronické-identifikace> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Pro ověření bezúhonosti v rozsahu bezúhonnosti požadované po kvalifikovaném správci kvalifikovaného systému elektronické identifikace je vyžadován výpis z rejstříku trestů."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/požadavky-na-poskytovatele-cloud-computingu-poskytujícího-cloud-computing-orgánu-veřejné-správy> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Bezúhonnost v rozsahu bezúhonnosti požadované po kvalifikovaném správci kvalifikovaného systému elektronické identifikace."@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/celkový-finanční-objem-zaplacený-za-dodávané-služby-cloud-computingu-v-daném-kalendářním-roce> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Celkový finanční objem zaplacený za dodávané služby cloud computingu v daném kalendářním roce (v Kč, bez DPH)"@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/celkové-roční-náklady-vynaložené-na-využívaný-cloud-computing> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Celkový finanční objem zaplacený za dodávané služby cloud computingu v daném kalendářním roce"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/celkový-finanční-objem-zaplacený-za-dodávané-služby-třídy-iaas-a-paas> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Celkový finanční objem zaplacený za dodávané služby třídy IaaS a PaaS dle dané smlouvy v daném kalendářním roce (v Kč, bez DPH)"@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/celkové-roční-náklady-vynaložené-na-využívaný-cloud-computing> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Celkový finanční objem zaplacený za dodávané služby třídy IaaS a PaaS"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/celkový-finanční-objem-zaplacený-za-dodávané-služby-třídy-saas> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Celkový finanční objem zaplacený za dodávané služby třídy SaaS dle dané smlouvy v daném kalendářním roce (v Kč, bez DPH)"@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/celkové-roční-náklady-vynaložené-na-využívaný-cloud-computing> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Celkový finanční objem zaplacený za dodávané služby třídy SaaS"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/datum-doručení-žádosti-o-zápis-nabídky-cloud-computingu-na-dia> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Datum doručení žádosti o zápis nabídky cloud computingu na DIA"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/datum-doručení-žádosti-o-zápis-poskytovatele-cloud-computingu-na-dia> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žádost-o-zápis-poskytovatele-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Datum doručení žádosti o zápis poskytovatele cloud computingu na DIA"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/datum-doručení-žádosti-o-zápis-využívaného-cloud-computingu-na-dia> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/využívaný-cloud-computing> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Datum doručení žádosti o zápis využívaného cloud computingu na DIA"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/datum-předpokládaného-ukončení-využívání-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/využívaný-cloud-computing> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Datum předpokládaného ukončení využívání cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/datum-zahájení-využívání-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/využívaný-cloud-computing> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Datum zahájení využívání cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/datum-zápisu-nabídky-cloud-computingu-do-katalogu-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Datum zápisu nabídky cloud computingu do katalogu cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/datum-zápisu-poskytovatele-cloud-computingu-do-katalogu-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žádost-o-zápis-poskytovatele-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Datum zápisu poskytovatele cloud computingu do katalogu cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/dlouhodobé-uložení-informací-orgánu-veřejné-správy-mimo-eu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Uvedeno, zda služba vyžaduje dlouhodobé uložení informací mimo EU (ano, ne)"@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Dlouhodobé uložení informací orgánu veřejné správy mimo EU"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/doba-platnosti-poptávky-do> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávka-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Doba platnosti poptávky do"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/doba-platnosti-poptávky-od> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávka-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Doba platnosti poptávky od"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/dodává-necloudové-služby> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/dodavatel-ne-cloudových-služeb> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/závislost-na-ne-cloudových-službách-jiného-dodavatele> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "dodává necloudové služby"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/dodává-podklad-k-ověření-splnění-bezpečnostního-požadavku> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/podklad-k-ověření-splnění-bezpečnostního-požadavku> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "dodává podklad k ověření splnění bezpečnostního požadavku"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/doklad-o-místě-sídla-nebo-zástupci-poskytovatele-cloud-computingu-v-eu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Doklad o tom, že poskytovatel má sídlo nebo bydliště v členském státu Evropské unie nebo má určeného svého zástupce ve členském státu Evropské unie. Jedná se o výpis z obchodního rejstříku nebo obdobné zahraniční evidence, nebo písemné čestné prohlášení v rozsahu údajů obsažených v obchodním rejstříku v případě, že není v obchodním rejstříku zapsán."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-se-sídlem-mimo-území-čr> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Doklad o místě sídla nebo zástupci poskytovatele cloud computingu v EU"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/doklad-o-skutečném-majiteli-poskytovatele-cloud-computingu-se-sídlem-mimo-čr> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Doklad vydaný orgánem státu, v němž má poskytovatel sídlo, obsahující identifikační údaje osob, které jsou skutečným majitelem poskytovatele. Nevydává-li orgán státu takový doklad poskytovatel cloud computingu jej může nahradit čestným prohlášením."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-se-sídlem-mimo-území-čr> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Doklad o skutečném majiteli poskytovatele cloud computingu se sídlem mimo ČR"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/dokládá-náklady-na-využívaný-cloud-computing> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/elektronická-verze-faktury-za-využívaný-cloud-computing> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/celkové-roční-náklady-vynaložené-na-využívaný-cloud-computing> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "dokládá náklady na využívaný cloud computing"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/dokládá-splnění-bezpečnostního-požadavku> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/podklad-k-ověření-splnění-bezpečnostního-požadavku> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-požadavek> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "dokládá splnění bezpečnostního požadavku"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/dokumentace-podkladu-k-ověření-splnění-bezpečnostního-požadavku> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/podklad-k-ověření-splnění-bezpečnostního-požadavku> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Dokumentace podkladu k ověření splnění bezpečnostního požadavku"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/drží-řidičský-průkaz> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/řidič-evidovaný-v-registru-řidičů> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/řidičský-průkaz> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "drží řidičský průkaz"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/e-mail-kontaktní-osoby-poskytovatele-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/kontaktní-osoba-poskytovatele-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "E-mail kontaktní osoby poskytovatele cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/e-mail-kontaktní-osoby-za-orgán-veřejné-správy> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/kontaktní-osoba-za-orgán-veřejné-správy> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "e-mail kontaktní osoby za orgán veřejné správy"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/id-balíčku-služeb-cloud-computingu-přidělené-dia-při-zápisu-do-katalogu> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/balíček-služeb-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "ID balíčku služeb cloud computingu přidělené DIA při zápisu do katalogu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/id-bezpečnostního-požadavku> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Označení bezpečnostního požadavku (vyplývá z přílohy č. 2 vyhlášky č. 316/2021 Sb., o některých požadavcích pro zápis do katalogu cloud computingu)"@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-požadavek> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "ID bezpečnostního požadavku"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/id-poskytovatele-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Identifikace, kterou přiděluje DIA poskytovateli cloud computingu v okamžiku jeho zápisu do katalogu cloud computingu"@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "ID poskytovatele cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/id-skupiny-bezpečnostních-požadavků> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/skupina-bezpečnostních-požadavků> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "ID skupiny bezpečnostních požadavků"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/id-služby-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Identifikace, kterou přiděluje DIA každé jednotlivé službě v okamžiku zápisu nabídky cloud computingu do katalogu cloud computingu."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu-zapsaná-v-katalogu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "ID služby cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/identifikace-dokladu--název-souboru> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/doklad-připojený-k-žádosti> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Identifikace dokladu (název souboru)"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/identifikace-dokumentu-se-smlouvou-s-poskytovatelem-přeprodávaného-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Jedná se o smlouvu s poskytovatelem, který v dodavatelském řetězci bezprostředně předchácí daného poskytovatele (může jim být např. materiální poskytovatel nebo distributor, který je v dodavatelském řetězci mezi materiálním poskytovatem a poskytovatelem, který žádost podává)."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu-přeprodávající-služby-jiného-poskytovatele> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Identifikace dokumentu se smlouvou s poskytovatelem přeprodávaného cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/identifikace-nabídky-nabízeného-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Jednoznačná identifikace nabídky pro účely vedení správního řízení o zápsiu nabídky do katalogu cloud computingu."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Identifikace nabídky nabízeného cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/identifikační-číslo--ičo--podnikající-fyzické-osoby-nebo-obdobné-číslo-přidělované-v-zahraničí> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu---podnikající-fyzická-osoba> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Identifikační číslo (IČO) podnikající fyzické osoby nebo obdobné číslo přidělované v zahraničí"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/identifikační-číslo--ičo--právnické-osoby-nebo-obdobné-číslo-přidělované-v-zahraničí> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu---právnická-osoba> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Identifikační číslo (IČO) právnické osoby nebo obdobné číslo přidělované v zahraničí"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/identifikační-číslo-smlouvy-o-využívaném-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Identifikační číslo smlouvy o poskytování využívaného cloud computingu uzavřené mezi orgánem veřejné správy a poskytovatelem cloud computingu přidělené správcem registru smluv, eviduje-li se smlouva v registru smluv"@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/využívaný-cloud-computing> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Identifikační číslo smlouvy o využívaném cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/identifikátor-informačního-systému-veřejné-správy> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Identifikátor informačního systému veřejné správy přidělený v informačním systému o informačních systémech veřejné správy."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/informační-systém-veřejné-správy> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Identifikátor informačního systému veřejné správy"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/identifikátor-orgánu-veřejné-správy> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/orgán-veřejné-správy> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Identifikátor orgánu veřejné správy"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/identifikátor-přeprodávané-služby-přidělený-dia-při-zápisu-služby-do-katalogu> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/přeprodávaná-služba-cloud-computing> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Identifikátor přeprodávané služby přidělený DIA při zápisu služby do katalogu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/indikativní-cena-služby-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Indikativní cena služby cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/ičo-dodavatele-ne-cloudových-služeb> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/dodavatel-ne-cloudových-služeb> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "IČO dodavatele ne-cloudových služeb"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/ičo-orgánu-veřejné-správy> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/orgán-veřejné-správy> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "IČO orgánu veřejné správy"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-nabízena-v-nabídce-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je nabízena v nabídce cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-poptávaná-v-bezpečnostní-úrovni-služby-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávaná-služba-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-úroveň> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je poptávaná v bezpečnostní úrovni služby cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-poptávána-v-poptávce-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávaná-služba-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávka-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je poptávána v poptávce cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-předmětem-žádosti-o-zápis-balíčku-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/balíček-služeb-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žádost-o-zápis-balíčku-služeb-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je předmětem žádosti o zápis balíčku cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-předmětem-žádosti-o-zápis-poskytovatele> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žádost-o-zápis-poskytovatele-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je předmětem žádosti o zápis poskytovatele"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-připojený-k-žádosti-o-zápis-poskytovatele-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/doklad-připojený-k-žádosti> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žádost-o-zápis-poskytovatele-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je připojený k žádosti o zápis poskytovatele cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-reprezentován-kontaktní-osobou-poskytovatele-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/kontaktní-osoba-poskytovatele-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je reprezentován kontaktní osobou poskytovatele cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-službou-cloud-computingu-třídy-iaas-nebo-paas> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu-třídy-iaas-nebo-paas> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je službou cloud computingu třídy IaaS nebo PaaS"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-službou-cloud-computingu-třídy-saas> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu-třídy-saas> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je službou cloud computingu třídy SaaS"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-součástí-balíčku-služeb-cloud-computingu--kategorie-a> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu-zapsaná-v-katalogu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/balíček-služeb-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je součástí balíčku služeb cloud computingu (kategorie A)"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-součástí-balíčku-služeb-cloud-computingu--kategorie-b> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/provozní-služba-cloud-computingu-podléhajicí-výjimce> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/balíček-služeb-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je součástí balíčku služeb cloud computingu (kategorie B)"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-součástí-balíčku-služeb-cloud-computingu--kategorie-c> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu-nesplňující-bezpečnostní-úroveň> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/balíček-služeb-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je součástí balíčku služeb cloud computingu (kategorie C)"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-součástí-podpůrného-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/podpůrná-služba-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/podpůrný-cloud-computing> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je součástí podpůrného cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-součástí-přeprodávaného-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/přeprodávaná-služba-cloud-computing> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/přeprodávaný-cloud-computing> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je součástí přeprodávaného cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-součástí-skupiny-služeb-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/skupina-nabízených-služeb-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je součástí skupiny služeb cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-uveden-v-katalogu-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/katalog-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je uveden v katalogu cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-využíván-v-informačním-systému> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/využívaný-cloud-computing> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/informační-systém-veřejné-správy> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je využíván v informačním systému"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-zapsán-do-katalogu-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/využívaný-cloud-computing> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/katalog-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je zapsán do katalogu cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-zmocněncem-poskytovatele-cloud-computingu-pro-zápis-nabídky-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/zmocněnec-poskytovatele-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je zmocněncem poskytovatele cloud computingu pro zápis nabídky cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/je-závislá-na-ne-cloudových-službách> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu-závislá-na-ne-cloudových-službách-jiného-dodavatele> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/závislost-na-ne-cloudových-službách-jiného-dodavatele> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "je závislá na ne-cloudových službách"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/jméno-držitele-řidičského-průkazu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/361/2024-07-01/dokument/norma/cast_1/hlava_3/dil_2/par_105/odst_1/pism_a> ;
+    dcterms:description "Řidičský průkaz obsahuje mj. jméno a příjmení držitele."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/řidičský-průkaz> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Jméno držitele řidičského průkazu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/jméno-kontaktní-osoby-poskytovatele-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/kontaktní-osoba-poskytovatele-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Jméno kontaktní osoby poskytovatele cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/kalendářní-rok-nákladů-na-využívaný-cloud-computing> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/celkové-roční-náklady-vynaložené-na-využívaný-cloud-computing> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Kalendářní rok nákladů na využívaný cloud computing"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/má-adresu-sídla-poskytovatele-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/adresa> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "má adresu sídla poskytovatele cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/má-adresu-sídla-zástupce-poskytovatele-cloud-computingu-v-eu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/adresa> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "má adresu sídla zástupce poskytovatele cloud computingu v EU"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/má-ovládající-osobu-poskytovatele---právnickou-osobu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu---právnická-osoba> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/ovládající-osoba-poskytovatele---právnická-osoba> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "má ovládající osobu poskytovatele - právnickou osobu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/má-splňovat-bezpečnostní-požadavek> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu-zapsaná-v-katalogu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-požadavek> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "má splňovat bezpečnostní požadavek"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/má-splňovat-požadavky-na--poskytovatele-cloud-computingu-poskytujícího-cloud-computing-orgánu-veřejné-správy> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/požadavky-na-poskytovatele-cloud-computingu-poskytujícího-cloud-computing-orgánu-veřejné-správy> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "má splňovat požadavky na  poskytovatele cloud computingu poskytujícího cloud computing orgánu veřejné správy"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/má-uvedenu-kontaktní-osobu-za-orgán-veřejné-správy> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/orgán-veřejné-správy> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/kontaktní-osoba-za-orgán-veřejné-správy> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "má uvedenu kontaktní osobu za orgán veřejné správy"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/má-uvedeny-náklady-na-využívaný-cloud-computing> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/využívaný-cloud-computing> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/celkové-roční-náklady-vynaložené-na-využívaný-cloud-computing> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "má uvedeny náklady na využívaný cloud computing"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/má-uzavřenou-smlouvu-s-orgánem-veřejné-správy> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/orgán-veřejné-správy> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "má uzavřenou smlouvu s orgánem veřejné správy"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/má-zmocněnce-poskytovatele-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/zmocněnec-poskytovatele-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "má zmocněnce poskytovatele cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízí-balíček-služeb-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/balíček-služeb-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "nabízí balíček služeb cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízí-nabízenou-službu-cloud-computingu-zapsanou-v-katalogu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu-zapsaná-v-katalogu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "nabízí nabízenou službu cloud computingu zapsanou v katalogu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/název-balíčku-služeb-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/balíček-služeb-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Název balíčku služeb cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/název-dodavatele-ne-cloudových-služeb> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/dodavatel-ne-cloudových-služeb> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Název dodavatele ne-cloudových služeb"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/název-nebo-jméno-zmocněného-subjektu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Název nebo jméno subjektu, kterého poskytovatel CC zmocnil na základě plné moci dle § 33 zákona č. 500/2000 Sb., správní řád."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/zmocněnec-poskytovatele-cloud-computingu--který-není-poskytovatelem-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Název nebo jméno zmocněného subjektu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/název-obecního-úřadu-obce-s-rozšířenou-působností> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/361/2024-10-01/dokument/norma/cast_1/hlava_3/dil_2/par_105/odst_1/pism_i> ;
+    dcterms:description "Řidičský průkaz obsahuje název úřadu, který řidičský průkaz vydal (což je vždy obecní úřad obce s rozšířenou působností)."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/obecní-úřad-obce-s-rozšířenou-působností> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Název obecního úřadu obce s rozšířenou působností"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/název-orgánu-veřejné-správy> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/orgán-veřejné-správy> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Název orgánu veřejné správy"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/název-ovládající-osoby--právnické-osoby> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/ovládající-osoba-poskytovatele---právnická-osoba> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Název ovládající osoby- právnické osoby"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/název-poptávky> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávka-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Název poptávky"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/název-připojeného-dokumentu-s-kalkulací-tco> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Název konrétního informačního systému veřejné správy, který daný cloud computing využívá."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/informační-systém-veřejné-správy> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Název připojeného dokumentu s kalkulací TCO"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/název-skupiny-bezpečnostních-požadavků> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/skupina-bezpečnostních-požadavků> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Název skupiny bezpečnostních požadavků"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/název-služby-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Název konkrétní služby dle nabídky (ceníku) poskytovatele cloud computingu."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Název služby cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/název-využívaného-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/využívaný-cloud-computing> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Název využívaného cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/obchodní-firma-nebo-jméno-a-příjmení-poskytovatele-cloud-computingu---podnikající-fyzické-osoby> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "obchodní firma nebo jméno, popřípadě jména, a příjmení, včetně odlišujícího dodatku nebo dalšího označení"@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu---podnikající-fyzická-osoba> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Obchodní firma nebo jméno a příjmení poskytovatele cloud computingu - podnikající fyzické osoby"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/obchodní-firma-nebo-název-poskytovatele-cloud-computingu---právnické-osoby> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu---právnická-osoba> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Obchodní firma nebo název poskytovatele cloud computingu - právnické osoby"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/oblast-služby-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2020/433/2020-10-31/dokument/norma/par_2/pism_c> ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:definition "Oblastí cloud computingu se rozumí skupina typů cloud computingů v rámci třídy cloud computingu, které plní obdobnou funkcionalitu cloud computingu."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Oblast služby cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/obsahuje-nabídku-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/katalog-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "obsahuje nabídku cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/obsahuje-poptávku-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/katalog-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávka-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "obsahuje poptávku cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/odkaz-na-dokumentaci-nabízené-služby-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Odkaz na místo na internetu, kde je k dispozici dokumentace nabízené služby."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Odkaz na dokumentaci nabízené služby cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/odkaz-na-kalkulátor-ceny-služby-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Odkaz na kalkulátor ceny služby cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/odpovídá-bezpečnostní-úrovni> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-požadavek> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-úroveň> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "odpovídá bezpečnostní úrovni"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/označení-skupiny-služeb> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/skupina-nabízených-služeb-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Označení skupiny služeb"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/patří-do-bezpečnostní-úrovně> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/balíček-služeb-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-úroveň> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "patří do bezpečnostní úrovně"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/patří-do-skupiny-bezpečnostních-požadavků> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-požadavek> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/skupina-bezpečnostních-požadavků> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "patří do skupiny bezpečnostních požadavků"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/podává-žádost-o-zápis-balíčku-služeb-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žadatel-o-zápis-balíčku-služeb-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žádost-o-zápis-balíčku-služeb-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "podává žádost o zápis balíčku služeb cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/podává-žádost-o-zápis-poskytovatele-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žadatel-o-zápis-poskytovatele-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žádost-o-zápis-poskytovatele-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "podává žádost o zápis poskytovatele cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/pojmenování-bezpečnostní-úrovně> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Slovní vyjádření bezpečnostní úrovně (nízká, střední, vysoká, kritická)"@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-úroveň> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Pojmenování bezpečnostní úrovně"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/popis-bezpečnostního-požadavku> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Slovní popis bezpečnostního požadavku."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-požadavek> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Popis bezpečnostního požadavku"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/popis-služeb-dodavatele-ne-cloudových-služeb> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Popis služeb, které poskytovatel cloud comutingu využívá od dodavatele ne-cloudových služeb."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/závislost-na-ne-cloudových-službách-jiného-dodavatele> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Popis služeb dodavatele ne-cloudových služeb"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/popis-využití-podpůrného-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Identifikace cloud computingu jiných poskytovatelů, který daný poskytovatel využívá při realizaci nabízeného cloud computingu (např. poskytovatel SaaS využívá PaaS jiného poskytovatele pro realizaci nabízeného cloud computingu SaaS.)"@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/podpůrná-služba-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Popis využití podpůrného cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávaná-služba-cloud-computingu-je-službou-cloud-computingu-třídy-iaas-nebo-paas> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávaná-služba-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu-třídy-iaas-nebo-paas> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Poptávaná služba cloud computingu je službou cloud computingu třídy Iaas nebo Paas"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávaná-služba-cloud-computingu-je-službou-cloud-computingu-třídy-saas> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávaná-služba-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu-třídy-saas> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Poptávaná služba cloud computingu je službou cloud computingu třídy SaaS"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-comuptingu-zapsaný-v-katalogu-je-reprezentován-kontaktní-osobou-poskytovatele-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/kontaktní-osoba-poskytovatele-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Poskytovatel cloud comuptingu zapsaný v katalogu je reprezentován kontaktní osobou poskytovatele cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytuje-využívaný-cloud-computing> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/využívaný-cloud-computing> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "poskytuje využívaný cloud computing"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/poznámka> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Volné pole pro upřesňující popis poptávané služby cloud computingu."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávaná-služba-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Poznámka"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/produkuje-službu-podpůrného-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/materiální-poskytovatel-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/podpůrný-cloud-computing> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "produkuje službu podpůrného cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/produkuje-službu-přeprodávaného-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/materiální-poskytovatel-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/přeprodávaný-cloud-computing> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "produkuje službu přeprodávaného cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/produkuje-službu-v-rámci-nabídky-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/materiální-poskytovatel-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "produkuje službu v rámci nabídky cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/prodává-služby-cloud-computingu-přeprodáváné-distributorem-od-jiného-poskytovatele> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/přeprodejce-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/distributor-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "prodává služby cloud computingu přeprodáváné distributorem od jiného poskytovatele"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/prokazuje-splnění-bezpečnostního-požadavku-nabízenou-službou> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/podklad-k-ověření-splnění-bezpečnostního-požadavku> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "prokazuje splnění bezpečnostního požadavku nabízenou službou"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/prokazuje-splnění-bezpečnostního-požadavku-skupinou-nabízených-služeb> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/podklad-k-ověření-splnění-bezpečnostního-požadavku> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/skupina-nabízených-služeb-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "prokazuje splnění bezpečnostního požadavku skupinou nabízených služeb"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/propojitelnost-s-centrálním-místem-služeb> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Informace, zda je služba cloud computingu propojitelná prostřednictvím Centrálního místa služeb."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu-třídy-saas> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Propojitelnost s Centrálním místem služeb"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/protokoly-připojení-umožňované-nabízenou-službou-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Uvedeno, jaké protokoly připojení služba vyžaduje (IPv4, IPv6, oboje)"@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Protokoly připojení umožňované nabízenou službou cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/předepsaný-způsob-doložení-bezpečnostního-požadavku> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Způsob, jakým má žadatel doložit, že nabízená služba cloud computing splňuje požadavky vyhlášky č. 316/2021 Sb."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-požadavek> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Předepsaný způsob doložení bezpečnostního požadavku"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/předpokládaná-doba-zpracování-informací-orgánu-veřejné-správy> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Pro každé místo zpracování informací orgánu veřejné správy je uvedeno, jak dlouho se předpokládá zpracování informací orgánu veřejné správy (např. po celou dobu poskytování služby nebo po dobu řešení mimořádné situace na straně poskytovatele)."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/místo-zpracování-informací-orgánu-veřejné-správy> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Předpokládaná doba zpracování informací orgánu veřejné správy"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/předpokládaný-rozsah-zpracování-informací-orgánu-veřejné-správy> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Pro každé místo zpracování informací orgánu veřejné správy je uvedeno, jaký rozsah informací je zpracováván (např. veškerá data, zákaznická data atd.)"@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/místo-zpracování-informací-orgánu-veřejné-správy> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Předpokládaný rozsah zpracování informací orgánu veřejné správy"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/předpokládaný-účel-zpracování-informací-orgánu-veřejné-správy> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Pro každé místo zpracování informací orgánu veřejné správy je uveden, účel, za jakým jsou data zpracovávána (např. za účelem poskytování podpory, pro podporu zákazníka atd.)"@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/místo-zpracování-informací-orgánu-veřejné-správy> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Předpokládaný účel zpracování informací orgánu veřejné správy"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/přeprodává-cloud-computing> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu-přeprodávající-služby-jiného-poskytovatele> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/přeprodávaný-cloud-computing> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "přeprodává cloud computing"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/přeprodává-jinému-poskytovateli-služby-materiálního-poskytovatele> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/distributor-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/materiální-poskytovatel-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "přeprodává jinému poskytovateli služby materiálního poskytovatele"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/přeprodává-službu-cloud-computingu-jinému-poskytovateli-v-rámci-nabídky> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/distributor-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu-přeprodávající-služby-jiného-poskytovatele> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "přeprodává službu cloud computingu jinému poskytovateli v rámci nabídky"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/přikládá-elektronickou-verzi-faktury-za-využívaný-cloud-computing> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/orgán-veřejné-správy> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/elektronická-verze-faktury-za-využívaný-cloud-computing> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "přikládá elektronickou verzi faktury za využívaný cloud computing"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/příjmení-držitele-řidičského-průkazu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/361/2024-07-01/dokument/norma/cast_1/hlava_3/dil_2/par_105/odst_1/pism_a> ;
+    dcterms:description "Řidičský průkaz obsahuje mj. jméno a příjmení držitele."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/řidičský-průkaz> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Příjmení držitele řidičského průkazu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/přímo-nabízí-cloud-computing-přeprodávající-služby-jiného-poskytovatele> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/přeprodejce-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu-přeprodávající-služby-jiného-poskytovatele> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "přímo nabízí cloud computing přeprodávající služby jiného poskytovatele"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/se-rozlišuje-podle-typu-služby> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/typ-služby> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "se rozlišuje podle typu služby"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/se-stává-nabízenou-službou-cloud-computingu-zapsanou-v-katalogu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu-zapsaná-v-katalogu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "se stává nabízenou službou cloud computingu zapsanou v katalogu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/seznam-dodavatelů-ne-cloudových-služeb> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Seznam dodavatelů, kteří poskytovateli dodávají hardware, software nebo služby (např. service desk), ale nejsou to služby cloud computingu. Jedná o takové dodavatele, kteří mohou získat přístup k zákaznickým datům nebo ke specifickým provozním údajům (dle definice ve vyhl. č. 316/2021 Sb.)."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu-závislá-na-ne-cloudových-službách-jiného-dodavatele> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Seznam dodavatelů ne-cloudových služeb"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/specifické-parametry-služby-poskytovatele--specifická-funkcionalita> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Základní parametry typu služby - specifické pro službu poskytovatele jsou další parametry typu služby, které blíže popisují službu a které mají vliv na užití a cenu této služby."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/typ-služby> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Specifické parametry služby poskytovatele (Specifická funkcionalita)"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/splňuje-bezpečnostní-úroveň> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu-zapsaná-v-katalogu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-úroveň> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "splňuje bezpečnostní úroveň"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/stává-se-poskytovatelem-cloud-computingu-zapsaným-v-katalogu-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "stává se poskytovatelem cloud computingu zapsaným v katalogu cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/stává-se-zapsaným-poskytovatelem-cloud-computingu-na-základě-žádosti> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žádost-o-zápis-poskytovatele-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "stává se zapsaným poskytovatelem cloud computingu na základě žádosti"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/telefon-kontaktní-osoby-poskytovatele-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/kontaktní-osoba-poskytovatele-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Telefon kontaktní osoby poskytovatele cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/telefon-kontaktní-osoby-za-orgán-veřejné-správy> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/kontaktní-osoba-za-orgán-veřejné-správy> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "telefon kontaktní osoby za orgán veřejné správy"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/třída-služby-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2020/433/2020-10-31/dokument/norma/par_2/pism_a> ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:definition "Třídou cloud computingu se rozumí cloud computing ve formě infrastruktury, cloud computing ve formě platformy a cloud computing ve formě aplikačního programového vybavení."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Třída služby cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/vydává-řidičský-průkaz> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/obecní-úřad-obce-s-rozšířenou-působností> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/řidičský-průkaz> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "vydává řidičský průkaz"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/využívá-podpůrný-cloud-computing> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu-využívající-podpůrný-cloud-computing> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/podpůrný-cloud-computing> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "využívá podpůrný cloud computing"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/využívá-využívaný-cloud-computing> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/orgán-veřejné-správy> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/využívaný-cloud-computing> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "využívá využívaný cloud computing"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/zadává-poptávku-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/orgán-veřejné-správy> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávka-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "zadává poptávku cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/zahrnuje-služby-cloud-computingu-pro-informační-systém-veřejné-správy> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávka-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/informační-systém-veřejné-správy> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "zahrnuje služby cloud computingu pro informační systém veřejné správy"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/zastupuje-zapsaného-poskytovatele> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/zmocněnec-poskytovatele-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "zastupuje zapsaného poskytovatele"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/zpracovává-informace-orgánu-veřejné-správy-v-místě-zpracování> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/místo-zpracování-informací-orgánu-veřejné-správy> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "zpracovává informace orgánu veřejné správy v místě zpracování"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/způsob-prodeje-nabízené-služby> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Způsob prodeje cloud computingu orgánům veřejné správy. Může být buď nepřímý (prodej přes partnerskou síť) nebo přímý."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Způsob prodeje nabízené služby"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/způsobilost-pro-poskytnutí-cloud-computingu-orgánu-veřejné-správy-z-hlediska-veřejného-pořádku--bezpečnosti-a-dodržování-práv-třetích-osob> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Zmocněnec, který je poskytovatelem cloud computingu (typicky dceřiná společnost nadnárodních společností). Poskytovatel cloud computingu jej zmocnil na základě plné moci dle § 33 zákona č. 500/2000 Sb., správní řád."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/požadavky-na-poskytovatele-cloud-computingu-poskytujícího-cloud-computing-orgánu-veřejné-správy> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Způsobilost pro poskytnutí cloud computingu orgánu veřejné správy z hlediska veřejného pořádku, bezpečnosti a dodržování práv třetích osob."@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/způsobilost-zajistit-základní-úroveň-ochrany-důvěrnosti--integrity-a-dostupnosti-informací-orgánu-veřejné-správy> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Pro ověření způsobilosti zajistit základní úroveň ochrany důvěrnosti, integrity a dostupnosti informací orgánu veřejné správy je vyžadováno závazné stanovisko Národního úřadu pro kybernetickou a informační bezpečnost."@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/365/2024-01-20/dokument/norma/cast_1/hlava_6/par_6r/odst_1> ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/požadavky-na-poskytovatele-cloud-computingu-poskytujícího-cloud-computing-orgánu-veřejné-správy> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Způsobilost zajistit základní úroveň ochrany důvěrnosti, integrity a dostupnosti informací orgánu veřejné správy."@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/základní-parametry-typu-služby--funkcionalita> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Základní parametry typu služby - určující (obecné) jsou standardní parametry daného typu služby, které uvádí většina poskytovatelů."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/typ-služby> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Základní parametry typu služby (funkcionalita)"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/závislost-na-podpůrném-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Závislost na podpůrném cloud computingu, tzn. poskytování cloud computingu je závislé na jiném cloud computingu."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Závislost na podpůrném cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/závislost-na-přeprodávaném-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/365/2024-01-20/dokument/norma/cast_1/hlava_6/par_6n/pism_f> ;
+    dcterms:description "Závislost na přeprodávaném cloud computingu, tzn. poskytování cloud computingu je závislé více poskytovatelích cloud computingu."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:definition "Pokud je poskytování cloud computingu závislé na více poskytovatelích cloud computingu (kteří předchází v dodavatelském řetězci) a který daný poskytovatel dále bez jakékoli úpravy přeprodává svým zákazníkům jedná se tzv. přeprodávaný cloud computing. Např. poskytovatel nabízí cloud computing nadnárodní společnosti (materiálního poskytovatele)."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Závislost na přeprodávaném cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/účel-poptávky-cloud-computingu> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Popis, z jakého důvodu má orgán veřejné správy zájem o zápis individuální poptávky."@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávka-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Účel poptávky cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/číslo-bezpečnostní-úrovně> a owl:DatatypeProperty,
+        skos:Concept ;
+    dcterms:description "Číslené vyjádření bezpečnostní úrovně (1, 2, 3, 4)"@cs ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-úroveň> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Číslo bezpečnostní úrovně"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/číslo-jednací-žádosti-o-zápis-nabídky-cloud-computingu-přidělené-na-dia> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Číslo jednací žádosti o zápis nabídky cloud computingu přidělené na DIA"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/číslo-jednací-žádosti-o-zápis-poskytovatele-cloud-computingu-přidělené-na-dia> a owl:DatatypeProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žádost-o-zápis-poskytovatele-cloud-computingu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Číslo jednací žádosti o zápis poskytovatele cloud computingu přidělené na DIA"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/řídí-vozidlo> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/řidič> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/vozidlo> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "řídí vozidlo"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/žádá-o-zápis-nabídky-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žadatel-o-zápis-nabídky> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "žádá o zápis nabídky cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/žádá-o-zápis-poskytovatele-do-katalogu-cloud-computingu> a owl:ObjectProperty,
+        skos:Concept ;
+    rdfs:domain <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žadatel-o-zápis-poskytovatele-cloud-computingu> ;
+    rdfs:range <https://slovník.gov.cz/slovník-cloud-computingu/pojem/katalog-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "žádá o zápis poskytovatele do katalogu cloud computingu"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu-využívající-podpůrný-cloud-computing> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Nabídka cloud computingu obsahuje jednotlivé služby cloud computingu, které poskytovatelé mohou nabízet orgánům veřejné správy. Zároveň je poskytování těchto služeb závislé na jiném (tzv. podpůrném) cloud computingu."@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/365/2024-01-20/dokument/norma/cast_1/hlava_1/par_2/odst_2/pism_d> ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Nabídka cloud computingu využívající podpůrný cloud computing"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu-nesplňující-bezpečnostní-úroveň> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Tyto služby cloud computingu nesplňují dle zákona 365/2000 Sb. o informačních systémech veřejné správy bezpečnostní opatření vyžadovaná pro danou bezpečnostní úroveň, nicméně z marketigových důvodů byly poskytovatelem do balíčku zahrnuty."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Nabízená služba cloud computingu nesplňující bezpečnostní úroveň"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/podnikající-fyzická-osoba-zapsaná-v-obchodním-rejstříku> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Podnikající fyzická osoba zapsaná v obchodním rejstříku"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/provozní-služba-cloud-computingu-podléhajicí-výjimce> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Služby, pro které zákon neuplatňuje povinnost zápisu do katalogu cloud computingu, ale poskytovatel je i přesto chce zapsat do katalogu cloud computingu, aby tím ulehčil orgánům veřejné správy jejich využití pro realizaci informačního systému veřejné správy."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Provozní služba cloud computingu podléhajicí výjimce"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/vozidlo> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/361/2024-07-01/dokument/norma/cast_1/hlava_1/par_2/pism_f> ;
+    skos:definition "motorové vozidlo, nemotorové vozidlo nebo tramvaj"@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Vozidlo"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/zmocněnec-poskytovatele-cloud-computingu--který-není-poskytovatelem-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Zmocněnce, který není poskytovatelem cloud computingu (typicky advokátní kancelář). Poskytovatel cloud computingu jej zmocnil na základě plné moci dle § 33 zákona č. 500/2000 Sb., správní řád."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/zmocněnec-poskytovatele-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Zmocněnec poskytovatele cloud computingu, který není poskytovatelem cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/účastník-provozu-na-pozemních-komunikacích> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/361/2024-07-01/dokument/norma/cast_1/hlava_1/par_2/pism_a> ;
+    skos:definition "každý, kdo se přímým způsobem účastní provozu na pozemních komunikacích"@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Účastník provozu na pozemních komunikacích"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/řidič-evidovaný-v-registru-řidičů> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/361/2024-07-01/dokument/norma/cast_1/hlava_4/par_119/odst_2/pism_a> ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/řidič> ;
+    skos:definition "Registr řidičů obsahuje a) osobní údaje o řidiči motorového vozidla uvedené v řidičském průkazu a v mezinárodním řidičském průkazu, včetně digitalizované fotografie a digitalizovaného podpisu řidiče,"@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Řidič evidovaný v registru řidičů"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/doklad-připojený-k-žádosti> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Doklad, který musí připojit žadatel k žádosti o zápis do katalogu cloud computingu."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Doklad připojený k žádosti"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/elektronická-verze-faktury-za-využívaný-cloud-computing> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Elektronická verze faktury za využívaný cloud computing"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/koncový-poskytovatel-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Poskytovatel, který službu cloud computing nabízí přímo orgánu věřejné správy."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Koncový poskytovatel cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu-závislá-na-ne-cloudových-službách-jiného-dodavatele> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Nabídka cloud computingu obsahuje jednotlivé služby cloud computingu, které poskytovatelé mohou nabízet orgánům veřejné správy. Poskytování těchto služeb je závislé na dodavatelích ne-cloudových služeb (např. dodávka hardware, software nebo služby (např. service desk), u kterých se předpokládá zpracovávání informací orgánu veřejné správy."@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/365/2024-01-20/dokument/norma/cast_1/hlava_1/par_2/odst_2/pism_d> ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Nabídka cloud computingu závislá na ne-cloudových službách jiného dodavatele"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/obecní-úřad-obce-s-rozšířenou-působností> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/361/2024-10-01/dokument/norma/cast_1/hlava_3/dil_2/par_109/odst_3> ;
+    dcterms:description "Úřad vydávající řidičský průkaz je vždy obecním úřadem obce s rozšířenou působností."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Obecní úřad obce s rozšířenou působností"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/ovládající-osoba-poskytovatele---právnická-osoba> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Ovládající osoba poskytovatele, který je právnickou osobou, dle § 74 zákona č. 90/2012 Sb., o obchodních společnostech a družstvech, ve znění pozdějších předpisů"@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/právnická-osoba> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Ovládající osoba poskytovatele - právnická osoba"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/podpůrná-služba-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Služba cloud computing, jejíž poskytování je závislé na využití jiného cloud computingu (který produkuje materiální poskytovatel)."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Podpůrná služba cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu---podnikající-fyzická-osoba> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Poskytovatel cloud computingu je podnikající fyzická osoba dodávající cloud computing orgánu veřejné správy. Je-li cloud computing dodáván zákazníkovi vícečlenným dodavatelským řetězcem, pak poskytovatelem je každý člen tohoto řetězce, který produkuje, resp. přeprodává služby cloud computingu."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/podnikající-fyzická-osoba-zapsaná-v-obchodním-rejstříku>,
+        <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Poskytovatel cloud computingu - podnikající fyzická osoba"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-se-sídlem-mimo-území-čr> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Poskytovatel cloud computingu se sídlem mimo území ČR"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/přeprodávaná-služba-cloud-computing> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Služba cloud computingu, jejíž poskytování je závislé na více poskytovatelích cloud computingu (kteří předchází v dodavatelském řetězci) a kterou daný poskytovatel dále bez jakékoli úpravy přeprodává svým zákazníkům."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Přeprodávaná služba cloud computing"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu-třídy-iaas-nebo-paas> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Službou cloud computingu třídy IaaS nebo PaaS může být např. server, úložiště dat nebo virtuální sítě."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Služba cloud computingu třídy IaaS nebo PaaS"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/řidič> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/361/2024-04-01/dokument/norma/cast_1/hlava_1/par_2/pism_d> ;
+    dcterms:description "Řidič je tedy i cyklista, nejen řidič motorových vozidel – neváže se na něj nutně řidičské oprávnění."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/účastník-provozu-na-pozemních-komunikacích> ;
+    skos:definition "účastník provozu na pozemních komunikacích, který řídí motorové nebo nemotorové vozidlo anebo tramvaj; řidičem je i jezdec na zvířeti"@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Řidič"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/žádost-o-zápis-balíčku-služeb-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Žádost o zápis do katalogu cloud computingu služby cloud computingu, která zahrnuje několik elementární služeb cloud computingu a která je v katalogu cloud computingu nabízena jako samostatná identita."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Žádost o zápis balíčku služeb cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/kontaktní-osoba-za-orgán-veřejné-správy> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    rdfs:subClassOf <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/fyzická-osoba> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Kontaktní osoba za orgán veřejné správy"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/podpůrný-cloud-computing> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Cloud computing, jehož poskytování je závislé na využití jiného cloud computingu (který produkuje materiální poskytovatel). Je odpovědností každého poskytovatele, zapojeného do dodavatelského řetězce cloud computingu, si ověřit skutečný stav závislosti na cloud computingu v předchozích článcích řetězce."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Podpůrný cloud computing"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu---právnická-osoba> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Poskytovatel cloud computingu je právnická osoba dodávající cloud computing orgánu veřejné správy. Je-li cloud computing dodáván zákazníkovi vícečlenným dodavatelským řetězcem, pak poskytovatelem je každý člen tohoto řetězce, který produkuje, resp. přeprodává služby cloud computingu."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/právnická-osoba>,
+        <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Poskytovatel cloud computingu - právnická osoba"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/přeprodávaný-cloud-computing> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Cloud computing, jehož poskytování je závislé na více poskytovatelích cloud computingu (kteří předchází v dodavatelském řetězci) a který daný poskytovatel dále bez jakékoli úpravy přeprodává svým zákazníkům. Je odpovědností každého poskytovatele, zapojeného do dodavatelského řetězce cloud computingu, si ověřit skutečný stav závislosti na cloud computingu v předchozích článcích řetězce"@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Přeprodávaný cloud computing"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/skupina-bezpečnostních-požadavků> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Označení skupin bezpečnostních požadavků (vyplývá z přílohy č. 2 vyhlášky č. 316/2021 Sb., o některých požadavcích pro zápis do katalogu cloud computingu)"@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Skupina bezpečnostních požadavků"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/skupina-nabízených-služeb-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Skupina nabízených služeb, u nichž žadatel dokládá splnění bezpečnostních požadavků stejnými podklady."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Skupina nabízených služeb cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu-třídy-saas> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Službou cloud computingu třídy SaaS mohou být např. provozní nebo agendové systémy."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Služba cloud computingu třídy SaaS"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/typ-služby> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Vydefinované typy služeb třídy IaaS, PaaS nebo SaaS v jednotlivých oblastech, např. import a export dat, DNS domény, spisová služba nebo ERP."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Typ služby"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/závislost-na-ne-cloudových-službách-jiného-dodavatele> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Poskytování cloud computingu je závislé na dodavatelích, kteří mohou získat přístup k zákaznickým datům nebo ke specifickým provozním údajům (dle definice ve vyhl. č. 316/2021 Sb.)."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Závislost na ne-cloudových službách jiného dodavatele"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/žadatel-o-zápis-balíčku-služeb-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Subjekt, který má zájem o poskytování cloud computingu orgánům veřejné správy ve formě balíčku služeb."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Žadatel o zápis balíčku služeb cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/žadatel-o-zápis-nabídky> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Subjekt, který má zájem o poskytování nebo přeprodej cloud computingu orgánům veřejné správy."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Žadatel o zápis nabídky"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/žadatel-o-zápis-poskytovatele-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Společnost, která žádá o zápis poskytovatele cloud computingu do katalogu cloud computingu, aby mohl poskytovatel v souladu se zákonem č. 365/2000 Sb., o informačních systémech veřejné správy dodávat cloud computing do veřejné správy."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Žadatel o zápis poskytovatele cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/distributor-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu>,
+        <https://slovník.gov.cz/slovník-cloud-computingu/pojem/přeprodejce-cloud-computingu> ;
+    skos:definition "Distributor cloud computingu je poskytovatel, který službu cloud computing přeprodává jinému poskytovateli."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Distributor cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/dodavatel-ne-cloudových-služeb> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Dodavatel, který poskytovateli dodává hardware, software nebo služby (např. service desk), ale nejsou to služby cloud computingu. Jedná se o takové dodavatele, kteří mohou získat přístup k zákaznickým datům nebo ke specifickým provozním údajům (dle definice ve vyhl. č. 316/2021 Sb.)."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/právnická-osoba> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Dodavatel ne-cloudových služeb"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/informační-systém-veřejné-správy> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/365/2024-01-20/dokument/norma/cast_1/hlava_1/par_2/odst_1/pism_b> ;
+    skos:definition "Funkční celek nebo jeho část zabezpečující cílevědomou a systematickou informační činnost pro účely výkonu veřejné správy nebo plnění jiných funkcí státu anebo dalších veřejnoprávních korporací."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Informační systém veřejné správy"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/materiální-poskytovatel-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/distributor-cloud-computingu>,
+        <https://slovník.gov.cz/slovník-cloud-computingu/pojem/koncový-poskytovatel-cloud-computingu>,
+        <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu>,
+        <https://slovník.gov.cz/slovník-cloud-computingu/pojem/přeprodejce-cloud-computingu> ;
+    skos:definition "Materiální poskytovatel cloud computingu je poskytovatel, který službu cloud computing \"produkuje\"."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Materiální poskytovatel cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/místo-zpracování-informací-orgánu-veřejné-správy> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Seznam států, na jejichž území dochází nebo může docházet ke zpracovávání zákaznických dat, specifických provozních údajů a provozních údajů."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Místo zpracování informací orgánu veřejné správy"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu-přeprodávající-služby-jiného-poskytovatele> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Nabídka cloud computingu obsahuje jednotlivé služby cloud computingu, které poskytovatelé mohou nabízet orgánům veřejné správy. Poskytování těchto služeb je závislé na více poskytovatelích cloud computingu, tzn. jedná se o tzv. přeprodávaný cloud computingu služeb, které jsou v katalogu cloud computingu již zapsány materiálním poskytovatelem."@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/365/2024-01-20/dokument/norma/cast_1/hlava_1/par_2/odst_2/pism_d> ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Nabídka cloud computingu přeprodávající služby jiného poskytovatele"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/požadavky-na-poskytovatele-cloud-computingu-poskytujícího-cloud-computing-orgánu-veřejné-správy> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Poskytovatel, který poskytuje služby orgánům veřejné správy, musí splňovat požadavky § 6m ZoISVS."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Požadavky na poskytovatele cloud computingu poskytujícího cloud computing orgánu veřejné správy"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/přeprodejce-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Poskytovatel cloud computingu, který služby nevyrábí, pouze přeprodává služby zapsané v katalogu cloud computingu tzv. materiálním poskytovatelem."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/koncový-poskytovatel-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Přeprodejce cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/zmocněnec-poskytovatele-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Zmocněnec, který je poskytovatelem cloud computingu (typicky dceřiná společnost nadnárodních společností). Poskytovatel cloud computingu jej zmocnil na základě plné moci dle § 33 zákona č. 500/2000 Sb., správní řád."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žadatel-o-zápis-balíčku-služeb-cloud-computingu>,
+        <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žadatel-o-zápis-nabídky>,
+        <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žadatel-o-zápis-poskytovatele-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Zmocněnec poskytovatele cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/řidičský-průkaz> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/361/2024-07-01/dokument/norma/cast_1/hlava_3/dil_2/par_103/odst_1>,
+        <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/361/2024-10-01/dokument/norma/cast_1/hlava_3/dil_2/par_103/odst_1> ;
+    skos:definition "Řidičský průkaz je veřejná listina, která osvědčuje řidičské oprávnění držitele a jeho rozsah a kterou držitel prokazuje své jméno, příjmení a podobu, jakož i další údaje v ní zapsané podle tohoto zákona."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Řidičský průkaz"@cs .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/katalog-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/365/2024-01-20/dokument/norma/cast_1/hlava_6/par_6k/odst_1> ;
+    dcterms:description "Katalog vede Digitální a informační agentura."@cs ;
+    skos:definition "Katalog cloud computingu je seznam, ve kterém se vedou údaje o poptávkách cloud computingu, poskytovatelích cloud computingu, nabídkách cloud computingu a o cloud computingu využívaném orgány veřejné správy"@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Katalog cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/kontaktní-osoba-poskytovatele-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Je osoba reprezentující poskytovatele cloud computingu ve věci správního řízení o zápisu poskytovatele cloud computingu"@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/fyzická-osoba> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Kontaktní osoba poskytovatele cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/podklad-k-ověření-splnění-bezpečnostního-požadavku> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Podklad, kterým žadatel dokládá, že nabízená služba cloud computing splňuje požadavky vyhlášky č. 316/2021 Sb."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Podklad k ověření splnění bezpečnostního požadavku"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávaná-služba-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Poptávaná služba cloud computingu je služba cloud computingu, kterou hodlá orgán veřejné správy nakupovat od poskytovatelů v daném období."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Poptávaná služba cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-úroveň> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/365/2024-01-20/dokument/norma/cast_1/hlava_1/par_2/odst_2/pism_a> ;
+    dcterms:description "Bezpečnostní úroveň cloud computingu vyjadřuje možné dopady kybernetického bezpečnostního incidentu na nabízený cloud computing. Bezpečnostní úrovně jsou nízká (1), střední (2), vysoká (3) nebo kritická (4)."@cs ;
+    skos:definition "Bezpečnostní úroveň cloud computingu pro využívání cloud computingu orgány veřejné moci podle právního předpisu upravujícího kybernetickou bezpečnost."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Bezpečnostní úroveň"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/celkové-roční-náklady-vynaložené-na-využívaný-cloud-computing> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Celkový finanční objem zaplacený za dodávané služby cloud computingu v daném kalendářním roce (v Kč, bez DPH)"@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Celkové roční náklady vynaložené na využívaný cloud computing"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu-zapsaná-v-katalogu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Nabízenou službou cloud computingu je služba, která je poskytovatelem cloud computingu zapsána v katalogu cloud computingu a kterou může orgán veřejné správy využívat."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Nabízená služba cloud computingu zapsaná v katalogu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/bezpečnostní-požadavek> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Bezpečnostní požadavky (dané vyhláškou č. 316/2021 Sb., o některých požadavcích pro zápis do katalogu cloud computingu) pro zápis do katalogu cloud computingu, které musí splnit daná služba, aby byla zapsána do dané bezpečnostní úrovně."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Bezpečnostní požadavek"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/žádost-o-zápis-poskytovatele-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Žádost o zápis poskytovatele clužeb cloud computingu do katalogu cloud computingu, kterou zasílá žadatel k posouzení Digitální a informační agentuře."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Žádost o zápis poskytovatele cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/balíček-služeb-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Služba cloud computingu, která zahrnuje několik elementární služeb cloud computingu a která je v katalogu cloud computingu nabízena jako samostatná identita. V případě, že je z marketingových důvodů do balíčku zahrnuta i jedna nebo více služeb, které nesplňují bezpečnostní opatření vyžadovaná pro danou bezpečnostní úroveň. Služby balíčku, které nesplňují bezpečnostní opatření pro danou bezpečnostní úroveň, OVS nesmí využívat pro realizaci ISVS dané bezpečnostní úrovně."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Balíček služeb cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/orgán-veřejné-správy> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2009/111/2024-07-01/dokument/norma/cast_1/hlava_1/par_2/pism_c> ;
+    rdfs:subClassOf <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/právnická-osoba> ;
+    skos:definition "Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek, fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Orgán veřejné správy"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/poptávka-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/365/2024-01-20/dokument/norma/cast_1/hlava_1/par_2/odst_2/pism_c> ;
+    dcterms:description "Poptávka cloud computingu je úkon orgánu veřejné správy, který specifikuje seznam typů služeb cloud computingu, které hodlá nakupovat od poskytovatelů v daném období. Poptávka může být buď společná, kterou definuje Digitální a informační agentura, nebo individuální."@cs ;
+    skos:definition "Poptávkou cloud computingu je právní jednání orgánu veřejné správy, jehož předmětem je projev vůle využít cloud computing poskytovaný osobou nebo její součástí, které jsou odlišné od tohoto orgánu veřejné správy, pro potřebu tohoto nebo jiného orgánu veřejné správy"@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Poptávka cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/365/2024-01-20/dokument/norma/cast_1/hlava_1/par_2/odst_2/pism_b> ;
+    dcterms:description "Služba cloud computingu je některá ze služeb typu IaaS, PaaS nebo SaaS."@cs ;
+    skos:definition "Služba cloud computingu zajišťuje provoz informačního systému veřejné správy nebo jeho části prostřednictvím dálkového přístupu k sdílenému technickému nebo programovému prostředku, který je zpřístupněný poskytovatelem cloud computingu a nastavitelný správcem informačního systému veřejné správy."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Služba cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/využívaný-cloud-computing> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Služba cloud computing využívaná orgánem veřejné správy v dané době."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Využívaný cloud computing"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Poskytovatel cloud computingu je společnost, která má zájem dodávat/dodává cloud computing orgánu veřejné správy. Je-li cloud computing dodáván zákazníkovi vícečlenným dodavatelským řetězcem, pak poskytovatelem je každý člen tohoto řetězce, který produkuje, resp. přeprodává služby cloud computingu."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Poskytovatel cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu-zapsaný-v-katalogu-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Společnost zapsaná v katalogu cloud computingu dodávající cloud computing orgánu veřejné správy. Je-li cloud computing dodáván zákazníkovi vícečlenným dodavatelským řetězcem, pak poskytovatelem je každý člen tohoto řetězce, který produkuje, resp. přeprodává služby cloud computingu."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/poskytovatel-cloud-computingu>,
+        <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žadatel-o-zápis-balíčku-služeb-cloud-computingu>,
+        <https://slovník.gov.cz/slovník-cloud-computingu/pojem/žadatel-o-zápis-nabídky> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Poskytovatel cloud computingu zapsaný v katalogu cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabídka-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/365/2024-01-20/dokument/norma/cast_1/hlava_1/par_2/odst_2/pism_d> ;
+    dcterms:description "Nabídka cloud computingu obsahuje jednotlivé služby cloud computingu, které poskytovatelé mohou nabízet orgánům veřejné správy."@cs ;
+    skos:definition "Nabídkou cloud computingu je právní jednání poskytovatele cloud computingu, jehož předmětem je projev vůle poskytnout cloud computing orgánu veřejné správy a který obsahuje charakteristiku nabízeného cloud computingu."@cs ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Nabídka cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu/pojem/nabízená-služba-cloud-computingu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Nabízenou službou cloud computingu je služba, kterou poskytovatel cloud computingu chce zapsat do katalogu cloud computingu, aby jí mohl orgán veřejné správy využívat."@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/slovník-cloud-computingu/pojem/služba-cloud-computingu> ;
+    skos:inScheme <https://slovník.gov.cz/slovník-cloud-computingu> ;
+    skos:prefLabel "Nabízená služba cloud computingu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A14213> .
+
+<https://slovník.gov.cz/slovník-cloud-computingu> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:modified [ a time:Instant ;
+            time:inXSDDateTimeStamp "2025-05-28T11:58:31.511551+00:00"^^xsd:dateTimeStamp ] ;
+    skos:prefLabel "Slovník Cloud Computingu"@cs .
+

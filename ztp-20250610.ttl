@@ -1,0 +1,291 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/> .
+@prefix ns2: <https://slovník.gov.cz/agendový/104/pojem/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/ztp/pojem/datum-narození> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Datum narození osoby se zdravotním postižením"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_5/par_34a> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/osoba-se-zdravotním-postižením> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Datum narození"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/datum-vydání-průkazu> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Datum, kdy byl průkaz vydán"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_5/par_34a> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/průkaz-ztp-p> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Datum vydání průkazu"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/foto> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Foto držitele průkazu"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_5/par_34a> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/průkaz-ztp-p> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Foto"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/je-držitelem-průkazu-ztp-p> a owl:ObjectProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Osoba se zdravotním postižením je držitelem platného průkazu ZTP/P"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_5/par_34/odst_1> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/osoba-se-zdravotním-postižením> ;
+    rdfs:range <https://slovník.gov.cz/ztp/pojem/průkaz-ztp-p> ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "je držitelem průkazu ZTP/P"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/je-příjemcem-příspěvku-na-mobilitu> a owl:ObjectProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Osoba se zdravotním postižením je příjemcem příspěvku na mobilitu"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_1/par_2> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/osoba-se-zdravotním-postižením> ;
+    rdfs:range <https://slovník.gov.cz/ztp/pojem/příspěvek-na-mobilitu> ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "je příjemcem příspěvku na mobilitu"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu false ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/je-příjemcem-příspěvku-na-zvláštní-pomůcku> a owl:ObjectProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Osoba se zdravotním postižením je příjemcem příspěvku na zvláštní pomůcku"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_1/par_2> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/osoba-se-zdravotním-postižením> ;
+    rdfs:range <https://slovník.gov.cz/ztp/pojem/příspěvek-na-zvláštní-pomůcku> ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "je příjemcem příspěvku na zvláštní pomůcku"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu false ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/jméno> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Jméno osoby se zdravotním postižením"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_5/par_34a> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/osoba-se-zdravotním-postižením> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Jméno"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/platnost-průkazu-do> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Do jakého data je průkaz platný"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_5/par_34a> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/průkaz-ztp-p> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Platnost průkazu do"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/plicní-ventilace> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Prokazatelně využívá domácí oxygenoterapii nebo zdravotnický prostředek pro domácí plicní umělou ventilaci"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_2/par_8> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/příspěvek-na-mobilitu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Plicní ventilace"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu false ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/podpis> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Podpis držitele průkazu"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_5/par_34a> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/průkaz-ztp-p> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Podpis"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/příjem> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "V případě, že žadatel není schopen zaplatit standardní výši spoluúčasti ve výši 10 % z pořizovací hodnoty zvláštní pomůcky bude při rozhodování o snížení výše spoluúčasti rozhodnou skutečností příjem žadatele a okruhu s ním společně posuzovaných osob."@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_3/par_10> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/příspěvek-na-zvláštní-pomůcku> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Příjem"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu false ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/příjmení> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Příjmení osoby se zdravotním postižením"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_5/par_34a> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/osoba-se-zdravotním-postižením> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Příjmení"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/symbol-na-průkazu-typ> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Symbol označení osoby s úplnou nebo praktickou hluchotou, symbol označení osoby hluchoslepé nebo symbol označení osoby úplně nebo prakticky nevidomé"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_5/par_34a> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/průkaz-ztp-p> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Symbol na průkazu TYP"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/typ-průkazu> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Průkaz TP pro klienty se středně těžkým funkčním postižením, průkaz ZTP pro klienty s těžkým funkčním postižením, průkaz ZTP/P pro klienty se zvlášť těžkým nebo úplným funkčním postižením"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_5/par_34a> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/průkaz-ztp-p> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Typ průkazu"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/typ-zvláštní-pomůcky> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Typ zvláštní pomůcky je definován v příloze 1 vyhlášky č. 388/2011 Sb."@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_3/par_9> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/příspěvek-na-zvláštní-pomůcku> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Typ zvláštní pomůcky"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu false ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/vydavatel-průkazu> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Úřad, který vydal daný průkaz"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_5/par_34a> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/průkaz-ztp-p> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Vydavatel průkazu"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/výše-příspěvku-na-mobilitu> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Výše příspěvku na mobilitu"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_2/par_7> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/příspěvek-na-mobilitu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Výše příspěvku na mobilitu"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu false ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/výše-příspěvku-na-zvláštní-pomůcku> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Výše příspěvku na zvláštní pomůcku"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_3/par_10> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/příspěvek-na-zvláštní-pomůcku> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Výše příspěvku na zvláštní pomůcku"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu false ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/výše-spoluúčasti> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Vypočtená výše spoluúčasti na pořízení zvláštní pomůcky"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_3/par_10> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/příspěvek-na-zvláštní-pomůcku> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Výše spoluúčasti"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu false ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/číslo-průkazu> a owl:DatatypeProperty,
+        skos:Concept,
+        ns1:neveřejný-údaj ;
+    dcterms:description "Unikátní identifikátor průkazu"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_5/par_34/odst_1> ;
+    rdfs:domain <https://slovník.gov.cz/ztp/pojem/průkaz-ztp-p> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Číslo průkazu"@cs ;
+    ns2:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns1:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_4/dil_7/par_31> .
+
+<https://slovník.gov.cz/ztp/pojem/příspěvek-na-mobilitu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_2/par_6/odst_1> ;
+    skos:definition "Nárok na příspěvek na mobilitu má osoba starší 1 roku, která má nárok na průkaz osoby se zdravotním postižením označený symbolem „ZTP“ nebo „ZTP/P“, který byl přiznán podle předpisů účinných od 1. ledna 2014, opakovaně se v kalendářním měsíci za úhradu dopravuje nebo je dopravována a nejsou jí poskytovány pobytové sociální služby podle zákona o sociálních službách v domově pro osoby se zdravotním postižením, v domově pro seniory, v domově se zvláštním režimem nebo ve zdravotnickém zařízení ústavní péče."@cs ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Příspěvek na mobilitu"@cs ;
+    ns2:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A1804> .
+
+<https://slovník.gov.cz/ztp/pojem/příspěvek-na-zvláštní-pomůcku> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_3/par_9> ;
+    skos:definition "Nárok na příspěvek na zvláštní pomůcku má osoba se zdravotním postižením charakteru dlouhodobě nepříznivého zdravotního stavu uvedeným v příloze tohoto zákona, a její zdravotní stav nevylučuje přiznání tohoto příspěvku. Nárok na příspěvek na zvláštní pomůcku poskytovaný na pořízení motorového vozidla nebo speciálního zádržního systému má osoba, která má těžkou vadu nosného nebo pohybového ústrojí, autistickou poruchu s těžkým funkčním postižením anebo těžkou nebo hlubokou mentální retardaci charakteru dlouhodobě nepříznivého zdravotního stavu, a její zdravotní stav nevylučuje přiznání tohoto příspěvku."@cs ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Příspěvek na zvláštní pomůcku"@cs ;
+    ns2:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A1804> .
+
+<https://slovník.gov.cz/ztp/pojem/osoba-se-zdravotním-postižením> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Osoba v rámci okruhu oprávněných osob dle §3 zákona 329/2011"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_1/par_3> ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Osoba se zdravotním postižením"@cs ;
+    ns2:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A1804> .
+
+<https://slovník.gov.cz/ztp/pojem/průkaz-ztp-p> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Průkaz osoby ze zdravotním postižením. Nárok na průkaz má osoba starší 1 roku s tělesným, smyslovým nebo duševním postižením charakteru dlouhodobě nepříznivého zdravotního stavu, které podstatně omezuje její schopnost pohyblivosti nebo orientace, včetně osob s poruchou autistického spektra."@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2011/329/2025-01-01/dokument/norma/cast_1/hlava_5/par_34/odst_1> ;
+    skos:inScheme <https://slovník.gov.cz/ztp> ;
+    skos:prefLabel "Průkaz ZTP/P"@cs ;
+    ns2:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A1804> .
+
+<https://slovník.gov.cz/ztp> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:modified [ a time:Instant ;
+            time:inXSDDateTimeStamp "2025-06-10T08:00:37.323220+00:00"^^xsd:dateTimeStamp ] ;
+    skos:prefLabel "ZTP"@cs .
+

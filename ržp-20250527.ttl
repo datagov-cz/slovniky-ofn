@@ -1,0 +1,1216 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <https://slovník.gov.cz/agendový/104/pojem/> .
+@prefix ns2: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum--od-kdy-je-podnikatel-v-insolvenčním-řízení> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum, od kdy je podnikatelský subjekt v insolvenčním řízení"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_8> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/insolvenční-řízení> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum, od kdy je podnikatel v insolvenčním řízení"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-doručení-výpisu--dle---10-odst--4> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum doručení výpisu, který je průkazem živnostenského oprávnění"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_i> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-evidovaný-v-registru-živnostenského-podnikání> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum doručení výpisu (dle § 10 odst. 4)"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-narození> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum narození fyzické osoby podnikatele"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum narození"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-ukončení-provozování-oboru-živnosti-volné-na-provozovně> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum, do kterého jsou na provozovně provozovány dané obory živnosti volné"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17/odst_5> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/obor-živnosti-volné-provozovaný-na-provozovně> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum ukončení provozování oboru živnosti volné na provozovně"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-ukončení-provozování-živnosti-pokračovatelem> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum ukončení provozování živnosti osobou pokračovatele"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_13> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/osoba-pokračující-v-provozování-živnosti> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum ukončení provozování živnosti pokračovatelem"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-ukončení-živnosti-bez-odpovědného-zástupce> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_11/odst_10> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost-bez-odpovědného-zástupce> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum ukončení živnosti bez odpovědného zástupce"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-ukončení-živnosti-provozované-na-provozovně> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17/odst_5> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost-provozovaná-na-provozovně> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum ukončení živnosti provozované na provozovně"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-uložení-pokuty> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:neveřejný-údaj ;
+    dcterms:description "Datum uložení pokuty"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pokuta> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum uložení pokuty"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns2:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_3> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-ustanovení-fyzické-osoby-do-role-statutárního-orgánu> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum, od kdy fyzická osoba zastupující právnickou osobu v roli statutárního orgánu vykonává funkci"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-zastupující-právnickou-osobu-v-roli-statutárního-orgánu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum ustanovení fyzické osoby do role statutárního orgánu"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-ustanovení-pokračovatele-provozování-živnosti> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum ustanovení osoby pokračovatele v provozování živnosti"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_13> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/osoba-pokračující-v-provozování-živnosti> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum ustanovení pokračovatele provozování živnosti"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-vstupu-právnické-osoby-do-likvidace> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_k> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právnická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum vstupu právnické osoby do likvidace"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-vzniku--živnostenského-oprávnění> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum vzniku živnosti (dnem ohlášení  nebo dnem nabytí právní moci rozhodnutí o udělení koncese)"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_f> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum vzniku  živnostenského oprávnění"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-vzniku-funkce> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum, od kterého je živnost provozována prostřednictvím odpovědného zástupce"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_11> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/odpovědný-zástupce> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum vzniku funkce"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-vzniku-funkce-statutárního-orgánu---fyzické-osoby> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum, od kdy vykonává fyzická osoba roli statutárního orgánu právnické osoby"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-v-roli-statutárního-orgánu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum vzniku funkce statutárního orgánu - fyzické osoby"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-vzniku-funkce-statutárního-orgánu---právnické-osoby> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum, od kdy vykonává právnická osoba roli statutárního zástupce jiné právnické osoby"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právnická-osoba-v-roli-statutárního-orgánu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum vzniku funkce statutárního orgánu - právnické osoby"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-zahájení-provozování-oboru-živnosti-volné-na-provozovně> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum, od kterého jsou na provozovně provozovány dané obory živnosti volné"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17/odst_5> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/obor-živnosti-volné-provozovaný-na-provozovně> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum zahájení provozování oboru živnosti volné na provozovně"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-zahájení-živnosti-bez-odpovědného-zástupce> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_11/odst_10> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost-bez-odpovědného-zástupce> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum zahájení živnosti bez odpovědného zástupce"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-zahájení-živnosti-provozované-na-provozovně> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17/odst_5> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost-provozovaná-na-provozovně> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum zahájení živnosti provozované na provozovně"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-zániku-funkce> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum, do kterého je živnost provozována prostřednictvím odpovědného zástupce"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_11> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/odpovědný-zástupce> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum zániku funkce"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-zániku-funkce-statutárního-orgánu---fyzické-osoby> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum, do kdy vykonává fyzická osoba roli statutárního orgánu právnické osoby"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-v-roli-statutárního-orgánu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum zániku funkce statutárního orgánu - fyzické osoby"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-zániku-funkce-statutárního-orgánu---právnické-osoby> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum, do kdy vykonává právnická osoba roli statutárního zástupce jiné právnické osoby"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právnická-osoba-v-roli-statutárního-orgánu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum zániku funkce statutárního orgánu - právnické osoby"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-zániku-fyzické-osoby-v-roli-statutárního-orgánu> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum, do kdy fyzická osoba zastupující právnickou osobu v roli statutárního orgánu vykonává funkci"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-zastupující-právnickou-osobu-v-roli-statutárního-orgánu> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum zániku fyzické osoby v roli statutárního orgánu"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/datum-zániku-živnostenského-oprávnění> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Datum zániku živnosti - může nastat i před koncem platnosti oprávnění, rozhodnutím subjektu nebo úřadu"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_h> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Datum zániku živnostenského oprávnění"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/doba-platnosti-živnostenského-oprávnění> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "na dobu neurčitou nebo určitou (např. doba pobytu) = datum \"do\""@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_e> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Doba platnosti živnostenského oprávnění"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/doplňující-údaje-živnosti> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Doplňující údaje k provozování živnosti"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_n> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Doplňující údaje živnosti"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/druh-živnosti> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Druh živnosti"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_c> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Druh živnosti"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/důvod-uložení-pokuty> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:neveřejný-údaj ;
+    dcterms:description "Důvod uložení pokuty"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pokuta> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Důvod uložení pokuty"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns2:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_3> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/identifikační-číslo--ičo--podnikatele-jako-fyzické-osoby> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Identifikační číslo (IČO)"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_a> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-jako-fyzická-osoba> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Identifikační číslo (IČO) podnikatele jako fyzické osoby"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/identifikační-číslo--ičo--právnické-osoby> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Identifikační číslo (IČO)"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_a> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právnická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Identifikační číslo (IČO) Právnické osoby"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/identifikační-číslo-provozovny--ičp> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Identifikační číslo provozovny (IČP)"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/provozovna> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Identifikační číslo provozovny (IČP)"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/je-položkou-číselníku-právních-forem> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Položka číselníku právních forem organizace"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_a> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právní-forma> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/číselník-právních-forem> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "je položkou číselníku právních forem"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/je-provozovaná-na-provozovně> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Určení provozovny, na které je živnost provozována."@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17/odst_5> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost-provozovaná-na-provozovně> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/provozovna> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "je provozovaná na provozovně"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/jméno> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Jméno fyzické osoby podnikatele"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Jméno"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/má-adresu-bydliště> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Adresa bydliště fyzické osoby podnikatele"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    rdfs:range ns2:adresa ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "má adresu bydliště"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/má-adresu-pobytu-v-čr> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Adresa pobytu (v ČR) fyzické osoby podnikatele"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    rdfs:range ns2:adresa ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "má adresu pobytu v ČR"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/má-adresu-pro-doručování-všemi-živnostenskými-úřady> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:neveřejný-údaj ;
+    dcterms:description "Adresa, kterou použijí živnostenské úřady pro doručování písemností danému podnikatelskému subjektu"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_1/par_45/odst_2>,
+        <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_1/par_45/odst_3> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-evidovaný-v-registru-živnostenského-podnikání> ;
+    rdfs:range ns2:adresa ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "má adresu pro doručování všemi živnostenskými úřady"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns2:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_3/pism_a> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/má-adresu-pro-vypořádání-závazků> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Adresa, na které je možné vypořádat případné závazky podnikatelského subjektu místo v ukončené provozovně"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_3/par_31/odst_16> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-evidovaný-v-registru-živnostenského-podnikání> ;
+    rdfs:range ns2:adresa ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "má adresu pro vypořádání závazků"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/má-adresu-provozovny> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Adresa umístění provozovny"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/provozovna> ;
+    rdfs:range ns2:adresa ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "má adresu provozovny"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/má-adresu-umístění-odštěpného-závodu> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Adresa, případně popis umístění, na které má podnikatelský subjekt umístěn svůj odštěpný závod"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_1/par_45/odst_2>,
+        <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_1/par_45/odst_3> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-evidovaný-v-registru-živnostenského-podnikání> ;
+    rdfs:range ns2:adresa ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "má adresu umístění odštěpného závodu"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/má-fyzickou-osobu-jako-statutární-orgán> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Má fyzickou osobu jako statutární orgán"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právnická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-v-roli-statutárního-orgánu> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "má fyzickou osobu jako statutární orgán"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/má-právnickou-osobu-jako-statutární-orgán> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Má právnickou osobu jako statutární orgán"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právnická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právnická-osoba-v-roli-statutárního-orgánu> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "má právnickou osobu jako statutární orgán"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/má-právní-formu> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Právní forma"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_a> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-evidovaný-v-registru-živnostenského-podnikání> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právní-forma> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "má právní formu"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/má-určenu-fyzickou-osobu-zastupující-právnickou-osobu-v-roli-statutárního-orgánu> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Právnická osoba v roli statutárního zástupce má určeno fyzickou osobu, která ji zastupuje v roli statutárního orgánu"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právnická-osoba-v-roli-statutárního-orgánu> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-zastupující-právnickou-osobu-v-roli-statutárního-orgánu> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "má určenu fyzickou osobu zastupující právnickou osobu v roli statutárního orgánu"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/místo-narození> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Místo narození fyzické osoby podnikatele"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Místo narození"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/na-provozovně-je-provozovaná-živnost> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Určení, která živnost je provozována na provozovně"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17/odst_5> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost-provozovaná-na-provozovně> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "na provozovně je provozovaná živnost"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/na-provozovně-jsou-provozovány-obory-živnosti-volné> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Údaj o oborech živnosti volné provozovaných na provozovně"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/obor-živnosti-volné-provozovaný-na-provozovně> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/provozovna> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "na provozovně jsou provozovány obory živnosti volné"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/název-oboru-činnosti-živnosti-volné> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_2/hlava_1/dil_3/par_25> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/obor-činnosti-živnosti-volné> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Název oboru činnosti živnosti volné"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/název-provozovny> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Název provozovny"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/provozovna> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Název provozovny"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/obchodní-firma-nebo-název-podnikatele-jako-fyzické-osoby> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Obchodní firma nebo název"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_a> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-jako-fyzická-osoba> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Obchodní firma nebo název podnikatele jako fyzické osoby"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/obchodní-firma-nebo-název-právnické-osoby> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Obchodní firma nebo název"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_a> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právnická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Obchodní firma nebo název Právnické osoby"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/obor-činnosti-živnosti-volné-zapsán-do> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_2/hlava_1/dil_3/par_25> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/obor-činnosti-živnosti-volné> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Obor činnosti živnosti volné zapsán do"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/obor-činnosti-živnosti-volné-zapsán-od> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_2/hlava_1/dil_3/par_25> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/obor-činnosti-živnosti-volné> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Obor činnosti živnosti volné zapsán od"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/občanství> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Občanství fyzické osoby podnikatele"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Občanství"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/platnost-překážky-do> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Konec platnosti překážky v provozování živnosti"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_l> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/překážka-v-provozování-živnosti> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Platnost překážky do"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/platnost-překážky-od> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Začátek platnosti překážky v provozování živnosti"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_l> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/překážka-v-provozování-živnosti> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Platnost překážky od"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podmínky-provozování-živnosti> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Podmínky provozování živnosti"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_n> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Podmínky provozování živnosti"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-jako-právnická-osoba> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Podnikatelský subjekt dle zákona č. 455/1991 Sb., živnostenský zákon, který je právnickou osobou"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_5/odst_1> ;
+    rdfs:subClassOf <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-evidovaný-v-registru-živnostenského-podnikání>,
+        <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právnická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Podnikatel jako právnická osoba"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-má-adresu-sídla> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Adresa sídla"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-evidovaný-v-registru-živnostenského-podnikání> ;
+    rdfs:range ns2:adresa ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Podnikatel má adresu sídla"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-má-provozovnu> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Podnikatelský subjekt ohlásil provozování živnosti v provozovně"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-evidovaný-v-registru-živnostenského-podnikání> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/provozovna> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "podnikatel má provozovnu"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-má-překážku-pro-provozování-živnosti> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "podnikatel má evidovány překážky omezující jeho činnost"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_8>,
+        <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_8a> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-evidovaný-v-registru-živnostenského-podnikání> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/překážka-v-provozování-živnosti> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "podnikatel má překážku pro provozování živnosti"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-provozuje-živnost> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Podnikatelský subjekt ohlásil živnost nebo požádal o koncesi"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_10> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-evidovaný-v-registru-živnostenského-podnikání> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "podnikatel provozuje živnost"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikateli-byla-udělena-pokuta> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:neveřejný-údaj ;
+    dcterms:description "Podnikatelskému subjektu byla udělena pokuta"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-evidovaný-v-registru-živnostenského-podnikání> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pokuta> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "podnikateli byla udělena pokuta"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns2:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_3> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/popis-překážky-v-provozování-živnosti> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Popis překážky v provozování živnosti"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_l> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/překážka-v-provozování-živnosti> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Popis překážky v provozování živnosti"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/popis-umístění-provozovny> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Popis umístění provozovny"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/provozovna> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Popis umístění provozovny"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pozastavení-provozování-této-živnosti-na-provozovně> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Určuje, která živnost provozovaná na provozovně je pozastavena"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_3/par_58/odst_6> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pozastavení-provozování-živnosti-na-provozovně> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "pozastavení provozování této živnosti na provozovně"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pozastavení-provozování-živnosti-do> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_g> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pozastavení-provozování-živnosti> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Pozastavení provozování živnosti Do"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pozastavení-provozování-živnosti-na-provozovně-do> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_3/par_58/odst_6> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pozastavení-provozování-živnosti-na-provozovně> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Pozastavení provozování živnosti na provozovně Do"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pozastavení-provozování-živnosti-na-provozovně-od> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_3/par_58/odst_6> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pozastavení-provozování-živnosti-na-provozovně> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Pozastavení provozování živnosti na provozovně Od"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pozastavení-provozování-živnosti-na-této-provozovně> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Určuje, které provozovny se týká pozastavení provozování živnosti"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_3/par_58/odst_6> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pozastavení-provozování-živnosti-na-provozovně> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/provozovna> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "pozastavení provozování živnosti na této provozovně"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pozastavení-provozování-živnosti-od> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_g> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pozastavení-provozování-živnosti> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Pozastavení provozování živnosti Od"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právnická-osoba-má-adresu-sídla> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Adresa sídla právnické osoby v roli statutárního zástupce"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_a> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právnická-osoba-v-roli-statutárního-orgánu> ;
+    rdfs:range ns2:adresa ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Právnická osoba má adresu sídla"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/předmět-podnikání> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Předmět podnikání"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_b> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Předmět podnikání"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/překážka-která-se-týká-živnosti> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Živnosti, kterých se týká daná překážka v provozování živnosti"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_l> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/překážka-v-provozování-živnosti> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "překážka která se týká živnosti"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/přerušení-provozování-živnosti-do> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_3/par_31/odst_11>,
+        <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_g> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/přerušení-provozování-živnosti> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Přerušení provozování živnosti Do"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/přerušení-provozování-živnosti-od> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_3/par_31/odst_11>,
+        <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_g> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/přerušení-provozování-živnosti> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Přerušení provozování živnosti Od"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/příjmení> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Příjmení fyzické osoby podnikatele"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Příjmení"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/rodné-příjmení> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Rodné příjmení fyzické osoby podnikatele"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Rodné příjmení"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/rodné-číslo> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Rodné číslo fyzické osoby podnikatele"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Rodné číslo"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/rozsah-pozastavení-provozování-živnosti> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_3/par_58/odst_2>,
+        <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_3/par_58/odst_3> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pozastavení-provozování-živnosti> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Rozsah pozastavení provozování živnosti"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/s-podnikatelem-je-vedeno-insolvenční-řízení> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Podnikatel je v insolvenci"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-evidovaný-v-registru-živnostenského-podnikání> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/insolvenční-řízení> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "s podnikatelem je vedeno insolvenční řízení"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/titul> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Titul fyzické osoby podnikatele"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Titul"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/typ-provozovny> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Typ provozovny"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/provozovna> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Typ provozovny"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/výše-pokuty> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:neveřejný-údaj ;
+    dcterms:description "Výše pokuty"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pokuta> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Výše pokuty"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true ;
+    ns2:je-vymezen-ustanovení-stanovujícím-jeho-neveřejnost <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_3> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/údaje-insolvenčního-řízení> a owl:DatatypeProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Údaje insolvenčního řízení"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_8>,
+        <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_j> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/insolvenční-řízení> ;
+    rdfs:range rdfs:Literal ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Údaje insolvenčního řízení"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost-je-provozována-osobou-pokračující-v-provozování-žinosti-po-zemřelém-podnikateli> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Živnost je provozována osobou pokračující v provozování živnosti po zemřelém podnikateli"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60/odst_2/pism_p> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/osoba-pokračující-v-provozování-živnosti> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "živnost je provozována osobou pokračující v provozování žinosti po zemřelém podnikateli"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost-je-provozována-prostřednictvím-odpovědného-zástupce> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Podnikatelský subjekt provozuje živnost prostřednictvím odopvědného zástupce"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_11> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/odpovědný-zástupce> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "živnost je provozována prostřednictvím odpovědného zástupce"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost-má-určen-obor-činnosti-živnosti-volné> a owl:ObjectProperty,
+        skos:Concept,
+        ns2:veřejný-údaj ;
+    dcterms:description "Podnikatelský subjekt definoval obor živnosti volné"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_2/hlava_1/dil_3/par_25> ;
+    rdfs:domain <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    rdfs:range <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/obor-činnosti-živnosti-volné> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "živnost má určen obor činnosti živnosti volné"@cs ;
+    ns1:je-sdílen-v-propojeném-datovém-fondu true .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/číselník-právních-forem> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "číselník právních forem organizace přebíraný z ČSÚ"@cs ;
+    rdfs:subClassOf <https://slovník.gov.cz/datový/číselníky/pojem/číselník> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Číselník právních forem"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-jako-fyzická-osoba> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Podnikatelský subjekt dle zákona č. 455/1991 Sb., živnostenský zákon, který je fyzickou osobou"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_5/odst_1> ;
+    rdfs:subClassOf <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání>,
+        <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-evidovaný-v-registru-živnostenského-podnikání> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Podnikatel jako fyzická osoba"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právní-forma> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "položka číselníku právních forem organizace přebíraného z ČSÚ"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_4/par_60> ;
+    rdfs:subClassOf <https://slovník.gov.cz/datový/číselníky/pojem/položka-číselníku> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Právní forma"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/přerušení-provozování-živnosti> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_3/par_31/odst_11> ;
+    rdfs:subClassOf <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Přerušení provozování živnosti"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost-bez-odpovědného-zástupce> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_11/odst_10> ;
+    rdfs:subClassOf <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Živnost bez odpovědného zástupce"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-v-roli-statutárního-orgánu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Fyzická osoba vykonávající roli statutárního orgánu právnické osoby"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_1/par_45/odst_3> ;
+    rdfs:subClassOf <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Fyzická osoba v roli statutárního orgánu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-zastupující-právnickou-osobu-v-roli-statutárního-orgánu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Fyzická osoba zastupující právnickou osobu v roli statutárního orgánu jiné právnické osoby"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_1/par_45/odst_3> ;
+    rdfs:subClassOf <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Fyzická osoba zastupující právnickou osobu v roli statutárního orgánu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/insolvenční-řízení> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "S podnikatelským subjektem je vedeno insolvenční řízení, které může způsobovat překážku v provozování živnosti"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_8> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Insolvenční řízení"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/obor-živnosti-volné-provozovaný-na-provozovně> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Podnikatel je povinnen živnostenskému úřadu oznámit obory živnosti volné, které hodlá na provozovně provozovat"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17/odst_5> ;
+    rdfs:subClassOf <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/obor-činnosti-živnosti-volné> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Obor živnosti volné provozovaný na provozovně"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/odpovědný-zástupce> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Pokud podnikatelský subjekt provozuje živnost, pro kterou je stanovena odborná způsobilost a osoba podnikatele tuto nesplňuje, musí být provozována prostřednictvím odpovědného zástupce"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_11> ;
+    rdfs:subClassOf <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Odpovědný zástupce"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/osoba-pokračující-v-provozování-živnosti> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "V případě úmrtí osoby podnikatele, může v provozování živnosti do doby skončení řízení o projednání dědictví pokračovat další osoby stanovené tímto zákonem"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_13> ;
+    rdfs:subClassOf <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Osoba pokračující v provozování živnosti"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pozastavení-provozování-živnosti> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_3/par_58/odst_2>,
+        <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_3/par_58/odst_3> ;
+    rdfs:subClassOf <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Pozastavení provozování živnosti"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pokuta> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Pokuta uložená podnikatelskému subjektu v průběhu podnikání"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_5/hlava_2/par_61/odst_4>,
+        <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_5/hlava_2/par_62/odst_4>,
+        <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_5/hlava_2/par_63/odst_2> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Pokuta"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/pozastavení-provozování-živnosti-na-provozovně> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_3/par_58/odst_6> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Pozastavení provozování živnosti na provozovně"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost-provozovaná-na-provozovně> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17/odst_5> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Živnost provozovaná na provozovně"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/obor-činnosti-živnosti-volné> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Obor činnosti, kterou podnikatelksý subjekt v rámci volné živnosti vykonává"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_2/hlava_1/dil_3/par_25/odst_2> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Obor činnosti živnosti volné"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právnická-osoba-v-roli-statutárního-orgánu> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Právnická osoba vykonávající roli statutárního orgánu jiné právnické osoby"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_1/par_45/odst_3> ;
+    rdfs:subClassOf <https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právnická-osoba-evidovaná-v-registru-živnostenského-podnikání> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Právnická osoba v roli statutárního orgánu"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/překážka-v-provozování-živnosti> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Existuje překážka, kvůli které není dovoleno podnikatelskému subjektu provozovat živnost"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_8>,
+        <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_8a> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Překážka v provozování živnosti"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/právnická-osoba-evidovaná-v-registru-živnostenského-podnikání> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Právnická osoba (právní subjekt zapsaný ve veřejných rejstřících) podnikající v režimu živnostenského zákona"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_5/odst_1>,
+        <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_1/par_45/odst_3> ;
+    rdfs:subClassOf ns2:právnická-osoba ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Právnická osoba evidovaná v Registru živnostenského podnikání"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/provozovna> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Provozovna je prostor, v němž je podnikatelským subjektem živnost provozována"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_17> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Provozovna"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/podnikatel-evidovaný-v-registru-živnostenského-podnikání> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Podnikatelský subjekt dle zákona č. 455/1991 Sb., živnostenský zákon."@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_5/odst_1> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Podnikatel evidovaný v Registru živnostenského podnikání"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/fyzická-osoba-evidovaná-v-registru-živnostenského-podnikání> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-subjektu-práva> ;
+    dcterms:description "Fyzická osoba podnikající v režimu živnostenského zákona (podnikající fyzická osoba samostatně výdělečně činná)"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_5/odst_1>,
+        <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_4/hlava_1/par_45/odst_2> ;
+    rdfs:subClassOf ns2:fyzická-osoba ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Fyzická osoba evidovaná v Registru živnostenského podnikání"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání/pojem/živnost> a owl:Class,
+        skos:Concept,
+        <https://slovník.gov.cz/veřejný-sektor/pojem/typ-objektu-práva> ;
+    dcterms:description "Živnostenské oprávnění udělené podnikatelskému subjektu"@cs ;
+    dcterms:relation <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/1991/455/2025-02-15/dokument/norma/cast_1/hlava_2/par_10> ;
+    skos:inScheme <https://slovník.gov.cz/a121-živnostenské-podnikání> ;
+    skos:prefLabel "Živnost"@cs ;
+    ns1:sdružuje-údaje-vedené-nebo-vytvářené-v-rámci-agendy <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/agenda/A121> ;
+    ns1:údaje-jsou-v-ais <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/37> .
+
+<https://slovník.gov.cz/a121-živnostenské-podnikání> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:description "datový slovník agendy a121 živnostenské podnikání"@cs ;
+    dcterms:modified [ a time:Instant ;
+            time:inXSDDateTimeStamp "2025-05-28T10:40:50.928196+00:00"^^xsd:dateTimeStamp ] ;
+    skos:prefLabel "A121 Živnostenské podnikání"@cs .
+

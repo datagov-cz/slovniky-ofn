@@ -1,0 +1,339 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix owl: <http://www.w3.org/2002/07/owl#>. 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>. 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>. 
+@prefix dc: <http://purl.org/dc/terms/>. 
+@prefix og: <http://onto.fel.cvut.cz/ontologies/application/ontoGrapher/>. 
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
+@prefix d-sgov-pracovní-prostor-pojem: <https://slovník.gov.cz/datový/pracovní-prostor/pojem/>. 
+@prefix z-sgov-pojem: <https://slovník.gov.cz/základní/pojem/>. 
+@prefix v-sgov-pojem: <https://slovník.gov.cz/veřejný-sektor/pojem/>. 
+@prefix a-popis-dat-pojem: <http://onto.fel.cvut.cz/ontologies/slovník/agendový/popis-dat/pojem/>. 
+@prefix slovník-gov: <https://slovník.gov.cz/>. 
+@prefix slovníky: <https://slovník.gov.cz/generický/datový-slovník-ofn-slovníků/pojem/>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí> rdf:type owl:Ontology. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí> rdf:type slovníky:slovník. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí> skos:prefLabel "Rejstřík svazků obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/orgán> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/orgán> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/orgán> rdf:type owl:Class. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/orgán> skos:prefLabel "Orgán"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/orgán> skos:definition "Orgán dobrovolného svazku obcí."@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/orgán> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec> rdf:type owl:Class. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec> rdfs:subClassOf <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/orgán-veřejné-moci>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec> rdfs:subClassOf <https://slovník.gov.cz/legislativní/sbírka/128/2000/pojem/obec-s-rozšířenou-působností>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec> rdfs:subClassOf <https://slovník.gov.cz/generický/umístění/pojem/místo>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec> skos:prefLabel "Obec"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec> skos:definition "Obec je základním územním samosprávným společenstvím občanů; tvoří územní celek, který je vymezen hranicí území obce."@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-01-01/dokument/norma/cast_1/hlava_1/dil_1/par_1/frag_4412303>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-vzniku-členství> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-vzniku-členství> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-vzniku-členství> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-vzniku-členství> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec-jako-člen-dobrovolného-svazku-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-vzniku-členství> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-vzniku-členství> skos:prefLabel "den vzniku členství"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-vzniku-členství> dc:description "Datum, kdy obec oficiálně vstoupila do daného DSO a stala se jeho členem"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-zániku-členství> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-zániku-členství> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-zániku-členství> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-zániku-členství> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec-jako-člen-dobrovolného-svazku-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-zániku-členství> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-zániku-členství> skos:prefLabel "den zániku členství"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-zániku-členství> dc:description "Datum, kdy obec ukončila své členství ve svazku, buď na základě rozhodnutí nebo z jiného důvodu (např. zánik svazku nebo vystoupení obce)"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-svazku-obcí> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-svazku-obcí> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-svazku-obcí> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-svazku-obcí> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-svazku-obcí> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-svazku-obcí> skos:prefLabel "název svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-svazku-obcí> dc:description "Oficiální název svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-svazku-obcí> skos:definition "název dobrovolného svazku obcí "@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-svazku-obcí> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-obce> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-obce> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-obce> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-obce> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-obce> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-obce> skos:prefLabel "název obce"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-obce> skos:definition "Oficiální název obce, používaný pro její identifikaci v právních a administrativních dokumentech"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-vzniku-funkce> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-vzniku-funkce> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-vzniku-funkce> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-vzniku-funkce> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/funkce-orgánu>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-vzniku-funkce> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-vzniku-funkce> skos:prefLabel "den vzniku funkce"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-vzniku-funkce> skos:definition "Datum vzniku funkce orgánu dobrovolného svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-vzniku-funkce> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-zániku-funkce> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-zániku-funkce> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-zániku-funkce> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-zániku-funkce> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/funkce-orgánu>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-zániku-funkce> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-zániku-funkce> skos:prefLabel "den zániku funkce"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-zániku-funkce> skos:definition "Datum zrušení funkce orgánu dobrovolného svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/den-zániku-funkce> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sídlo> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sídlo> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sídlo> rdf:type owl:Class. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sídlo> rdfs:subClassOf <https://slovník.gov.cz/generický/umístění/pojem/místo>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sídlo> skos:prefLabel "Sídlo"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sídlo> skos:definition "Sídlo dobrovolného svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sídlo> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/způsob-jednání> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/způsob-jednání> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/způsob-jednání> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/způsob-jednání> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/orgán>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/způsob-jednání> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/způsob-jednání> skos:prefLabel "způsob jednání"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/způsob-jednání> skos:definition "Text popisující, jakým způsobem orgán zastupuje svazek"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/způsob-jednání> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti> skos:prefLabel "Předmět činnosti"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti> skos:definition "Předmětem činnosti svazku obcí mohou být zejména a) úkoly v oblasti školství, sociální péče, zdravotnictví, kultury, požární ochrany, veřejného pořádku, ochrany životního prostředí, cestovního ruchu a péče o zvířata, b) zabezpečování čistoty obce, správy veřejné zeleně a veřejného osvětlení, shromažďování a odvozu komunálních odpadů a jejich nezávadného zpracování, využití nebo zneškodnění, zásobování vodou, odvádění a čištění odpadních vod, c) zavádění, rozšiřování a zdokonalování sítí technického vybavení a systémů veřejné osobní dopravy k zajištění dopravní obslužnosti daného území, d) úkoly v oblasti ochrany ovzduší, úkoly související se zabezpečováním přestavby vytápění nebo ohřevu vody tuhými palivy na využití ekologicky vhodnějších zdrojů tepelné energie v obytných a jiných objektech ve vlastnictví obcí, e) provoz lomů, pískoven a zařízení sloužících k těžbě a úpravě nerostných surovin, f) správa majetku obcí, zejména místních komunikací, lesů, domovního a bytového fondu, sportovních, kulturních zařízení a dalších zařízení spravovaných obcemi."@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/zdroj-výčtu-členů> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/zdroj-výčtu-členů> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/zdroj-výčtu-členů> rdf:type owl:Class. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/zdroj-výčtu-členů> rdfs:subClassOf <https://slovník.gov.cz/datový/číselníky/pojem/položka-číselníku>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/zdroj-výčtu-členů> skos:prefLabel "Zdroj výčtu členů"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/zdroj-výčtu-členů> skos:definition "Zdroj aktuálně platného výčtu členských obcí - udává míru platnosti/ověřenosti. Položky jsou definovány číselníkem \"Zdroje výčtu členů dobrovolného svazku obcí\"."@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sbírka-listin> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sbírka-listin> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sbírka-listin> rdf:type owl:Class. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sbírka-listin> skos:prefLabel "Sbírka listin"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sbírka-listin> skos:definition "Sbírka listin týkajících se dobrovolného svazku obcí (zakladatelská smlouva, stanovy apod.)"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sbírka-listin> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/kraj-obce> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/kraj-obce> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/kraj-obce> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/kraj-obce> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/kraj-obce> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/kraj-obce> skos:prefLabel "kraj obce"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/kraj-obce> skos:definition "IRI kraje členské obce dle RÚIAN (Registr územní identifikace, adres a nemovitostí)"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/kód-obce> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/kód-obce> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/kód-obce> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/kód-obce> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/kód-obce> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/kód-obce> skos:prefLabel "kód obce"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/kód-obce> dc:description "Kód členské obce dle RÚIAN (Registr územní identifikace, adres a nemovitostí) nebo CISOB (Centrální evidence svazků obcí), který slouží k jednoznačné identifikaci obce v těchto registrech."@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-sídlo> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-sídlo> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-sídlo> rdf:type owl:ObjectProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-sídlo> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dso>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-sídlo> rdfs:range <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sídlo>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-sídlo> skos:prefLabel "má sídlo"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/vykonává-činnost> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/vykonává-činnost> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/vykonává-činnost> rdf:type owl:ObjectProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/vykonává-činnost> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dso>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/vykonává-činnost> rdfs:range <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/vykonává-činnost> skos:prefLabel "vykonává činnost"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/jméno> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/jméno> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/jméno> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/jméno> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/osoba-vykonávající-funkci-orgánu>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/jméno> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/jméno> skos:prefLabel "jméno"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/jméno> skos:definition "Křestní jméno osoby vykonávající působnost orgánu"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/jméno> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/příjmení> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/příjmení> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/příjmení> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/příjmení> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/osoba-vykonávající-funkci-orgánu>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/příjmení> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/příjmení> skos:prefLabel "příjmení"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/příjmení> skos:definition "Příjmení osoby vykonávající působnost orgánu"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/příjmení> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/rejstřík-svazků-obcí> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/rejstřík-svazků-obcí> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/rejstřík-svazků-obcí> rdf:type owl:Class. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/rejstřík-svazků-obcí> skos:prefLabel "Rejstřík svazků obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/rejstřík-svazků-obcí> skos:definition "Rejstřík svazků obcí vedený u krajského úřadu příslušného podle sídla svazku obcí."@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/rejstřík-svazků-obcí> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-zapsán-v-rejstříku> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-zapsán-v-rejstříku> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-zapsán-v-rejstříku> rdf:type owl:ObjectProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-zapsán-v-rejstříku> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dso>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-zapsán-v-rejstříku> rdfs:range <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/rejstřík-svazků-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-zapsán-v-rejstříku> skos:prefLabel "je zapsán v rejstříku"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-zdroj-výčtu-členů> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-zdroj-výčtu-členů> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-zdroj-výčtu-členů> rdf:type owl:ObjectProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-zdroj-výčtu-členů> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dso>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-zdroj-výčtu-členů> rdfs:range <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/zdroj-výčtu-členů>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-zdroj-výčtu-členů> skos:prefLabel "má zdroj výčtu členů"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-orgánu> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-orgánu> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-orgánu> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-orgánu> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/orgán>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-orgánu> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-orgánu> skos:prefLabel "název orgánu"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-orgánu> skos:definition "Oficiální název orgánu svazku obcí (např. Valná hromada, Předsednictvo, Kontrolní komise)"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-orgánu> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí> rdf:type owl:Class. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí> skos:prefLabel "Dobrovolný svazek obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí> dc:description "Při své činnosti je povinen dodržovat pravidla stanovená v zákoně č. 563/1991 Sb. o účetnictví, který upravuje způsoby vedení účetnictví, sestavování účetních závěrek a povinnosti týkající se hospodaření s veřejnými prostředky. "@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí> skos:definition "Svazek obcí je právnickou osobou, která vede účetnictví podle zákona o účetnictví. "@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-orgánem-svazku-obcí> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-orgánem-svazku-obcí> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-orgánem-svazku-obcí> rdf:type owl:ObjectProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-orgánem-svazku-obcí> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/orgán>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-orgánem-svazku-obcí> rdfs:range <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-orgánem-svazku-obcí> skos:prefLabel "je orgánem svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-funkce> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-funkce> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-funkce> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-funkce> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/funkce-orgánu>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-funkce> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-funkce> skos:prefLabel "název funkce"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-funkce> skos:definition "Název funkce orgánu svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/název-funkce> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-datovou-schránku> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-datovou-schránku> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-datovou-schránku> rdf:type owl:ObjectProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-datovou-schránku> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-datovou-schránku> rdfs:range <https://slovník.gov.cz/legislativní/sbírka/300/2008/pojem/datová-schránka>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-datovou-schránku> skos:prefLabel "má datovou schránku"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/eviduje-sbírku-listin> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/eviduje-sbírku-listin> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/eviduje-sbírku-listin> rdf:type owl:ObjectProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/eviduje-sbírku-listin> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/eviduje-sbírku-listin> rdfs:range <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sbírka-listin>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/eviduje-sbírku-listin> skos:prefLabel "eviduje sbírku listin"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/identifikační-číslo-obce> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/identifikační-číslo-obce> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/identifikační-číslo-obce> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/identifikační-číslo-obce> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/identifikační-číslo-obce> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/identifikační-číslo-obce> skos:prefLabel "identifikační číslo obce"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/identifikační-číslo-obce> skos:definition "IČO obce"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/identifikační-číslo-svazku-obcí> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/identifikační-číslo-svazku-obcí> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/identifikační-číslo-svazku-obcí> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/identifikační-číslo-svazku-obcí> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/identifikační-číslo-svazku-obcí> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/identifikační-číslo-svazku-obcí> skos:prefLabel "identifikační číslo svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/identifikační-číslo-svazku-obcí> skos:definition "IČO dobrovolného svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/identifikační-číslo-svazku-obcí> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/právní-důvod-zrušení-svazku-obcí> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/právní-důvod-zrušení-svazku-obcí> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/právní-důvod-zrušení-svazku-obcí> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/právní-důvod-zrušení-svazku-obcí> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/právní-důvod-zrušení-svazku-obcí> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/právní-důvod-zrušení-svazku-obcí> skos:prefLabel "právní důvod zrušení svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/právní-důvod-zrušení-svazku-obcí> skos:definition "právní důvod zrušení dobrovolného svazku obcí "@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/právní-důvod-zrušení-svazku-obcí> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zániku-svazku-obcí> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zániku-svazku-obcí> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zániku-svazku-obcí> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zániku-svazku-obcí> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zániku-svazku-obcí> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zániku-svazku-obcí> skos:prefLabel "datum zániku svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zániku-svazku-obcí> skos:definition "datum zániku dobrovolného svazku obcí "@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zániku-svazku-obcí> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zrušení-svazku-obcí> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zrušení-svazku-obcí> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zrušení-svazku-obcí> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zrušení-svazku-obcí> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zrušení-svazku-obcí> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zrušení-svazku-obcí> skos:prefLabel "datum zrušení svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zrušení-svazku-obcí> skos:definition "datum zrušení dobrovolného svazku obcí "@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-zrušení-svazku-obcí> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-vzniku-svazku-obcí> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-vzniku-svazku-obcí> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-vzniku-svazku-obcí> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-vzniku-svazku-obcí> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-vzniku-svazku-obcí> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-vzniku-svazku-obcí> skos:prefLabel "datum vzniku svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-vzniku-svazku-obcí> skos:definition "datum vzniku dobrovolného svazku obcí "@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/datum-vzniku-svazku-obcí> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-svazku-obcí> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-svazku-obcí> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-svazku-obcí> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-svazku-obcí> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-svazku-obcí> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-svazku-obcí> skos:prefLabel "webová stránka svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-svazku-obcí> dc:description "Nepovinný údaj."@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-svazku-obcí> skos:definition "webová stránka dobrovolného svazku obcí ve formátu URL "@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti-svazku-obcí> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti-svazku-obcí> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti-svazku-obcí> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti-svazku-obcí> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti-svazku-obcí> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti-svazku-obcí> skos:prefLabel "předmět činnosti svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti-svazku-obcí> dc:description "Jedná se o text ze stanov a zakládacích listin."@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti-svazku-obcí> skos:definition "předmět činnosti dobrovolného svazku obcí "@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/předmět-činnosti-svazku-obcí> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-členem-dobrovolného-svazku-obcí> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-členem-dobrovolného-svazku-obcí> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-členem-dobrovolného-svazku-obcí> rdf:type owl:ObjectProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-členem-dobrovolného-svazku-obcí> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/členství-obce-v-dobrovolném-svazku-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-členem-dobrovolného-svazku-obcí> rdfs:range <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/dobrovolný-svazek-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/je-členem-dobrovolného-svazku-obcí> skos:prefLabel "je členem dobrovolného svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/funkce-orgánu> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/funkce-orgánu> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/funkce-orgánu> rdf:type owl:Class. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/funkce-orgánu> skos:prefLabel "Funkce orgánu"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/funkce-orgánu> skos:definition "Funkce orgánu dobrovolného svazku obcí, kterou vykonává konkrétní fyzická osoba."@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/funkce-orgánu> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/osoba-vykonávající-funkci-orgánu> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/osoba-vykonávající-funkci-orgánu> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/osoba-vykonávající-funkci-orgánu> rdf:type owl:Class. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/osoba-vykonávající-funkci-orgánu> skos:prefLabel "Osoba vykonávající funkci orgánu"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/osoba-vykonávající-funkci-orgánu> skos:definition "Fyzická osoba vykonávající funkci orgánu dobrovolného svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/osoba-vykonávající-funkci-orgánu> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obsahuje-funkce> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obsahuje-funkce> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obsahuje-funkce> rdf:type owl:ObjectProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obsahuje-funkce> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/orgán>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obsahuje-funkce> rdfs:range <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/funkce-orgánu>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obsahuje-funkce> skos:prefLabel "obsahuje funkce"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/vykonává-funkci-orgánu> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/vykonává-funkci-orgánu> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/vykonává-funkci-orgánu> rdf:type owl:ObjectProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/vykonává-funkci-orgánu> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/osoba-vykonávající-funkci-orgánu>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/vykonává-funkci-orgánu> rdfs:range <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/funkce-orgánu>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/vykonává-funkci-orgánu> skos:prefLabel "vykonává funkci orgánu"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-bydliště-na-adrese> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-bydliště-na-adrese> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-bydliště-na-adrese> rdf:type owl:ObjectProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-bydliště-na-adrese> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/osoba-vykonávající-funkci-orgánu>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-bydliště-na-adrese> rdfs:range <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/adresa>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-bydliště-na-adrese> skos:prefLabel "má bydliště na adrese"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/má-bydliště-na-adrese> dc:conformsTo <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2000/128/2025-03-01/dokument/norma/cast_1/hlava_2/dil_3/par_49/odst_4>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-sbírky-listin> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-sbírky-listin> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-sbírky-listin> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-sbírky-listin> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/sbírka-listin>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-sbírky-listin> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-sbírky-listin> skos:prefLabel "webová stránka sbírky listin"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-sbírky-listin> skos:definition "webová stránka, kde je k dispozici uveřejněná sbírka listin"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec-jako-člen-dobrovolného-svazku-obcí> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec-jako-člen-dobrovolného-svazku-obcí> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec-jako-člen-dobrovolného-svazku-obcí> rdf:type owl:Class. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec-jako-člen-dobrovolného-svazku-obcí> rdfs:subClassOf <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/obec-jako-člen-dobrovolného-svazku-obcí> skos:prefLabel "Obec jako člen dobrovolného svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-rejstříku-svazku-obcí> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-rejstříku-svazku-obcí> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-rejstříku-svazku-obcí> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-rejstříku-svazku-obcí> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/rejstřík-svazků-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-rejstříku-svazku-obcí> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-rejstříku-svazku-obcí> skos:prefLabel "webová stránka rejstříku svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/webová-stránka-rejstříku-svazku-obcí> skos:definition "Webová stránka rejstříku svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/provozovatel-rejstříku-svazku-obcí> rdf:type slovníky:pojem. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/provozovatel-rejstříku-svazku-obcí> rdf:type skos:Concept. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/provozovatel-rejstříku-svazku-obcí> rdf:type owl:DatatypeProperty. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/provozovatel-rejstříku-svazku-obcí> rdfs:domain <https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/rejstřík-svazků-obcí>. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/provozovatel-rejstříku-svazku-obcí> rdfs:range rdfs:Literal. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/provozovatel-rejstříku-svazku-obcí> skos:prefLabel "provozovatel rejstříku svazku obcí"@cs. 
+<https://slovník.gov.cz/generický/rejstřík-svazků-obcí/pojem/provozovatel-rejstříku-svazku-obcí> skos:definition "IRI z RÚIAN pro kraj, který provozuje daný rejstřík"@cs. 

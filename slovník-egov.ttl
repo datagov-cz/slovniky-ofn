@@ -414,7 +414,7 @@ Pojem je synonymem s ISSS - informační systém sdílené služby."@cs;
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/rozhodující-faktor-úspěchu>
         rdf:type         slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída , skos:Concept;
         skos:altLabel    "CSF"@cs;
-        skos:definition  "Něco, co se musí stát, aby proces, projekt, plán nebo služba IT dosáhly úspěchu. Dosažení tohoto faktoru se měří klíčovými ukazateli výkonnosti (KPI). Např. faktor CSF \\"ochrana IT služeb při provádění změn\\" je měřitelný takovými KPI jako jsou \\"snížení pravděpodobnosti neúspěšné změny\\", \\"snížení pravděpodobnosti změn způsobujících incident\\", atd.."@cs;
+        skos:definition  "Něco, co se musí stát, aby proces, projekt, plán nebo služba IT dosáhly úspěchu. Dosažení tohoto faktoru se měří klíčovými ukazateli výkonnosti (KPI). Např. faktor CSF \"ochrana IT služeb při provádění změn\" je měřitelný takovými KPI jako jsou \"snížení pravděpodobnosti neúspěšné změny\", \"snížení pravděpodobnosti změn způsobujících incident\", atd.."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Rozhodující faktor úspěchu"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -1042,7 +1042,7 @@ Postupy poskytují informace o tom, jak vyřídit různá podání, kam se obrá
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/nákladová-položka>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Střední úroveň členění, ke které jsou vázány náklady v rozpočtování a účtování. Na nejvyšší úrovni jsou Typy nákladů. Např. Typ nákladů \\"Lidé” může být zjemněn na nákladové položky \\"mzdy\\", \\"zaměstnanecké výhody”, \\"cestovní výlohy\\", \\"školení”, \\"přesčas” atd. Nákladové položky mohou být ještě členěny na nákladové jednotky. Např. nákladová položka \\"cestovní výlohy\\" obsahuje nákladové jednotky \\"hotel\\", \\"doprava”, \\"stravování” atd."@cs;
+        skos:definition  "Střední úroveň členění, ke které jsou vázány náklady v rozpočtování a účtování. Na nejvyšší úrovni jsou Typy nákladů. Např. Typ nákladů \"Lidé” může být zjemněn na nákladové položky \"mzdy\", \"zaměstnanecké výhody”, \"cestovní výlohy\", \"školení”, \"přesčas” atd. Nákladové položky mohou být ještě členěny na nákladové jednotky. Např. nákladová položka \"cestovní výlohy\" obsahuje nákladové jednotky \"hotel\", \"doprava”, \"stravování” atd."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Nákladová položka"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -1493,7 +1493,7 @@ Výklad OHA"@cs
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/stupňovitý-model-zralosti>
         rdf:type         slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída , skos:Concept;
         skos:altLabel    "CMMI"@cs;
-        skos:definition  "Systém pravidel a cílů, které určují, co by měly týmy dělat, aby jejich práce byla dobře udělaná, bylo ji možné plánovat a byla efektivní. Vytvořeny jsou 3 varianty modelu, každá se zaměřuje na samostatnou oblast práce: vývoj technologií, poskytování služeb a nákup, tzn. jde o souhrn cílů a doporučených pracovních postupů pro vývojové týmy, které vedou ke kvalitnímu plánování a řízení prací a měly by zajistit i odpovídající kvalitu výstupu. CMMI model, stejně jako ostatní soudobé standardy kvality, se zaměřuje především na důslednou organizaci, plánování a sledování postupů. Jeho největším rozdílem oproti většině jiných podobných standardů (např. ISO 9001) je, že definuje 5 úrovní zralosti a tým může podle modelu svou procesní dokonalost postupně zlepšovat. Úroveň, které tým dosáhl, se hodnotí \\"posouzením\\", které provádí vyškolený interní nebo externí posuzovatel postupem, který je stejně jako norma definován autorskou organizací."@cs;
+        skos:definition  "Systém pravidel a cílů, které určují, co by měly týmy dělat, aby jejich práce byla dobře udělaná, bylo ji možné plánovat a byla efektivní. Vytvořeny jsou 3 varianty modelu, každá se zaměřuje na samostatnou oblast práce: vývoj technologií, poskytování služeb a nákup, tzn. jde o souhrn cílů a doporučených pracovních postupů pro vývojové týmy, které vedou ke kvalitnímu plánování a řízení prací a měly by zajistit i odpovídající kvalitu výstupu. CMMI model, stejně jako ostatní soudobé standardy kvality, se zaměřuje především na důslednou organizaci, plánování a sledování postupů. Jeho největším rozdílem oproti většině jiných podobných standardů (např. ISO 9001) je, že definuje 5 úrovní zralosti a tým může podle modelu svou procesní dokonalost postupně zlepšovat. Úroveň, které tým dosáhl, se hodnotí \"posouzením\", které provádí vyškolený interní nebo externí posuzovatel postupem, který je stejně jako norma definován autorskou organizací."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Stupňovitý model zralosti"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -2432,9 +2432,9 @@ c) vždy je spravován  s centrální zodpovědností (governance)."@cs , "(Pote
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/podniková-architektura>
         rdf:type         slovníky:pojem , slovníky:třída , skos:Concept , vsgov:typ-objektu-práva;
-        dct:description  "Totéž jako \\"Architektura úřadu\\"."@cs;
+        dct:description  "Totéž jako \"Architektura úřadu\"."@cs;
         skos:altLabel    "EA"@cs;
-        skos:definition  "Totéž jako \\"Architektura úřadu\\"."@cs;
+        skos:definition  "Totéž jako \"Architektura úřadu\"."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Podniková architektura"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -2488,7 +2488,7 @@ c) vždy je spravován  s centrální zodpovědností (governance)."@cs , "(Pote
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
         dct:description  "Veřejná správa poskytující služby s využitím možností informačních a komunikačních technologií.\
 eGovernment je pojem používaný pro digitální služby státní a veřejné správy určené občanům, podnikatelům, firmám a samotným úředníkům. Veřejná správa poskytující služby s využitím možností informačních a komunikačních technologií.\
-Totéž jako \\"Digitální Government\\" a \\"Digitální veřejná správa\\"."@cs;
+Totéž jako \"Digitální Government\" a \"Digitální veřejná správa\"."@cs;
         skos:definition  "Moderní digitální veřejná správa, využívající k výkonu svých působností digitální infrastrukturu, realizující sadu ICT služeb, které jsou sdílené, vzájemně sladěné, důvěryhodné, propojené, přístupné, bezpečné, dostupné, měřené, efektivní, automatizované a z hlediska uživatelů snadno použitelné."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "eGovernment"@cs;
@@ -2577,7 +2577,7 @@ Totéž jako \\"Digitální Government\\" a \\"Digitální veřejná správa\\".
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/cíl-úrovní-služeb>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Závazek dokumentovaný v dohodě o úrovni služeb (SLA). Cíle úrovní služeb vycházejí z požadavků na úrovně služeb a jsou potřebné k zajištění toho, aby služba IT plnila svůj účel. Cíle úrovně služeb by měly být “SMART\\" a jsou obvykle založené na klíčových ukazatelích výkonnosti (KPI)."@cs;
+        skos:definition  "Závazek dokumentovaný v dohodě o úrovni služeb (SLA). Cíle úrovní služeb vycházejí z požadavků na úrovně služeb a jsou potřebné k zajištění toho, aby služba IT plnila svůj účel. Cíle úrovně služeb by měly být “SMART\" a jsou obvykle založené na klíčových ukazatelích výkonnosti (KPI)."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Cíl úrovní služeb"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -2832,7 +2832,7 @@ Totéž jako \\"Digitální Government\\" a \\"Digitální veřejná správa\\".
         dct:description  "Aplikace poskytuje přehledný návod pro řešení vybraných životních situací ve vztahu k úřadům veřejné správy České republiky. Aplikace zobrazuje postup vyřízení, navrhuje, co je třeba doložit pro dané řešení, a vypočítává oficiální lhůty pro podání žádostí nebo podání informace ve vztahu občan - stát. Dále zobrazuje na mapě polohu nejbližších úřadů, Czech POINTů a policejních stanic."@cs;
         skos:definition  "Aplikace pro přehledný návod řešení životních situací."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
-        skos:prefLabel   "Mobilní aplikace MV \\"Co dělat, když …\\""@cs;
+        skos:prefLabel   "Mobilní aplikace MV \"Co dělat, když …\""@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
                 [ rdf:type   <https://slovník.gov.cz/generický/digitální-objekty/pojem/digitální-objekt>;
                   dct:title  "Výklad OeG"@cs
@@ -3232,7 +3232,7 @@ c) nesmí být pověřen výkonem jiných bezpečnostních rolí."@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/účastník-aktér>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-subjektu-práva , slovníky:třída;
-        dct:description  "Nezaměňovat s pojmem \\"účastník řízení\\", který je příbuzný, ale zúžený."@cs;
+        dct:description  "Nezaměňovat s pojmem \"účastník řízení\", který je příbuzný, ale zúžený."@cs;
         skos:definition  "Osoba, organizace nebo systém, který vystupuje v roli jako účastník aktivit (byznys funkcí, procesů nebo služeb), viz aktér."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Účastník/aktér"@cs;
@@ -3936,7 +3936,7 @@ b) po dobu jednoho roku, pokud absolvovala studium na vysoké škole."@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/smart>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Akronym, který by nám měl umožnit lepší zapamatování, že cíle dohody o úrovni služeb nebo projektových plánů mají být “Specific (specifické), Measurable(měřitelné), Achievable (dosažitelné), Relevant (relevantní) and Time based (časově proveditelné)\\"."@cs;
+        skos:definition  "Akronym, který by nám měl umožnit lepší zapamatování, že cíle dohody o úrovni služeb nebo projektových plánů mají být “Specific (specifické), Measurable(měřitelné), Achievable (dosažitelné), Relevant (relevantní) and Time based (časově proveditelné)\"."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "SMART"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -3997,7 +3997,7 @@ b) po dobu jednoho roku, pokud absolvovala studium na vysoké škole."@cs;
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/funkční-celek>
         rdf:type         slovníky:třída , vsgov:typ-objektu-práva , skos:Concept , slovníky:pojem;
         dct:description  "Funkční celek může vytvářet, vytváří (realizuje), případně podporuje schopnost vertikální (agendovou) nebo horizontální (sdílenou, průřezovou). Funkční celek nemá omezenou míru detailu ani hierarchie, může obsahovat menší funkční celky a současně může být součástí většího funkčního celku."@cs;
-        skos:definition  "Určitá schopnost nebo kombinace schopností nebo částí segmentů jednoho orgánu veřejné správy (nebo jiné části (e)Governmentu), podpořená informacemi a informačními technologiemi (odpovídající část digitální infrastruktury), tedy existující současně na všech čtyřech vrstvách architektury veřejné správy, byť třeba poskytující služby primárně jenom na některé z nich."@cs , "Funkční celek je logická struktura obsahující všechny vrstvy architektury (primárně Byznys, Aplikace, Platformy, Komunikace), a který se nejčastěji tvoří kolem informačního systému veřejné správy. Typickým příkladem funkčního celku může být \\"správa dokumentů\\". Tento celek kromě samotného informačního systému typu elektronická spisová služba a důvěryhodné úložiště obsahuje i procesy a postupy v úřadu (skartační plán, příjem dokumentů atd.), potřebný HW a SW, komunikační propojení, bezpečnostní požadavky, standardy, pravidla a další. To, že se funkční celek popisuje skrze všechny vrstvy architektury ale neznamená, že jsou jeho nedílnou součástí. Například u vrstvy HW a SW vybavení se počítá s tím, že jde o sdílenou platformu, která není přímo součástí funkčního celku, ale využívá její služby."@cs;
+        skos:definition  "Určitá schopnost nebo kombinace schopností nebo částí segmentů jednoho orgánu veřejné správy (nebo jiné části (e)Governmentu), podpořená informacemi a informačními technologiemi (odpovídající část digitální infrastruktury), tedy existující současně na všech čtyřech vrstvách architektury veřejné správy, byť třeba poskytující služby primárně jenom na některé z nich."@cs , "Funkční celek je logická struktura obsahující všechny vrstvy architektury (primárně Byznys, Aplikace, Platformy, Komunikace), a který se nejčastěji tvoří kolem informačního systému veřejné správy. Typickým příkladem funkčního celku může být \"správa dokumentů\". Tento celek kromě samotného informačního systému typu elektronická spisová služba a důvěryhodné úložiště obsahuje i procesy a postupy v úřadu (skartační plán, příjem dokumentů atd.), potřebný HW a SW, komunikační propojení, bezpečnostní požadavky, standardy, pravidla a další. To, že se funkční celek popisuje skrze všechny vrstvy architektury ale neznamená, že jsou jeho nedílnou součástí. Například u vrstvy HW a SW vybavení se počítá s tím, že jde o sdílenou platformu, která není přímo součástí funkčního celku, ale využívá její služby."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Funkční celek"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -4580,7 +4580,7 @@ Obecné je 34 praktik ITIL 4 je rozděleno do tří kategorií:\
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/činnost>
         rdf:type                        slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída , skos:Concept;
-        dct:description                 "Také jako \\"Agendová činnost\\"."@cs;
+        dct:description                 "Také jako \"Agendová činnost\"."@cs;
         skos:altLabel                   "AČ"@cs;
         skos:definition                 "Množina akcí navržená tak, aby se dosáhlo určitých výsledků. Činnosti jsou obvykle definovány jako část procesů nebo plánů a jsou dokumentovány v postupech."@cs , "Soubor úkonů vykonávaných v rámci agendy."@cs;
         skos:inScheme                   <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
@@ -4605,7 +4605,7 @@ Obecné je 34 praktik ITIL 4 je rozděleno do tří kategorií:\
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
         skos:definition  "Sdílení údajů veřejnou správou, jež má zamezit případům, kdy klienti a další subjekty museli veřejným orgánům předkládat tytéž informace opakovaně. Veřejná správa by neměla požadovat po subjektu údajů opakované poskytování již jednou poskytnutých údajů."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
-        skos:prefLabel   "Zásada \\"pouze jednou\\" / Once only princip"@cs;
+        skos:prefLabel   "Zásada \"pouze jednou\" / Once only princip"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
                 [ rdf:type    <https://slovník.gov.cz/generický/digitální-objekty/pojem/digitální-objekt>;
                   schema:url  "https://vlada.gov.cz/assets/urad-vlady/poskytovani-informaci/poskytnute-informace-na-zadost/Priloha-c--1---Zasady-pro-tvorbu-digitalne-privetive-legislativy.pdf"^^xsd:anyURI
@@ -4846,7 +4846,7 @@ Obecné je 34 praktik ITIL 4 je rozděleno do tří kategorií:\
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/správa-znalostí>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Proces sběru, analýzy, ukládání a sdílení znalostí a informací v organizaci. Prvořadým úkolem Správy znalostí je zlepšení hospodárnosti bez potřeby znovu objevovat již existující znalosti. Viz „Od dat k informacím, ke znalostem, k poznání\\", Systém správy znalostí o službách."@cs;
+        skos:definition  "Proces sběru, analýzy, ukládání a sdílení znalostí a informací v organizaci. Prvořadým úkolem Správy znalostí je zlepšení hospodárnosti bez potřeby znovu objevovat již existující znalosti. Viz „Od dat k informacím, ke znalostem, k poznání\", Systém správy znalostí o službách."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Správa znalostí"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -4882,7 +4882,7 @@ Obecné je 34 praktik ITIL 4 je rozděleno do tří kategorií:\
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
         skos:definition  "Zajištění toho, aby politiky a strategie byly skutečně implementovány, a aby požadované procesy byly korektně dodržovány. Governance zahrnuje definování rolí a odpovědností, měření, vykazování a realizace činností pro vyřešení jakýchkoli identifikovaných potíží."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
-        skos:prefLabel   "Governance („principy dlouhodobého směrování a řízení\\")"@cs;
+        skos:prefLabel   "Governance („principy dlouhodobého směrování a řízení\")"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
                 [ rdf:type    <https://slovník.gov.cz/generický/digitální-objekty/pojem/digitální-objekt>;
                   schema:url  "https://is.muni.cz/el/1433/podzim2015/PV214/um/itil_2011_czech_glossary_v2.0.pdf"^^xsd:anyURI
@@ -4901,7 +4901,7 @@ Obecné je 34 praktik ITIL 4 je rozděleno do tří kategorií:\
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/propojený-datový-fond>
         rdf:type         slovníky:třída , skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva;
-        dct:description  "Slouží k propojení úřadu a sdílení dat mezi nimi, podporuje heslo \\"Obíhají data, ne občan\\"."@cs;
+        dct:description  "Slouží k propojení úřadu a sdílení dat mezi nimi, podporuje heslo \"Obíhají data, ne občan\"."@cs;
         skos:altLabel    "PPDF"@cs;
         skos:definition  "Propojený datový fond (také jako PPDF), tematická oblast tvořená především referenčním rozhraním veřejné správy. Skládá se ze systémů: Informační systém Základních registrů, Základní registry, eGovernment Online Service Bus, spolupracující Agendové informační systémy."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
@@ -5139,7 +5139,7 @@ zabezpečení základních životních potřeb obyvatelstva, zdraví osob nebo e
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/identita>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Unikátní jméno, užité pro identifikaci uživatele, osoby nebo role. Identita je užívaná pro přidělení práv tomuto uživateli, osobě nebo roli. Příkladem identit může být uživatelské jméno NovakJ nebo role „Manažer změn\\"."@cs;
+        skos:definition  "Unikátní jméno, užité pro identifikaci uživatele, osoby nebo role. Identita je užívaná pro přidělení práv tomuto uživateli, osobě nebo roli. Příkladem identit může být uživatelské jméno NovakJ nebo role „Manažer změn\"."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Identita"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -5428,7 +5428,7 @@ Výklad OeG"@cs
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
         skos:definition  "Žádné infrastruktury nebo aplikace ve veřejné správě starší 15 let. Podle této zásady by se měly obnovovat IT systémy a technologie po určité době a udržovat krok s neustále se měnícím prostředím a rozvojem technologií."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
-        skos:prefLabel   "Zásada \\"žádné dědictví\\" / No legacy princip"@cs;
+        skos:prefLabel   "Zásada \"žádné dědictví\" / No legacy princip"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
                 [ rdf:type    <https://slovník.gov.cz/generický/digitální-objekty/pojem/digitální-objekt>;
                   schema:url  "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52016DC0179"^^xsd:anyURI
@@ -5967,7 +5967,7 @@ Doplňení OHA"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/provozní-náklady>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Náklady spojené s provozováním služeb IT. Často se jedná o opakující se platby. Například personální náklady, údržba technického vybavení a elektřina (také známo jako „běžné výdaje\\" nebo „náklady účetního období\\"). Viz Investiční náklady."@cs;
+        skos:definition  "Náklady spojené s provozováním služeb IT. Často se jedná o opakující se platby. Například personální náklady, údržba technického vybavení a elektřina (také známo jako „běžné výdaje\" nebo „náklady účetního období\"). Viz Investiční náklady."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Provozní náklady"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>

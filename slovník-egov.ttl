@@ -15,10 +15,7 @@ PREFIX čas:       <https://slovník.gov.cz/generický/čas/pojem/>
         rdf:type                        slovníky:pojem , vsgov:typ-objektu-práva , skos:Concept , slovníky:třída;
         dct:description                 "Místo chození na poštu pro obálky s pruhem je možné si zdarma zřídit datovou schránku a komunikovat (nejen) s úřady online odkudkoliv. Díky datovým schránkám, které nahrazují doporučené dopisy, máme vždy jistotu, že se naše podání dostalo na správný úřad. Odeslanou zprávu je možné si uložit a prokázat obsah zprávy (z podacího lístku k doporučené zásilce nevyčteme, co bylo obsahem dopisu). Navíc elektronický dokument má stejnou právní platnost jako klasický papírový s kulatým razítkem a odeslání datové zprávy je na rozdíl od doporučeného dopisu zdarma."@cs;
         skos:altLabel                   "DS"@cs;
-        skos:definition                 "Datová schránka je elektronické úložiště, které je určeno k \
-a) doručování orgány veřejné moci, \
-b) provádění úkonů vůči orgánům veřejné moci, \
-c) dodávání dokumentů fyzických osob, podnikajících fyzických osob a právnických osob."@cs , "Státem garantovaný komunikační nástroj, který nahrazuje klasické doporučené dopisy a slouží hlavně ke komunikaci s orgány veřejné moci. Jeho prostřednictvím může držitel datové schránky, tj. povinně každý subjekt, kterému je datová schránka zřízena ze zákona a dobrovolně kterýkoliv občan, činit podání kterémukoliv úřadu. Úřady prostřednictvím Datové schránky doručují své písemnosti příslušným adresátům (fyzickým nebo právnickým osobám), stejně jako komunikují s jinými orgány veřejné moci. Veškeré úkony, které jsou prostřednictvím elektronické Datové schránky, resp. přepážky činěny, jsou zcela rovnocenné - ekvivalentní úkonům činěným písemně."@cs;
+        skos:definition                 "Datová schránka je elektronické úložiště, které je určeno k a) doručování orgány veřejné moci, b) provádění úkonů vůči orgánům veřejné moci, c) dodávání dokumentů fyzických osob, podnikajících fyzických osob a právnických osob."@cs , "Státem garantovaný komunikační nástroj, který nahrazuje klasické doporučené dopisy a slouží hlavně ke komunikaci s orgány veřejné moci. Jeho prostřednictvím může držitel datové schránky, tj. povinně každý subjekt, kterému je datová schránka zřízena ze zákona a dobrovolně kterýkoliv občan, činit podání kterémukoliv úřadu. Úřady prostřednictvím Datové schránky doručují své písemnosti příslušným adresátům (fyzickým nebo právnickým osobám), stejně jako komunikují s jinými orgány veřejné moci. Veškeré úkony, které jsou prostřednictvím elektronické Datové schránky, resp. přepážky činěny, jsou zcela rovnocenné - ekvivalentní úkonům činěným písemně."@cs;
         skos:inScheme                   <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel                  "Datová schránka"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -158,12 +155,7 @@ c) dodávání dokumentů fyzických osob, podnikajících fyzických osob a pr�
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/obecné-systémové-architektury>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Mezi charakteristiky obecných systémových architektur patří: \
-• Každá obecná systémová architektura (bezpečnostní architektura, architektura pro řízení, architektura počítačové sítě) je nekompletní z pohledu funkce informačního systému, ale je kompletní z pohledu konkrétního zájmu (bezpečnost, říditelnost, infrastruktura). \
-• Reflektuje specifické požadavky pro konkrétní doménu. \
-• Definuje specifické stavební bloky pro konkrétní doménu. \
-• Definuje technologické standardy pro implementaci stavebních bloků. \
-• Poskytuje stavební bloky pro jednoduché znovupoužití a nižší náklady."@cs;
+        dct:description  "Mezi charakteristiky obecných systémových architektur patří: • Každá obecná systémová architektura (bezpečnostní architektura, architektura pro řízení, architektura počítačové sítě) je nekompletní z pohledu funkce informačního systému, ale je kompletní z pohledu konkrétního zájmu (bezpečnost, říditelnost, infrastruktura). • Reflektuje specifické požadavky pro konkrétní doménu. • Definuje specifické stavební bloky pro konkrétní doménu. • Definuje technologické standardy pro implementaci stavebních bloků. • Poskytuje stavební bloky pro jednoduché znovupoužití a nižší náklady."@cs;
         skos:definition  "Pomáhají při výběru a integraci specifických služeb ze základní architektury při tvorbě obecných (znovupoužitelných) řešení nad více doménami."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Obecné systémové architektury"@cs;
@@ -175,7 +167,7 @@ c) dodávání dokumentů fyzických osob, podnikajících fyzických osob a pr�
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/integrovaný-zralostní-model-způsobilosti>
         rdf:type         slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída , skos:Concept;
         skos:altLabel    "CMMI"@cs;
-        skos:definition  "Integrovaný model procesní vyspělosti (CMMI) je přístup k vylepšování procesů vyvinutý institutem Software Engineering Institute (SEI) na Univerzitě Carnegie Melon. CMMI poskytuje organizacím základní charakteristiky efektivních procesů. Může být použit jako směrnice pro zdokonalení procesů v projektu, divizi nebo celé organizaci. CMMI pomáhá integrovat tradičně rozdělené organizační funkce, nastavovat cíle a priority zdokonalování procesů, poskytuje návod pro řízení kvality a slouží jako referenční úroveň pro ohodnocení stávajících procesů. Další informace jsou dostupné na http://www.sei.cmu.edu/cmmi/."@cs;
+        skos:definition  "Integrovaný model procesní vyspělosti (CMMI) je přístup k vylepšování procesů vyvinutý institutem Software Engineering Institute (SEI) na Univerzitě Carnegie Melon. CMMI poskytuje organizacím základní charakteristiky efektivních procesů. Může být použit jako směrnice pro zdokonalení procesů v projektu, divizi nebo celé organizaci. CMMI pomáhá integrovat tradičně rozdělené organizační funkce, nastavovat cíle a priority zdokonalování procesů, poskytuje návod pro řízení kvality a slouží jako referenční úroveň pro ohodnocení stávajících procesů. Další informace jsou dostupné na http://www.sei.cmu.edu/cmmi/."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Integrovaný zralostní model způsobilosti"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -205,10 +197,9 @@ c) dodávání dokumentů fyzických osob, podnikajících fyzických osob a pr�
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/egovernment-on-line-service-bus>
         rdf:type         vsgov:typ-objektu-práva , slovníky:pojem , skos:Concept , slovníky:třída;
-        dct:description  "Z pohledu veřejné správy představuje technologie eGSB maximálně zabezpečenou propojovací platformu, která splňuje vysoké standardy kybernetické bezpečnosti.  eGovernment Service Bus zajišťuje integraci služeb státu a spokojenost uživatelů služeb, tj. občanů, podnikatelů a firem.  Zároveň je předpokladem automatizace digitálních služeb státu, zajištění možnosti úplného elektronického podání a práva občanů na digitální služby.\
-Pojem je synonymem s ISSS - informační systém sdílené služby."@cs;
+        dct:description  "Z pohledu veřejné správy představuje technologie eGSB maximálně zabezpečenou propojovací platformu, která splňuje vysoké standardy kybernetické bezpečnosti.  eGovernment Service Bus zajišťuje integraci služeb státu a spokojenost uživatelů služeb, tj. občanů, podnikatelů a firem.  Zároveň je předpokladem automatizace digitálních služeb státu, zajištění možnosti úplného elektronického podání a práva občanů na digitální služby.Pojem je synonymem s ISSS - informační systém sdílené služby."@cs;
         skos:altLabel    "eGSB"@cs;
-        skos:definition  "eGSB (nebo také eGON Service Bus) je technologie, která funguje jako sběrnice sdílených služeb eGovernmentu. Umožňuje orgánům státní a veřejné správy navzájem bezproblémově sdílet aktuální data a služby. V důsledku pak občan nemusí „obíhat jednotlivé úřady“,  ale může získat službu potřebnou k vyřešení své životní události na jednom místě. Pojem je synonymem s ISSS - informační systém sdílené služby."@cs;
+        skos:definition  "eGSB (nebo také eGON Service Bus) je technologie, která funguje jako sběrnice sdílených služeb eGovernmentu. Umožňuje orgánům státní a veřejné správy navzájem bezproblémově sdílet aktuální data a služby. V důsledku pak občan nemusí „obíhat jednotlivé úřady“,  ale může získat službu potřebnou k vyřešení své životní události na jednom místě. Pojem je synonymem s ISSS - informační systém sdílené služby."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "eGovernment On-Line Service Bus"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -263,7 +254,7 @@ Pojem je synonymem s ISSS - informační systém sdílené služby."@cs;
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/požadavek-na-změnu>
         rdf:type         slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída , skos:Concept;
         skos:altLabel    "RFC"@cs;
-        skos:definition  "Formální návrh na provedení změny. RFC obsahuje detaily navrhované změny a může být zaznamenán papírově nebo elektronicky. Pojem RFC je často nesprávně používán ve smyslu záznamu o změně nebo ve smyslu změny samotné."@cs;
+        skos:definition  "Formální návrh na provedení změny. RFC obsahuje detaily navrhované změny a může být zaznamenán papírově nebo elektronicky. Pojem RFC je často nesprávně používán ve smyslu záznamu o změně nebo ve smyslu změny samotné."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Požadavek na změnu"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -321,7 +312,7 @@ Pojem je synonymem s ISSS - informační systém sdílené služby."@cs;
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/czech-point>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
         dct:description  "Czech Point spojuje univerzální podatelnu, ověřovací místo a informační centrum, kde je možné na jednom místě získat veškeré údaje, opisy a výpisy, které jsou vedeny v centrálních veřejných evidencích a registrech, jakož i v centrálních neveřejných evidencích a registrech ke své osobě, věcem a právům. Místo, kde je dále možné ověřit dokumenty, listiny, podpisy a také elektronickou podobu dokumentů, učinit podání ke kterémukoli úřadu veřejné správy, a konečně získat informace o průběhu řízení ve všech věcech, které stát k jeho osobě vede."@cs;
-        skos:definition  "Český Podací Ověřovací Informační Národní Terminál (Czech POINT) je univerzální kontaktní místo veřejné správy poskytující občanům zejména ověřené výpisy z informačních systémů veřejné správy, např. Výpis z Rejstříku trestů, Výpis z Katastru nemovitostí, Výpis z bodového hodnocení řidiče, Výpis z Veřejných rejstříků atd. a řadu dalších služeb, např. podání Žádosti o zřízení datové schránky nebo autorizovanou konverzi dokumentů."@cs;
+        skos:definition  "Český Podací Ověřovací Informační Národní Terminál (Czech POINT) je univerzální kontaktní místo veřejné správy poskytující občanům zejména ověřené výpisy z informačních systémů veřejné správy, např. Výpis z Rejstříku trestů, Výpis z Katastru nemovitostí, Výpis z bodového hodnocení řidiče, Výpis z Veřejných rejstříků atd. a řadu dalších služeb, např. podání Žádosti o zřízení datové schránky nebo autorizovanou konverzi dokumentů."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Czech POINT"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -562,10 +553,7 @@ Pojem je synonymem s ISSS - informační systém sdílené služby."@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/životní-situace>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Životní situace je vždy individuální, protože je tvořena kombinací velkého počtu hodnot (kvalit života) jednotlivce (věk, zdraví, rodinný stav, majetek, vzdělání, víra, …), z nichž obvykle právě jedna hodnota se mění životní událostí a ostatní formují novou individuální životní situaci (s jednorázovými potřebami) nebo životní období (s trvalými či opakujícími se potřebami ve vztahu k veřejné správě).\
-Statisticky je možno nalézt nejčastější a nejvýznamnější životní situace klientů, identifikovat je jako typové a pro zjednodušení jejich řešení připravit typové produkty (kombinace služeb) veřejné správy.\
-Postupy poskytují informace o tom, jak vyřídit různá podání, kam se obrátit a v jakých lhůtách, zda se platí správní nebo jiné poplatky, včetně odkazů na případné formuláře a platné právní předpisy.\
-Životní událost se děje z vůle klienta, z vyšší moci (bez vůle klienta nebo úřadu) či z moci úřední (ze zákona). Události z moci úřední bývají často periodické (roční, čtvrtletní, měsíční), dějící se uvnitř životního období (fáze) nebo jednorázové, vyplývající typicky ze změny politiky a právních přepisů (nové či změněné právo nebo povinnost)."@cs;
+        dct:description  "Životní situace je vždy individuální, protože je tvořena kombinací velkého počtu hodnot (kvalit života) jednotlivce (věk, zdraví, rodinný stav, majetek, vzdělání, víra, …), z nichž obvykle právě jedna hodnota se mění životní událostí a ostatní formují novou individuální životní situaci (s jednorázovými potřebami) nebo životní období (s trvalými či opakujícími se potřebami ve vztahu k veřejné správě).Statisticky je možno nalézt nejčastější a nejvýznamnější životní situace klientů, identifikovat je jako typové a pro zjednodušení jejich řešení připravit typové produkty (kombinace služeb) veřejné správy.Postupy poskytují informace o tom, jak vyřídit různá podání, kam se obrátit a v jakých lhůtách, zda se platí správní nebo jiné poplatky, včetně odkazů na případné formuláře a platné právní předpisy.Životní událost se děje z vůle klienta, z vyšší moci (bez vůle klienta nebo úřadu) či z moci úřední (ze zákona). Události z moci úřední bývají často periodické (roční, čtvrtletní, měsíční), dějící se uvnitř životního období (fáze) nebo jednorázové, vyplývající typicky ze změny politiky a právních přepisů (nové či změněné právo nebo povinnost)."@cs;
         skos:definition  "Aktuální stav klienta v daném okamžiku, definovaný kombinací parametrů právě nastalé životní události a všech relevantních vlastností klienta (věk, zdraví, rodinný stav, majetek). Situace určuje konkrétní rozsah práv a povinností (např. nárok na dávku), který je pro daný průnik atributů v daném čase unikátní."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Životní situace"@cs;
@@ -732,7 +720,7 @@ Postupy poskytují informace o tom, jak vyřídit různá podání, kam se obrá
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/přiřazení>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Vztah přiřazení spojuje prvky chování s aktivními elementy (např. role, komponenty), které je provádějí nebo role s účastníky, kteří je plní."@cs;
+        skos:definition  "Vztah přiřazení spojuje prvky chování s aktivními elementy (např. role, komponenty), které je provádějí nebo role s účastníky, kteří je plní."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Přiřazení"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -767,7 +755,7 @@ Postupy poskytují informace o tom, jak vyřídit různá podání, kam se obrá
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/aplikační-komponenta-komponenta-aplikace>
         rdf:type         vsgov:typ-objektu-práva , slovníky:pojem , slovníky:třída , skos:Concept;
-        dct:description  "Aplikační komponenty jsou realizovány, rozmístěny (deployed) do technologických komponent. Aplikační komponenta je implementována řadou technologických komponent. Jedná se o aktivní prvek architektury informačních systémů. Aplikační komponenta je samostatně instalovatelnou a provozovatelnou jednotkou aplikačního SW vybavení."@cs;
+        dct:description  "Aplikační komponenty jsou realizovány, rozmístěny (deployed) do technologických komponent. Aplikační komponenta je implementována řadou technologických komponent. Jedná se o aktivní prvek architektury informačních systémů. Aplikační komponenta je samostatně instalovatelnou a provozovatelnou jednotkou aplikačního SW vybavení."@cs;
         skos:definition  "Zapouzdření aplikační funkčnosti ve shodě s členěním její implementace. Modulární, nasaditelná a nahraditelná část softwarového systému, zapouzdřující své chování a data, které poskytuje skrz sadu rozhraní."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Aplikační komponenta (Komponenta aplikace)"@cs;
@@ -884,9 +872,7 @@ Postupy poskytují informace o tom, jak vyřídit různá podání, kam se obrá
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/plán-realizace>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Dlouhodobý abstraktní plán pro změny v businessu nebo technologiích, typicky zasahující do někalika disciplín. Běžná použití například: \
-• Pán realizace technologií, \
-• Plán realizace architektury."@cs;
+        skos:definition  "Dlouhodobý abstraktní plán pro změny v businessu nebo technologiích, typicky zasahující do někalika disciplín. Běžná použití například: • Pán realizace technologií, • Plán realizace architektury."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Plán realizace"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -1053,7 +1039,7 @@ Postupy poskytují informace o tom, jak vyřídit různá podání, kam se obrá
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/vliv>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
         dct:description  "Synonymum: Motivátor / Hybatel / Hnací prvek."@cs;
-        skos:definition  "Vlivem se modeluje situace, kdy některý z motivačních prvků má pozitivní nebo negativní vliv na realizaci jiného motivačního prvku. Typ vazby mezi dvěma objekty v modelu úřadu."@cs;
+        skos:definition  "Vlivem se modeluje situace, kdy některý z motivačních prvků má pozitivní nebo negativní vliv na realizaci jiného motivačního prvku. Typ vazby mezi dvěma objekty v modelu úřadu."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Vliv"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -1127,7 +1113,7 @@ Postupy poskytují informace o tom, jak vyřídit různá podání, kam se obrá
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/role>
         rdf:type                        slovníky:třída , skos:Concept , vsgov:typ-objektu-práva , slovníky:pojem;
-        skos:definition                 "Souhrn oprávnění fyzické osoby, která vykonává určitou činnost, k přístupu k referenčním údajům v základních registrech nebo k údajům v agendových informačních systémech."@cs , "Soustava odpovědností, činností a oprávnění, jimiž je pověřena osoba nebo tým. Role je definována v rámci procesu. Jedna osoba nebo tým mohou mít více rolí - např. role manažera konfigurací nebo manažera změn může být vykonávána stejnou osobou."@cs;
+        skos:definition                 "Souhrn oprávnění fyzické osoby, která vykonává určitou činnost, k přístupu k referenčním údajům v základních registrech nebo k údajům v agendových informačních systémech."@cs , "Soustava odpovědností, činností a oprávnění, jimiž je pověřena osoba nebo tým. Role je definována v rámci procesu. Jedna osoba nebo tým mohou mít více rolí - např. role manažera konfigurací nebo manažera změn může být vykonávána stejnou osobou."@cs;
         skos:inScheme                   <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel                  "Role"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -1155,11 +1141,7 @@ Postupy poskytují informace o tom, jak vyřídit různá podání, kam se obrá
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/kategorie-klientů-veřejné-správy>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Základní kategorizace: \
-a) externí klient vně veřejné správy (ministerstva), občané a komerční organizace \
-b) externí klient jiného OVM (orgán veřejné moci) - ti se dále člení na organizace státní správy a samosprávy. \
-c) interní klient korporace OVS, tj. zaměstnanci ostatních organizačních složek podřízených OVS (orgán veřejné správy), např. zařízení služeb ministerstva, podnik komunálních služeb města, .. \
-d) interní klient úřadu (OVM), vlastní pracovník ve služebním i zaměstnaneckém poměru, zvolený člen zastupitelstva, …"@cs;
+        dct:description  "Základní kategorizace: a) externí klient vně veřejné správy (ministerstva), občané a komerční organizace b) externí klient jiného OVM (orgán veřejné moci) - ti se dále člení na organizace státní správy a samosprávy. c) interní klient korporace OVS, tj. zaměstnanci ostatních organizačních složek podřízených OVS (orgán veřejné správy), např. zařízení služeb ministerstva, podnik komunálních služeb města, .. d) interní klient úřadu (OVM), vlastní pracovník ve služebním i zaměstnaneckém poměru, zvolený člen zastupitelstva, …"@cs;
         skos:definition  "Strukturované rozdělení subjektů využívajících služby úřadu na základě jejich postavení vůči organizaci a typu vykonávané agendy. Kategorie rozlišují mezi externími uživateli (veřejnost a ostatní instituce) a interními uživateli (v rámci resortu či samotného úřadu), což umožňuje přesné cílení služeb, nastavení přístupových oprávnění a definici úrovní servisní podpory (SLA)."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Kategorie klientů veřejné správy"@cs;
@@ -1214,11 +1196,7 @@ d) interní klient úřadu (OVM), vlastní pracovník ve služebním i zaměstna
         skos:prefLabel   "Poskytovatel otevřených dat"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
                 [ rdf:type   <https://slovník.gov.cz/generický/digitální-objekty/pojem/digitální-objekt>;
-                  dct:title  "https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_2/odst_1\
-\
-https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_2/odst_2\
-\
-Výklad OHA"@cs
+                  dct:title  "https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_2/odst_1https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_2/odst_2Výklad OHA"@cs
                 ] .
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/ocenění-stanovení-ceny>
@@ -1301,7 +1279,7 @@ Výklad OHA"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/produkt-veřejné-správy-pro-životní-situace>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Zboží nebo služba, které je doprovázeno obchodními podmínkami (kontraktem, SLA), dokumentací, daty, servisem a dalšími součástmi. Produkt dokáže řešit potřeby klienta, v našem případě jeho (životní) situaci ve vztahu k veřejné správě, plynoucí z jeho nastalé životní události."@cs;
+        skos:definition  "Zboží nebo služba, které je doprovázeno obchodními podmínkami (kontraktem, SLA), dokumentací, daty, servisem a dalšími součástmi. Produkt dokáže řešit potřeby klienta, v našem případě jeho (životní) situaci ve vztahu k veřejné správě, plynoucí z jeho nastalé životní události."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Produkt (veřejné správy pro životní situace)"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -1331,7 +1309,7 @@ Výklad OHA"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/gestor-služby>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-subjektu-práva , slovníky:třída;
-        skos:definition  "Konkrétní osoba, která je v rámci orgánu veřejné moci ohlašovatelem agendy, do které daná služba spadá."@cs;
+        skos:definition  "Konkrétní osoba, která je v rámci orgánu veřejné moci ohlašovatelem agendy, do které daná služba spadá."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Gestor služby"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -1352,7 +1330,7 @@ Výklad OHA"@cs
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/motivátor>
         rdf:type         slovníky:třída , skos:Concept , vsgov:typ-objektu-práva , slovníky:pojem;
         dct:description  "Synonymum: Hnací prvek /vliv."@cs;
-        skos:definition  "Něco, co vytváří, motivuje a pohání změnu v organizaci."@cs , "Externí nebo interní okolnost, která vede organizaci k definování cílů. Příkladem externího vlivu je např. změna v legislativě, která vyžaduje změnu ve způsobu fungovaní organizace."@cs;
+        skos:definition  "Něco, co vytváří, motivuje a pohání změnu v organizaci."@cs , "Externí nebo interní okolnost, která vede organizaci k definování cílů. Příkladem externího vlivu je např. změna v legislativě, která vyžaduje změnu ve způsobu fungovaní organizace."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Motivátor"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -1457,7 +1435,7 @@ Výklad OHA"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/přístup-se-zaručenou-identitou>
         rdf:type                        slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída , skos:Concept;
-        dct:description                 "Jedná se o způsob jednoznačné zabezpečené elektronické identifikace osoby. Elektronická identifikace probíhá např. při přihlášení k el. bankovnictví nebo ke el. službám úřadů. Prostředkem pro elektronickou identifikaci v ČR garatnovanou státem je eObčanka a rovněž také prostředek JMÉNO-HESLO-SMS. "@cs;
+        dct:description                 "Jedná se o způsob jednoznačné zabezpečené elektronické identifikace osoby. Elektronická identifikace probíhá např. při přihlášení k el. bankovnictví nebo ke el. službám úřadů. Prostředkem pro elektronickou identifikaci v ČR garatnovanou státem je eObčanka a rovněž také prostředek JMÉNO-HESLO-SMS. "@cs;
         skos:definition                 "Přístup do informačního systému veřejné správy nebo elektronické aplikace s využitím prostředku pro elektronickou identifikaci, při jehož vydání nebo v souvislosti s ním anebo v souvislosti s umožněním jeho využití byla totožnost osoby ověřena státním orgánem, orgánem územního samosprávného celku nebo orgánem veřejné moci, který není státním orgánem ani orgánem územního samosprávného celku, nebo který byl vydán v rámci kvalifikovaného systému elektronické identifikace."@cs;
         skos:inScheme                   <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel                  "Přístup se zaručenou identitou"@cs;
@@ -1510,11 +1488,7 @@ Výklad OHA"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/vertikální-domény-motivační-architektury>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Vertikální domény motivační architektury, doplňují a protínají horizontální architektury a poskytují odpovědi na otázku Proč je naše organizace taková, jaká je?: \
-• Architektura strategie a směrování, původně také zvaná jenom motivační architektura \
-• Architektura výkonnosti, měřící dosahování strategie i provozní efektivity \
-• Architektura rizik a bezpečnosti – postihující specifické bezpečnostní aspekty napříč doménami \
-• Architektura shody s pravidly, standardizace a dlouhodobé udržitelnosti."@cs;
+        skos:definition  "Vertikální domény motivační architektury, doplňují a protínají horizontální architektury a poskytují odpovědi na otázku Proč je naše organizace taková, jaká je?: • Architektura strategie a směrování, původně také zvaná jenom motivační architektura • Architektura výkonnosti, měřící dosahování strategie i provozní efektivity • Architektura rizik a bezpečnosti – postihující specifické bezpečnostní aspekty napříč doménami • Architektura shody s pravidly, standardizace a dlouhodobé udržitelnosti."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Vertikální domény motivační architektury"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -1544,7 +1518,7 @@ Výklad OHA"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/klient-veřejné-správy>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-subjektu-práva , slovníky:třída;
-        dct:description  "Fyzickou osobou je skutečná osoba – jednotlivec. Jde o právní pojem, který odlišuje „fyzickou = žijící“ osobu od tzv. právnické „právem uměle vytvořené“ osoby. Fyzickou osobou je například občan, osoba podnikající na základě živnostenského listu, osoba provozující činnost na základě zvláštního oprávnění (např. tlumočník, znalec, správce konkurzní podstaty). Právnická osoba je zákonem vytvořený subjekt, který je navenek reprezentován osobami fyzickými, které ji zastupují (např. u s.r.o. jednatel). Právnickou osobou jsou např. obchodní společnosti (akciová společnost, společnost s ručením omezeným aj., družstva, nadace a fondy, sdružení právnických osob, stát a územní samosprávní celky."@cs;
+        dct:description  "Fyzickou osobou je skutečná osoba – jednotlivec. Jde o právní pojem, který odlišuje „fyzickou = žijící“ osobu od tzv. právnické „právem uměle vytvořené“ osoby. Fyzickou osobou je například občan, osoba podnikající na základě živnostenského listu, osoba provozující činnost na základě zvláštního oprávnění (např. tlumočník, znalec, správce konkurzní podstaty). Právnická osoba je zákonem vytvořený subjekt, který je navenek reprezentován osobami fyzickými, které ji zastupují (např. u s.r.o. jednatel). Právnickou osobou jsou např. obchodní společnosti (akciová společnost, společnost s ručením omezeným aj., družstva, nadace a fondy, sdružení právnických osob, stát a územní samosprávní celky."@cs;
         skos:definition  "Ten, pro koho jsou určeny služby veřejné správy. Klientem veřejné správy je subjekt práva, může to být fyzická osob, fyzická osoba podnikající, a nebo právnická osoba či jiná organizace."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Klient veřejné správy"@cs;
@@ -1595,7 +1569,7 @@ Výklad OHA"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/it-service-management-fórum>
         rdf:type         slovníky:třída , slovníky:pojem , vsgov:typ-subjektu-práva , skos:Concept;
-        dct:description  "Více informací na http://www.itsmf.com/."@cs;
+        dct:description  "Více informací na http://www.itsmf.com/."@cs;
         skos:altLabel    "itSMF"@cs;
         skos:definition  "IT Service Management Fórum je nezávislá organizace věnující se propagaci profesionálního přístupu ke Správě služeb IT. itSMF je nezisková členská organizace s působností v mnoha zemích na celém světě (itSMF Chapters). itSMF a její členové se podílí na vývoji ITIL a souvisejících norem (standardů) Správy služeb IT."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
@@ -1646,7 +1620,7 @@ Výklad OHA"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/kontrakt>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Formální nebo neformální specifikace dohody, která specifikuje práva a povinnosti spojené s produktem."@cs;
+        skos:definition  "Formální nebo neformální specifikace dohody, která specifikuje práva a povinnosti spojené s produktem."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Kontrakt"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -1755,7 +1729,7 @@ Výklad OHA"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/analýza-rizik>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Proces pochopení povahy rizika a určení úrovně (pravděpodobnosti nastání a odhad možných dopadů) rizika."@cs;
+        skos:definition  "Proces pochopení povahy rizika a určení úrovně (pravděpodobnosti nastání a odhad možných dopadů) rizika."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Analýza rizik"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -1765,7 +1739,7 @@ Výklad OHA"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/alternativní-náklady-náklady-ztracené-příležitosti>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Náklady ztracené příležitosti představují příjem, který by byl získán při užití existujících zdrojů jiným způsobem. Například Alternativní náklady spojené s nákupem nového serveru mohou zahrnovat neprovedení aktivity zlepšování služeb, na kterou by jinak peníze mohly být vynaloženy. Termín je používán jako část procesu rozhodování, ale není interpretován jako aktuální náklady ve finančních vyjádřeních. "@cs;
+        dct:description  "Náklady ztracené příležitosti představují příjem, který by byl získán při užití existujících zdrojů jiným způsobem. Například Alternativní náklady spojené s nákupem nového serveru mohou zahrnovat neprovedení aktivity zlepšování služeb, na kterou by jinak peníze mohly být vynaloženy. Termín je používán jako část procesu rozhodování, ale není interpretován jako aktuální náklady ve finančních vyjádřeních. "@cs;
         skos:definition  "Náklady, které jsou užívány při srovnání několika investičních alternativ."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Alternativní náklady (náklady ztracené příležitosti)"@cs;
@@ -1842,12 +1816,7 @@ Výklad OHA"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/transakční-data>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Transakční data se typicky v podobě proměnných v tabulkách ukládají do databáze agendového informačního systému. Jejich přílohou mohou být dokumenty.\
-Data popisující událost (změnu v důsledku transakce) a obvykle se popisují slovesy. Transakční data mají vždy časovou dimenzi, číselnou hodnotu a vztahují se na jeden nebo více objektů (tj. referenční data).Typické transakce jsou: \
-• Finance: objednávky, faktury, platby \
-• Práce: plány, záznamy o činnosti \
-• Logistika: dodávky, záznamy o skladování, cestovní záznamy atd. \
-Typickými systémy zpracování transakcí (systémy generující transakce) jsou SAP a Oracle Financials."@cs;
+        dct:description  "Transakční data se typicky v podobě proměnných v tabulkách ukládají do databáze agendového informačního systému. Jejich přílohou mohou být dokumenty.Data popisující událost (změnu v důsledku transakce) a obvykle se popisují slovesy. Transakční data mají vždy časovou dimenzi, číselnou hodnotu a vztahují se na jeden nebo více objektů (tj. referenční data).Typické transakce jsou: • Finance: objednávky, faktury, platby • Práce: plány, záznamy o činnosti • Logistika: dodávky, záznamy o skladování, cestovní záznamy atd. Typickými systémy zpracování transakcí (systémy generující transakce) jsou SAP a Oracle Financials."@cs;
         skos:definition  "Kategorie dat, vznikajících při řešení případu klienta v podobě transakce (operace) podpořené informačním systémem."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Transakční data"@cs;
@@ -1878,11 +1847,7 @@ Typickými systémy zpracování transakcí (systémy generující transakce) js
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/plánuj-dělej-kontroluj-jednej>
         rdf:type         slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída , skos:Concept;
         skos:altLabel    "P-D-C-A"@cs;
-        skos:definition  "Čtyřstupňový cyklus řízení procesů, navržený Edwardem Demingem. Plan-Do-Check-Act je také nazýván Demingovým cyklem. \
-• PLÁNUJ: Navrhni nebo reviduj procesy, které podporují poskytování služeb IT. \
-• DĚLEJ: Realizuj Plán a řiď proces. \
-• KONTROLUJ: Měř procesy a IT služby, srovnávej s cíli a vytvářej reporty. \
-• JEDNEJ: Plánuj a zaváděj změny vedoucí ke zlepšení procesů."@cs;
+        skos:definition  "Čtyřstupňový cyklus řízení procesů, navržený Edwardem Demingem. Plan-Do-Check-Act je také nazýván Demingovým cyklem. • PLÁNUJ: Navrhni nebo reviduj procesy, které podporují poskytování služeb IT. • DĚLEJ: Realizuj Plán a řiď proces. • KONTROLUJ: Měř procesy a IT služby, srovnávej s cíli a vytvářej reporty. • JEDNEJ: Plánuj a zaváděj změny vedoucí ke zlepšení procesů."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Plánuj-Dělej- Kontroluj-Jednej"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -2023,7 +1988,7 @@ Typickými systémy zpracování transakcí (systémy generující transakce) js
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/katalogy>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Seznamy stavebních kamenů konkrétních typů a s nimi souvisejících typů, použitých pro referenci nebo pro jejich řízení (například v seznamu organizačních jednotek se pracuje ještě s lokalitami a aktéry). Prostřednictvím katalogů jsou evidována metadata stavebních kamenů."@cs;
+        skos:definition  "Seznamy stavebních kamenů konkrétních typů a s nimi souvisejících typů, použitých pro referenci nebo pro jejich řízení (například v seznamu organizačních jednotek se pracuje ještě s lokalitami a aktéry). Prostřednictvím katalogů jsou evidována metadata stavebních kamenů."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Katalogy"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -2135,8 +2100,8 @@ Typickými systémy zpracování transakcí (systémy generující transakce) js
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/slouží>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Název vazby dle standardu ArchiMate. "@cs;
-        skos:definition  "Použití služeb procesy, funkcemi, nebo interakcí a přístupem k rozhraní rolemi, komponentami nebo spoluprací."@cs;
+        dct:description  "Název vazby dle standardu ArchiMate. "@cs;
+        skos:definition  "Použití služeb procesy, funkcemi, nebo interakcí a přístupem k rozhraní rolemi, komponentami nebo spoluprací."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Slouží"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -2146,12 +2111,7 @@ Typickými systémy zpracování transakcí (systémy generující transakce) js
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/životní-událost>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Základní charakteristické znaky životní události:\
-• něco, co se stane občanovi v jeho životě nebo se rozhodne něco změnit, ať už je tento občan v roli fyzické či právnické osoby,\
-• touto změnou vzniknou danému občanovi nová práva či povinnosti vůči veřejné správě,\
-• vyřízení těchto práv a povinností je často podmíněno konkrétní životní situací občana,\
-• tato práva a povinnosti upravuje více právních předpisů, typicky v rámci několika agend.\
-Pro veřejnou správu se životní událostí rozumí změna relevantních atributů určujících aktuální stav klienta, ze kterého pro něj na základě platných právních předpisů vyplývají určitá práva a povinnosti."@cs;
+        dct:description  "Základní charakteristické znaky životní události:• něco, co se stane občanovi v jeho životě nebo se rozhodne něco změnit, ať už je tento občan v roli fyzické či právnické osoby,• touto změnou vzniknou danému občanovi nová práva či povinnosti vůči veřejné správě,• vyřízení těchto práv a povinností je často podmíněno konkrétní životní situací občana,• tato práva a povinnosti upravuje více právních předpisů, typicky v rámci několika agend.Pro veřejnou správu se životní událostí rozumí změna relevantních atributů určujících aktuální stav klienta, ze kterého pro něj na základě platných právních předpisů vyplývají určitá práva a povinnosti."@cs;
         skos:definition  "Objektivní skutečnost nebo volní úkon klienta, který nastává v určitém čase a má právní či věcný význam pro vztah k veřejné správě. Je to spouštěč (trigger), který mění stávající stav klienta a vyvolává potřebu interakce."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Životní událost"@cs;
@@ -2278,7 +2238,7 @@ Pro veřejnou správu se životní událostí rozumí změna relevantních atrib
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/prince2>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Standardní britská vládní metodologie pro řízení projektů. Další informace na http://www.ogc.gov.uk/prince2/."@cs;
+        skos:definition  "Standardní britská vládní metodologie pro řízení projektů. Další informace na http://www.ogc.gov.uk/prince2/."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "PRINCE2"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -2298,7 +2258,7 @@ Pro veřejnou správu se životní událostí rozumí změna relevantních atrib
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/objekt>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Pasivní element, který má relevanci z procesního pohledu."@cs;
+        skos:definition  "Pasivní element, který má relevanci z procesního pohledu."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Objekt"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -2339,7 +2299,7 @@ Pro veřejnou správu se životní událostí rozumí změna relevantních atrib
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/posouzení>
         rdf:type         slovníky:pojem , skos:Concept , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Výstup z nějaké analýzy některého motivátoru."@cs , "Inspekce a analýza sloužící ke kontrole toho, zda jsou dodržovány normy/standardy a směrnice, zda jsou záznamy přesné a zda jsou dosahovány cíle hospodárnosti a efektivity."@cs;
+        skos:definition  "Výstup z nějaké analýzy některého motivátoru."@cs , "Inspekce a analýza sloužící ke kontrole toho, zda jsou dodržovány normy/standardy a směrnice, zda jsou záznamy přesné a zda jsou dosahovány cíle hospodárnosti a efektivity."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Posouzení"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -2394,10 +2354,7 @@ Pro veřejnou správu se životní událostí rozumí změna relevantních atrib
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/stavební-blok-egovernmentu>
         rdf:type         slovníky:třída , slovníky:pojem , skos:Concept , vsgov:typ-objektu-práva;
-        skos:definition  "Takový funkční celek nebo případně jeho část, který: \
-a) poskytuje centrální sdílené funkce (jako služby) všem (více, mnoha) aktérům (účastníkům) eGovernmentu, nebo mnoha ostatním funkčním celkům, nebo \
-b) představuje mnohokrát opakovatelný vzor jednotných lokálních funkčních celků \
-c) vždy je spravován  s centrální zodpovědností (governance)."@cs , "(Potencionálně znovu použitelná) komponenta podnikových schopností, která může být kombinována s dalšími stavebními bloky pro poskytování architektur a řešení."@cs;
+        skos:definition  "Takový funkční celek nebo případně jeho část, který: a) poskytuje centrální sdílené funkce (jako služby) všem (více, mnoha) aktérům (účastníkům) eGovernmentu, nebo mnoha ostatním funkčním celkům, nebo b) představuje mnohokrát opakovatelný vzor jednotných lokálních funkčních celků c) vždy je spravován  s centrální zodpovědností (governance)."@cs , "(Potencionálně znovu použitelná) komponenta podnikových schopností, která může být kombinována s dalšími stavebními bloky pro poskytování architektur a řešení."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Stavební blok (eGovernmentu)"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -2422,7 +2379,7 @@ c) vždy je spravován  s centrální zodpovědností (governance)."@cs , "(Pote
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/togaf>
         rdf:type         slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída , skos:Concept;
         skos:altLabel    "TOGAF"@cs;
-        skos:definition  "Mezinárodně uznávaný rámec pro řízení tvorby Enterprise architektury ve společnostech využívajících prostředků informačních technologií. Původní koncept vznikl v USA, ale již více než deset let se používá po celém světě včetně České republiky. "@cs;
+        skos:definition  "Mezinárodně uznávaný rámec pro řízení tvorby Enterprise architektury ve společnostech využívajících prostředků informačních technologií. Původní koncept vznikl v USA, ale již více než deset let se používá po celém světě včetně České republiky. "@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "TOGAF"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -2486,9 +2443,7 @@ c) vždy je spravován  s centrální zodpovědností (governance)."@cs , "(Pote
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/egovernment>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Veřejná správa poskytující služby s využitím možností informačních a komunikačních technologií.\
-eGovernment je pojem používaný pro digitální služby státní a veřejné správy určené občanům, podnikatelům, firmám a samotným úředníkům. Veřejná správa poskytující služby s využitím možností informačních a komunikačních technologií.\
-Totéž jako \"Digitální Government\" a \"Digitální veřejná správa\"."@cs;
+        dct:description  "Veřejná správa poskytující služby s využitím možností informačních a komunikačních technologií.eGovernment je pojem používaný pro digitální služby státní a veřejné správy určené občanům, podnikatelům, firmám a samotným úředníkům. Veřejná správa poskytující služby s využitím možností informačních a komunikačních technologií.Totéž jako \"Digitální Government\" a \"Digitální veřejná správa\"."@cs;
         skos:definition  "Moderní digitální veřejná správa, využívající k výkonu svých působností digitální infrastrukturu, realizující sadu ICT služeb, které jsou sdílené, vzájemně sladěné, důvěryhodné, propojené, přístupné, bezpečné, dostupné, měřené, efektivní, automatizované a z hlediska uživatelů snadno použitelné."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "eGovernment"@cs;
@@ -2499,9 +2454,7 @@ Totéž jako \"Digitální Government\" a \"Digitální veřejná správa\"."@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/aktivum-podpůrné>
         rdf:type                        slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída , skos:Concept;
-        dct:description                 "• technické aktivum (technické vybavení, komunikační prostředky dotčeného systému a jeho programové vybavení, objekty, ve kterých je tento systém umístěn), \
-• pracovníci - zaměstnanci a dodavatelé podílející se na provozu, rozvoji, správě nebo bezpečnosti ICT systému,\
-• procesně-organizační pravidla, postupy a návody určující cíl a podmínky poskytování a využívání ICT služby, podílející se na provozu, rozvoji, správě nebo bezpečnosti systému. Primárně platí pro informační systém kritické informační infrastruktury, komunikační systém kritické informační infrastruktury nebo významný informační systém."@cs;
+        dct:description                 "• technické aktivum (technické vybavení, komunikační prostředky dotčeného systému a jeho programové vybavení, objekty, ve kterých je tento systém umístěn), • pracovníci - zaměstnanci a dodavatelé podílející se na provozu, rozvoji, správě nebo bezpečnosti ICT systému,• procesně-organizační pravidla, postupy a návody určující cíl a podmínky poskytování a využívání ICT služby, podílející se na provozu, rozvoji, správě nebo bezpečnosti systému. Primárně platí pro informační systém kritické informační infrastruktury, komunikační systém kritické informační infrastruktury nebo významný informační systém."@cs;
         skos:definition                 "Technické aktivum, zaměstnanci a dodavatelé podílející se na provozu, rozvoji, správě nebo bezpečnosti informačního a komunikačního systému."@cs;
         skos:inScheme                   <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel                  "Aktivum podpůrné"@cs;
@@ -2509,7 +2462,7 @@ Totéž jako \"Digitální Government\" a \"Digitální veřejná správa\"."@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/akceptace>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Akceptaci obvykle předchází vyhodnocení nebo testování a je často vyžadována před přechodem do dalšího stádia projektu nebo procesu. Viz Kritéria akceptovatelnosti služby. "@cs;
+        dct:description  "Akceptaci obvykle předchází vyhodnocení nebo testování a je často vyžadována před přechodem do dalšího stádia projektu nebo procesu. Viz Kritéria akceptovatelnosti služby. "@cs;
         skos:definition  "Formální souhlas, že služba IT, proces, plán nebo jiné dodávky jsou kompletní, správné, spolehlivé a splňují specifikované požadavky."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Akceptace"@cs;
@@ -2597,8 +2550,7 @@ Totéž jako \"Digitální Government\" a \"Digitální veřejná správa\"."@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/soubor-prostorových-dat>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "1) Množina souvisejících záznamů prostorových dat uložených na paměťovém médiu. \
-2) Identifikovatelná množina prostorových dat, se kterou je možné společně manipulovat a která sdílí určité společné vlastnosti, zejména zdroj a způsob pořízení."@cs;
+        skos:definition  "1) Množina souvisejících záznamů prostorových dat uložených na paměťovém médiu. 2) Identifikovatelná množina prostorových dat, se kterou je možné společně manipulovat a která sdílí určité společné vlastnosti, zejména zdroj a způsob pořízení."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Soubor prostorových dat"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -2840,9 +2792,9 @@ Totéž jako \"Digitální Government\" a \"Digitální veřejná správa\"."@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/významný-informační-systém>
         rdf:type                        skos:Concept , slovníky:třída , vsgov:typ-objektu-práva , slovníky:pojem;
-        dct:description                 "Dle Vyhlášky č. 317/2014 Sb. o významných informačních systémech a jejich určujících kritériích je za jeho určení odpovědný správce systému."@cs;
+        dct:description                 "Dle Vyhlášky č. 317/2014 Sb. o významných informačních systémech a jejich určujících kritériích je za jeho určení odpovědný správce systému."@cs;
         skos:altLabel                   "VIS"@cs;
-        skos:definition                 "Informační systém spravovaný orgánem veřejné moci, který není kritickou informační infrastrukturou ani informačním systémem základní služby, a u kterého narušení bezpečnosti informací může omezit nebo výrazně ohrozit výkon působnosti orgánu veřejné moci."@cs;
+        skos:definition                 "Informační systém spravovaný orgánem veřejné moci, který není kritickou informační infrastrukturou ani informačním systémem základní služby, a u kterého narušení bezpečnosti informací může omezit nebo výrazně ohrozit výkon působnosti orgánu veřejné moci."@cs;
         skos:inScheme                   <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel                  "Významný informační systém"@cs;
         slovníky:definující-ustanovení  <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2014/181/2022-08-06/dokument/norma/cast_1/hlava_1/par_2/pism_d> .
@@ -3009,13 +2961,7 @@ Totéž jako \"Digitální Government\" a \"Digitální veřejná správa\"."@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/plán-zvládání-rizik>
         rdf:type                        slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída , skos:Concept;
-        skos:definition                 "Plán, který: \
-• obsahuje cíle a přínosy bezpečnostních opatření pro zvládání rizik, \
-• určuje: \
-- osoby zajišťující prosazování bezpečnostních opatření pro zvládání rizik, \
-- potřebné finanční, technické, lidské a informační zdroje,\
-- termíny zavedení opatření, \
-- popis vazeb mezi riziky a příslušnými bezpečnostními opatřeními."@cs;
+        skos:definition                 "Plán, který: • obsahuje cíle a přínosy bezpečnostních opatření pro zvládání rizik, • určuje: - osoby zajišťující prosazování bezpečnostních opatření pro zvládání rizik, - potřebné finanční, technické, lidské a informační zdroje,- termíny zavedení opatření, - popis vazeb mezi riziky a příslušnými bezpečnostními opatřeními."@cs;
         skos:inScheme                   <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel                  "Plán zvládání rizik"@cs;
         slovníky:definující-ustanovení  <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2018/82/2018-05-28/dokument/norma/cast_2/hlava_1/par_5/odst_1/pism_g> .
@@ -3032,20 +2978,14 @@ Totéž jako \"Digitální Government\" a \"Digitální veřejná správa\"."@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/garant-primárního-aktiva>
         rdf:type         vsgov:typ-subjektu-práva , slovníky:třída , skos:Concept , slovníky:pojem;
-        dct:description  "Bezpečnostní role odpovědná za zajištění rozvoje, použití a bezpečnost primárního aktiva. Fakticky osoba, která: \
-• určuje: kdo jsou uživatelé / komu má systém jaké služby, s jakými kvalitativními parametry a za jakých podmínek poskytovat, tj. stanovuje SLA, \
-• je oprávněna kontrolovat plnění stanovených SLA poskytovaných služeb."@cs;
+        dct:description  "Bezpečnostní role odpovědná za zajištění rozvoje, použití a bezpečnost primárního aktiva. Fakticky osoba, která: • určuje: kdo jsou uživatelé / komu má systém jaké služby, s jakými kvalitativními parametry a za jakých podmínek poskytovat, tj. stanovuje SLA, • je oprávněna kontrolovat plnění stanovených SLA poskytovaných služeb."@cs;
         skos:altLabel    "GPrA"@cs;
         skos:definition  "Fyzická osoba pověřená orgánem nebo osobou uvedenou v § 3 písm. c) až e) zákona 2) k formulování věcných požadavků na účel a podmínky poskytování aktiv, tj. k zajištění použití a bezpečnosti primárního aktiva z věcného hlediska. Definuje po věcné stránce funkcionality, procesy, služby, data a jejich věcnou strukturu, věcné zadání pro konkrétní informační systém včetně základních SLA (Dohoda o úrovni služeb)."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Garant primárního aktiva"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
                 [ rdf:type   <https://slovník.gov.cz/generický/digitální-objekty/pojem/digitální-objekt>;
-                  dct:title  "https://www.e-sbirka.cz/eli/cz/sb/2018/82/2018-05-28/dokument/norma/cast_1/par_2/pism_g\
-\
-https://www.e-sbirka.cz/eli/cz/sb/2018/82/2018-05-28/dokument/norma/cast_2/hlava_1/par_6/odst_1/pism_c\
-\
-https://www.e-sbirka.cz/eli/cz/sb/2018/82/2018-05-28/dokument/norma/cast_2/hlava_1/par_7/odst_3"@cs
+                  dct:title  "https://www.e-sbirka.cz/eli/cz/sb/2018/82/2018-05-28/dokument/norma/cast_1/par_2/pism_ghttps://www.e-sbirka.cz/eli/cz/sb/2018/82/2018-05-28/dokument/norma/cast_2/hlava_1/par_6/odst_1/pism_chttps://www.e-sbirka.cz/eli/cz/sb/2018/82/2018-05-28/dokument/norma/cast_2/hlava_1/par_7/odst_3"@cs
                 ] .
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/byznys-služba>
@@ -3091,11 +3031,7 @@ https://www.e-sbirka.cz/eli/cz/sb/2018/82/2018-05-28/dokument/norma/cast_2/hlava
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/auditor-kybernetické-bezpečnosti>
         rdf:type                        slovníky:pojem , vsgov:typ-subjektu-práva , slovníky:třída , skos:Concept;
         skos:altLabel                   "Auditor KB"@cs;
-        skos:definition                 "a) bezpečnostní role odpovědná za provádění auditu kybernetické bezpečnosti, přičemž výkonem této role může být pověřena osoba, která je pro tuto činnost vyškolena a prokáže odbornou způsobilost praxí s prováděním auditů kybernetické bezpečnosti nebo auditů systému řízení bezpečnosti informací \
-1. po dobu nejméně tří let, nebo \
-2. po dobu jednoho roku, pokud absolvovala studium na vysoké škole. \
-b) zaručuje, že provedení auditu kybernetické bezpečnosti je nestranné, a \
-c) nesmí být pověřen výkonem jiných bezpečnostních rolí."@cs;
+        skos:definition                 "a) bezpečnostní role odpovědná za provádění auditu kybernetické bezpečnosti, přičemž výkonem této role může být pověřena osoba, která je pro tuto činnost vyškolena a prokáže odbornou způsobilost praxí s prováděním auditů kybernetické bezpečnosti nebo auditů systému řízení bezpečnosti informací 1. po dobu nejméně tří let, nebo 2. po dobu jednoho roku, pokud absolvovala studium na vysoké škole. b) zaručuje, že provedení auditu kybernetické bezpečnosti je nestranné, a c) nesmí být pověřen výkonem jiných bezpečnostních rolí."@cs;
         skos:inScheme                   <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel                  "Auditor kybernetické bezpečnosti"@cs;
         slovníky:definující-ustanovení  <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2018/82/2018-05-28/dokument/norma/cast_2/hlava_1/par_7/odst_4> .
@@ -3283,8 +3219,7 @@ c) nesmí být pověřen výkonem jiných bezpečnostních rolí."@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/transakce-byznys>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Podstatná část služeb veřejné správy je výsledkem vzájemné transakce klienta s orgánem veřejné správy. \
-Nedělitelná interakce mezi dvěma entitami (např. úřadem a klientem), jejímž obsahem je výměna hodnot či informací. Transakce transformuje výchozí stav objektu na cílový a představuje základní prvek sledovatelnosti (auditní stopy) v byznys procesech."@cs;
+        dct:description  "Podstatná část služeb veřejné správy je výsledkem vzájemné transakce klienta s orgánem veřejné správy. Nedělitelná interakce mezi dvěma entitami (např. úřadem a klientem), jejímž obsahem je výměna hodnot či informací. Transakce transformuje výchozí stav objektu na cílový a představuje základní prvek sledovatelnosti (auditní stopy) v byznys procesech."@cs;
         skos:definition  "Byznys transakce je logicky uzavřený proces výměny informací, hodnot nebo práv mezi dvěma subjekty, který vede k jednoznačné a nevratné změně stavu systému. Představuje nedělitelnou jednotku činnosti, která musí být dokončena jako celek, aby byla zachována integrita byznys dat."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Transakce (byznys)"@cs;
@@ -3437,7 +3372,7 @@ Nedělitelná interakce mezi dvěma entitami (např. úřadem a klientem), její
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/plató-přechodová-architektura>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Relativně stabilní stav architektury, který existuje v průběhu určitého časového úseku."@cs;
+        skos:definition  "Relativně stabilní stav architektury, který existuje v průběhu určitého časového úseku."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Plató/ přechodová architektura"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -3495,9 +3430,7 @@ Nedělitelná interakce mezi dvěma entitami (např. úřadem a klientem), její
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/klient>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-subjektu-práva , slovníky:třída;
-        skos:definition  "Obecný termín, který znamená zákazník, business nebo zákazník businessu. Např. manažer klientů může být použit jako synonymum pro manažera zákaznických vztahů (Account Manager). Termín klient je také použit ve významu: \
-• Počítač, který je přímo používán uživatelem, např. PC, PDA, pracovní stanice. \
-• Součást aplikace klient-server, jejímž prostřednictvím uživatel přímo komunikuje. Např. e-mail klient."@cs;
+        skos:definition  "Obecný termín, který znamená zákazník, business nebo zákazník businessu. Např. manažer klientů může být použit jako synonymum pro manažera zákaznických vztahů (Account Manager). Termín klient je také použit ve významu: • Počítač, který je přímo používán uživatelem, např. PC, PDA, pracovní stanice. • Součást aplikace klient-server, jejímž prostřednictvím uživatel přímo komunikuje. Např. e-mail klient."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Klient"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -3518,10 +3451,7 @@ Nedělitelná interakce mezi dvěma entitami (např. úřadem a klientem), její
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/informační-systém-veřejné-správy>
         rdf:type                        skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description                 "Informační systém veřejné správy je určený k podpoře výkonu veřejné moci, tj. zejména v případech, kdy orgán veřejné moci (např. orgán obce): \
-• zasahuje do právních poměrů jiných osob (fyzických nebo právnických) nebo \
-• poskytuje digitální služby, ale ne pro podporu provozních činností úřadu jako např. správa majetku obce, personalistika atd. \
-Např.: IS o státní službě, IS o živnostenském podnikání …"@cs;
+        dct:description                 "Informační systém veřejné správy je určený k podpoře výkonu veřejné moci, tj. zejména v případech, kdy orgán veřejné moci (např. orgán obce): • zasahuje do právních poměrů jiných osob (fyzických nebo právnických) nebo • poskytuje digitální služby, ale ne pro podporu provozních činností úřadu jako např. správa majetku obce, personalistika atd. Např.: IS o státní službě, IS o živnostenském podnikání …"@cs;
         skos:altLabel                   "ISVS"@cs;
         skos:definition                 "Funkční celek nebo jeho část zabezpečující cílevědomou a systematickou informační činnost pro účely výkonu veřejné správy. Každý informační systém veřejné správy zahrnuje data, která jsou uspořádána tak, aby bylo možné jejich zpracování a zpřístupnění, provozní údaje a dále nástroje umožňující výkon informačních činností."@cs;
         skos:inScheme                   <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
@@ -3530,7 +3460,7 @@ Např.: IS o státní službě, IS o živnostenském podnikání …"@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/lokalita>
         rdf:type         slovníky:pojem , slovníky:třída , skos:Concept , vsgov:typ-objektu-práva;
-        skos:definition  "Slouží k naznačení umístění v prostoru."@cs , "Místo, kde je vykonávána obchodní činnost. Údaje o lokalitě mohou být hierarchicky dekomponovány."@cs;
+        skos:definition  "Slouží k naznačení umístění v prostoru."@cs , "Místo, kde je vykonávána obchodní činnost. Údaje o lokalitě mohou být hierarchicky dekomponovány."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Lokalita"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -3616,10 +3546,7 @@ Např.: IS o státní službě, IS o živnostenském podnikání …"@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/bezpečnostní-opatření>
         rdf:type                        slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída , skos:Concept;
-        dct:description                 "Bezpečnostní opatření jsou:\
-- organizační\
-- technická\
-Podrobně jsou popsána ve Vyhlášce č. 82/2018 Sb. o kybernetické bezpečnosti."@cs;
+        dct:description                 "Bezpečnostní opatření jsou:- organizační- technickáPodrobně jsou popsána ve Vyhlášce č. 82/2018 Sb. o kybernetické bezpečnosti."@cs;
         skos:definition                 "Souhrn úkonů, jejichž cílem je zajištění bezpečnosti informací v informačních systémech a dostupnosti a spolehlivosti služeb a sítí elektronických komunikací v kybernetickém prostoru."@cs;
         skos:inScheme                   <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel                  "Bezpečnostní opatření"@cs;
@@ -3648,7 +3575,7 @@ Podrobně jsou popsána ve Vyhlášce č. 82/2018 Sb. o kybernetické bezpečnos
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/význam>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Znalost nebo expertíza, která je obsažena v podnikovém objektu, nebo jeho zastoupení. Přidává konkrétní kontext."@cs;
+        skos:definition  "Znalost nebo expertíza, která je obsažena v podnikovém objektu, nebo jeho zastoupení. Přidává konkrétní kontext."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Význam"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -3658,7 +3585,7 @@ Podrobně jsou popsána ve Vyhlášce č. 82/2018 Sb. o kybernetické bezpečnos
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/realizace>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Vztah realizace spojuje logickou entitu s více konkrétní entitou, která ji realizuje."@cs;
+        skos:definition  "Vztah realizace spojuje logickou entitu s více konkrétní entitou, která ji realizuje."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Realizace"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -3754,9 +3681,7 @@ Podrobně jsou popsána ve Vyhlášce č. 82/2018 Sb. o kybernetické bezpečnos
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/architekt-kybernetické-bezpečnosti>
         rdf:type                        vsgov:typ-subjektu-práva , slovníky:pojem , slovníky:třída , skos:Concept;
-        dct:description                 "Výkonem této role může být pověřena osoba, která je pro tuto činnost vyškolena a prokáže odbornou způsobilost praxí s navrhováním implementace bezpečnostních opatření a zajišťováním architektury bezpečnosti \
-a) po dobu nejméně tří let, nebo \
-b) po dobu jednoho roku, pokud absolvovala studium na vysoké škole."@cs;
+        dct:description                 "Výkonem této role může být pověřena osoba, která je pro tuto činnost vyškolena a prokáže odbornou způsobilost praxí s navrhováním implementace bezpečnostních opatření a zajišťováním architektury bezpečnosti a) po dobu nejméně tří let, nebo b) po dobu jednoho roku, pokud absolvovala studium na vysoké škole."@cs;
         skos:altLabel                   "Architekt KB"@cs;
         skos:definition                 "Bezpečnostní role odpovědná za zajištění návrhu implementace bezpečnostních opatření tak, aby byla zajištěna bezpečná architektura informačního a komunikačního systému"@cs;
         skos:inScheme                   <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
@@ -3806,7 +3731,7 @@ b) po dobu jednoho roku, pokud absolvovala studium na vysoké škole."@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/informační-koncepce-čr>
         rdf:type                        slovníky:třída , skos:Concept , vsgov:typ-objektu-práva , slovníky:pojem;
-        dct:description                 "Je závazná pro všechny státní orgány a orgány územních samosprávných celků, kromě výjimek stanovených zákonem. Informační koncepce ČR představuje základní obsahový rámec pro vytvoření, resp. aktualizaci vlastních informačních koncepcí jednotlivých orgánů veřejné správy. Je součástí vládního programu Digitální Česko. "@cs;
+        dct:description                 "Je závazná pro všechny státní orgány a orgány územních samosprávných celků, kromě výjimek stanovených zákonem. Informační koncepce ČR představuje základní obsahový rámec pro vytvoření, resp. aktualizaci vlastních informačních koncepcí jednotlivých orgánů veřejné správy. Je součástí vládního programu Digitální Česko. "@cs;
         skos:altLabel                   "IKČR"@cs;
         skos:definition                 "Základní dokument, který stanovuje cíle ČR v oblasti informačních systémů veřejné správy a obecné principy pořizování, vytváření, správy a provozování informačních systémů veřejné správy v ČR na období 5 let."@cs;
         skos:inScheme                   <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
@@ -3852,8 +3777,7 @@ b) po dobu jednoho roku, pokud absolvovala studium na vysoké škole."@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/životní-období-fáze>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Delší časový horizont v životě klienta veřejné správy, také zvaný životní fáze (například dětství, studium, produktivní věk, apod.), který vyplývá z počáteční životní události a trvá až do koncové životní události a v jehož průběhu má klient trvalé či opakující se potřeby (a jim odpovídající práva) nebo povinnosti ve vztahu k veřejné správě.\
-(Příklad: studium, rodičovství, výkon podnikatelské činnosti, starobní důchod)."@cs;
+        dct:description  "Delší časový horizont v životě klienta veřejné správy, také zvaný životní fáze (například dětství, studium, produktivní věk, apod.), který vyplývá z počáteční životní události a trvá až do koncové životní události a v jehož průběhu má klient trvalé či opakující se potřeby (a jim odpovídající práva) nebo povinnosti ve vztahu k veřejné správě.(Příklad: studium, rodičovství, výkon podnikatelské činnosti, starobní důchod)."@cs;
         skos:definition  "Dlouhodobý, stabilizovaný stav klienta vznikající jako následek životní události a situace, který přetrvává až do okamžiku další vymezující události. Je charakteristický opakujícími se potřebami a trvalými právními vztahy k veřejné správě."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Životní období (fáze)"@cs;
@@ -3986,7 +3910,7 @@ b) po dobu jednoho roku, pokud absolvovala studium na vysoké škole."@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/datový-objekt>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Pasivní element vhodný k automatickému zpracování."@cs;
+        skos:definition  "Pasivní element vhodný k automatickému zpracování."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Datový objekt"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -4234,9 +4158,7 @@ b) po dobu jednoho roku, pokud absolvovala studium na vysoké škole."@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/provozovatel-základní-služby>
         rdf:type                        slovníky:pojem , vsgov:typ-subjektu-práva , slovníky:třída , skos:Concept;
-        skos:definition                 "Orgán nebo osoba, která poskytuje základní službu a která je určena Národním úřadem pro kybernetickou a informační bezpečnost podle § 22a; pro účely plnění informační povinnosti se za provozovatele základní služby považují též orgány a osoby: \
-• správce a provozovatel informačního systému kritické informační infrastruktury, \
-• správce a provozovatel komunikačního systému kritické informační infrastruktury."@cs;
+        skos:definition                 "Orgán nebo osoba, která poskytuje základní službu a která je určena Národním úřadem pro kybernetickou a informační bezpečnost podle § 22a; pro účely plnění informační povinnosti se za provozovatele základní služby považují též orgány a osoby: • správce a provozovatel informačního systému kritické informační infrastruktury, • správce a provozovatel komunikačního systému kritické informační infrastruktury."@cs;
         skos:inScheme                   <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel                  "Provozovatel základní služby"@cs;
         slovníky:definující-ustanovení  <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2014/181/2022-08-06/dokument/norma/cast_1/hlava_1/par_2/pism_k> .
@@ -4272,7 +4194,7 @@ b) po dobu jednoho roku, pokud absolvovala studium na vysoké škole."@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/mgovernment>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Jedná se o komunikaci s veřejnou správou nebo využívání elektronických služeb veřejné správy prostřednictvím přístupu z mobilních zařízení. Přístup ke službám veřejné správy je přizpůsoben mobilním zařízením."@cs;
+        dct:description  "Jedná se o komunikaci s veřejnou správou nebo využívání elektronických služeb veřejné správy prostřednictvím přístupu z mobilních zařízení. Přístup ke službám veřejné správy je přizpůsoben mobilním zařízením."@cs;
         skos:definition  "Podmnožina eGovernmentu nebo digitálního Governmentu využívající mobilní prostředky pro čerpání elektronických služeb veřejné správy."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "mGovernment"@cs;
@@ -4353,13 +4275,7 @@ b) po dobu jednoho roku, pokud absolvovala studium na vysoké škole."@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/knihovna-infrastruktury-informačních-technologií>
         rdf:type         slovníky:třída , skos:Concept , vsgov:typ-objektu-práva , slovníky:pojem;
-        dct:description  "Aktuálně již verze 4. \
-Obecné je 34 praktik ITIL 4 je rozděleno do tří kategorií:\
-• Obecné řídící postupy \
-• Postupy správy služeb \
-• Postupy technického řízení Více informací na: \
-• https://www.itlibrary.org/ \
-• https://wiki.en.itprocessmaps.com/index.php/ITIL_4"@cs;
+        dct:description  "Aktuálně již verze 4. Obecné je 34 praktik ITIL 4 je rozděleno do tří kategorií:• Obecné řídící postupy • Postupy správy služeb • Postupy technického řízení Více informací na: • https://www.itlibrary.org/ • https://wiki.en.itprocessmaps.com/index.php/ITIL_4"@cs;
         skos:altLabel    "ITIL"@cs;
         skos:definition  "Knihovna / sada nejlepších praktik Správy služeb IT. Knihovna ITIL je vlastněna OGC. ITIL se skládá z řady publikací poskytujících návody pro zajištění kvality ve službách IT, definici procesů a prostředků potřebných k jejich poskytování."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
@@ -4624,7 +4540,7 @@ Obecné je 34 praktik ITIL 4 je rozděleno do tří kategorií:\
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/hnací-prvek-vliv>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
         dct:description  "Synonymum: Motivátor."@cs;
-        skos:definition  "Něco, co vytváří, motivuje a pohání změnu v organizaci."@cs;
+        skos:definition  "Něco, co vytváří, motivuje a pohání změnu v organizaci."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Hnací prvek / vliv"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -4644,10 +4560,7 @@ Obecné je 34 praktik ITIL 4 je rozděleno do tří kategorií:\
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/segmentace-dělení-do-částí>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Architektury jsou segmentovány protože: \
-• Organizační jednotky architektury jsou ve vzájemném konfliktu. \
-• Různé týmy potřebují pracovat na různých elementech architektury ve stejném okamžiku a segmentace (dělení do částí) umožnuje specifických skupinám architektů vlastnit a vyvíjet specifické elementy architektury. \
-• Efektivní opakované užití architektury vyžaduje modulární segmenty architektury, která může být použita a zahrnuta do širších architektur a řešení."@cs;
+        skos:definition  "Architektury jsou segmentovány protože: • Organizační jednotky architektury jsou ve vzájemném konfliktu. • Různé týmy potřebují pracovat na různých elementech architektury ve stejném okamžiku a segmentace (dělení do částí) umožnuje specifických skupinám architektů vlastnit a vyvíjet specifické elementy architektury. • Efektivní opakované užití architektury vyžaduje modulární segmenty architektury, která může být použita a zahrnuta do širších architektur a řešení."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Segmentace (dělení do částí)"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -4825,7 +4738,7 @@ Obecné je 34 praktik ITIL 4 je rozděleno do tří kategorií:\
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/kompozice>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Vztah kompozice značí, že objekt je složen z jednoho nebo více jiných objektů."@cs;
+        skos:definition  "Vztah kompozice značí, že objekt je složen z jednoho nebo více jiných objektů."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Kompozice"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -4856,10 +4769,7 @@ Obecné je 34 praktik ITIL 4 je rozděleno do tří kategorií:\
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/portál>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Ve veřejné správě ČR rozlišujeme vzájemně propojené (federované) portály tří typů:\
-- univerzální (PVS, včetně Portálu občana) \
-- agendové portály ústředních správních úřadů \
-- územní portály úřadů územních samospráv."@cs;
+        dct:description  "Ve veřejné správě ČR rozlišujeme vzájemně propojené (federované) portály tří typů:- univerzální (PVS, včetně Portálu občana) - agendové portály ústředních správních úřadů - územní portály úřadů územních samospráv."@cs;
         skos:definition  "Internetová stránka, sloužící jako průvodce nebo místo vstupu na internet a obvykle obsahující vyhledávač nebo soubor odkazů na jiné stránky uspořádané zejména podle témat."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Portál"@cs;
@@ -4935,10 +4845,7 @@ Obecné je 34 praktik ITIL 4 je rozděleno do tří kategorií:\
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/architektura-podniku-úřadu>
         rdf:type         skos:Concept , vsgov:typ-objektu-práva , slovníky:pojem , slovníky:třída;
         skos:altLabel    "EA"@cs;
-        skos:definition  "Úroveň detailu popisu architektury úřadu jako celku, dílčí schopnosti nebo odpovídajícího funkčního celku, zaměřená na to, jaké prvky a proč v této architektuře existují."@cs , "Architektura, zahrnuje: \
-• strukturovaný popis cílů organizace, \
-• způsobů jak jsou tyto cíle dosahovány pomocí podnikových procesů a \
-• způsobů, jak mohou tyto procesy být podpořeny technologiemi ICT."@cs;
+        skos:definition  "Úroveň detailu popisu architektury úřadu jako celku, dílčí schopnosti nebo odpovídajícího funkčního celku, zaměřená na to, jaké prvky a proč v této architektuře existují."@cs , "Architektura, zahrnuje: • strukturovaný popis cílů organizace, • způsobů jak jsou tyto cíle dosahovány pomocí podnikových procesů a • způsobů, jak mohou tyto procesy být podpořeny technologiemi ICT."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Architektura podniku / úřadu"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -5026,10 +4933,7 @@ Obecné je 34 praktik ITIL 4 je rozděleno do tří kategorií:\
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/řízení-konfigurace>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Disciplína uplatňující technické a administrativní postupy, zejména: \
-1) dentifikace a dokumentace funkčních a fyzických parametrů položky konfigurace. \
-2) Řízení změny u těchto charakteristik. \
-3) Záznam a reportování změn s dopadem na implementaci. V kontextu řízení podnikové architektury je možné aplikovat řízení konfigurace pro výstupy architektonické práce."@cs;
+        skos:definition  "Disciplína uplatňující technické a administrativní postupy, zejména: 1) dentifikace a dokumentace funkčních a fyzických parametrů položky konfigurace. 2) Řízení změny u těchto charakteristik. 3) Záznam a reportování změn s dopadem na implementaci. V kontextu řízení podnikové architektury je možné aplikovat řízení konfigurace pro výstupy architektonické práce."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Řízení konfigurace"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -5117,10 +5021,7 @@ Obecné je 34 praktik ITIL 4 je rozděleno do tří kategorií:\
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/kritická-informační-infrastruktura>
         rdf:type                        slovníky:pojem , skos:Concept , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description                 "Infrastruktura ICT státu specifikovaná Nařízením vlády č. 315/2014 Sb., kterým se mění nařízení vlády č. 432/2010 Sb., o kritériích pro určení prvku kritické infrastruktury.\
-Prvních 45 prvků schváleno Usnesením vlády ze dne 25. 05. 2015.\
-Komplex informačních a komunikačních systémů (naplňující stanovená průřezová kritéria a odvětvová kritéria v oblasti kybernetické bezpečnosti), jejichž nefunkčnost by mohla způsobit závažný dopad na bezpečnost státu,\
-zabezpečení základních životních potřeb obyvatelstva, zdraví osob nebo ekonomiku státu."@cs;
+        dct:description                 "Infrastruktura ICT státu specifikovaná Nařízením vlády č. 315/2014 Sb., kterým se mění nařízení vlády č. 432/2010 Sb., o kritériích pro určení prvku kritické infrastruktury.Prvních 45 prvků schváleno Usnesením vlády ze dne 25. 05. 2015.Komplex informačních a komunikačních systémů (naplňující stanovená průřezová kritéria a odvětvová kritéria v oblasti kybernetické bezpečnosti), jejichž nefunkčnost by mohla způsobit závažný dopad na bezpečnost státu,zabezpečení základních životních potřeb obyvatelstva, zdraví osob nebo ekonomiku státu."@cs;
         skos:altLabel                   "KII"@cs;
         skos:definition                 "Prvek nebo systém prvků kritické infrastruktury v odvětví komunikační a informační systémy v oblasti kybernetické bezpečnosti."@cs;
         skos:inScheme                   <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
@@ -5159,7 +5060,7 @@ zabezpečení základních životních potřeb obyvatelstva, zdraví osob nebo e
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/zainteresovaný>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-subjektu-práva , slovníky:třída;
-        skos:definition  "Role jednotlivce, týmu nebo organizace reprezentující své zájmy k výstupu architektury."@cs;
+        skos:definition  "Role jednotlivce, týmu nebo organizace reprezentující své zájmy k výstupu architektury."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Zainteresovaný"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -5169,17 +5070,14 @@ zabezpečení základních životních potřeb obyvatelstva, zdraví osob nebo e
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/informační-systém>
         rdf:type         vsgov:typ-objektu-práva , skos:Concept , slovníky:pojem , slovníky:třída;
-        dct:description  "Zahrnuje datové a informační zdroje, nosiče, technické, programové a pracovní prostředky, technologie a postupy, související normy a pracovníky."@cs , "Zahrnuje datové a informační zdroje, nosiče, technické, programové a pracovní prostředky, technologie a postupy, související normy a pracovníky.\
-Příklady z oblasti správy informačních systémů: informační systém správy dostupnosti a informační systém správy dodavatelů a smluv atd."@cs;
+        dct:description  "Zahrnuje datové a informační zdroje, nosiče, technické, programové a pracovní prostředky, technologie a postupy, související normy a pracovníky."@cs , "Zahrnuje datové a informační zdroje, nosiče, technické, programové a pracovní prostředky, technologie a postupy, související normy a pracovníky.Příklady z oblasti správy informačních systémů: informační systém správy dostupnosti a informační systém správy dodavatelů a smluv atd."@cs;
         skos:altLabel    "IS"@cs;
         skos:definition  "Funkční celek vytvořený za účelem poskytování informačních služeb, zabezpečující cílevědomé a systematické shromažďování, zpracovávání, uchovávání a zpřístupňování informací a dat."@cs , "Funkční celek zabezpečující cílevědomé a systematické shromažďování, zpracovávání, uchovávání, zpřístupňování a likvidování informací automatizačními nebo jinými prostředky. De-facto soubor nástrojů, dat a informací užívaný pro podporu procesu nebo funkce."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Informační systém"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
                 [ rdf:type   <https://slovník.gov.cz/generický/digitální-objekty/pojem/digitální-objekt>;
-                  dct:title  "https://nukib.gov.cz/download/publikace/podpurne_materialy/Vkladov%20slovnk_5.ver.pdf\
-\
-Výklad OeG"@cs
+                  dct:title  "https://nukib.gov.cz/download/publikace/podpurne_materialy/Vkladov%20slovnk_5.ver.pdfVýklad OeG"@cs
                 ];
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
                 [ rdf:type    <https://slovník.gov.cz/generický/digitální-objekty/pojem/digitální-objekt>;
@@ -5213,7 +5111,7 @@ Výklad OeG"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/princip>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Normativní vlastnost všech systémů v daném kontextu nebo způsob jakým jsou realizovány."@cs;
+        skos:definition  "Normativní vlastnost všech systémů v daném kontextu nebo způsob jakým jsou realizovány."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Princip"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -5263,10 +5161,7 @@ Výklad OeG"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/otevřený-systém>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Systém, který implementuje dostatečné otevřené specifikace, např. služby, a podpůrné formáty, aby byl umožněn správně navržený aplikační software: \
-• jenž bude možno jen s minimálními úpravami přenášet mezi velkou škálou systémů, \
-• který bude spolupracovat s dalšími aplikacemi na lokálních a vzdálených systémech a \
-• který bude interagovat s uživateli způsobem, který usnadňuje uživatelskou přenositelnost."@cs;
+        skos:definition  "Systém, který implementuje dostatečné otevřené specifikace, např. služby, a podpůrné formáty, aby byl umožněn správně navržený aplikační software: • jenž bude možno jen s minimálními úpravami přenášet mezi velkou škálou systémů, • který bude spolupracovat s dalšími aplikacemi na lokálních a vzdálených systémech a • který bude interagovat s uživateli způsobem, který usnadňuje uživatelskou přenositelnost."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Otevřený systém"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -5382,9 +5277,7 @@ Výklad OeG"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/referenční-bod-ve-srovnávacím-testu-benchmark>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Zaznamenaný stav něčeho ve specifickém časovém okamžiku. Benchmark může být vytvořen pro konfiguraci, proces nebo jakoukoli jinou množinu dat. Může být například použit pro:  \
-• Program neustálého zlepšování služeb ke stanovení okamžitého stavu pro správu zlepšování. \
-• Správu kapacit, k dokumentaci výkonnostních charakteristik během normálního provozu. Viz Benchmarking."@cs;
+        skos:definition  "Zaznamenaný stav něčeho ve specifickém časovém okamžiku. Benchmark může být vytvořen pro konfiguraci, proces nebo jakoukoli jinou množinu dat. Může být například použit pro:  • Program neustálého zlepšování služeb ke stanovení okamžitého stavu pro správu zlepšování. • Správu kapacit, k dokumentaci výkonnostních charakteristik během normálního provozu. Viz Benchmarking."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Referenční bod ve srovnávacím testu (benchmark)"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -5404,8 +5297,7 @@ Výklad OeG"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/prostorová-data>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "1) Data, jejichž nutnou součástí jsou údaje o poloze v prostoru vyjádřená zpravidla ve formě souřadnic a topologie. \
-2) Počítačově zpracovatelná forma dat týkající se objektů a jevů přímo nebo nepřímo vztažených k místu na Zemi"@cs;
+        skos:definition  "1) Data, jejichž nutnou součástí jsou údaje o poloze v prostoru vyjádřená zpravidla ve formě souřadnic a topologie. 2) Počítačově zpracovatelná forma dat týkající se objektů a jevů přímo nebo nepřímo vztažených k místu na Zemi"@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Prostorová data"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -5416,7 +5308,7 @@ Výklad OeG"@cs
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/sdílená-ekonomika>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
         dct:description  "Jedná se o model podnikání, který je postavený na pronájmu, výměnách anebo i sdílení majetku.Mezi nejběžnější formy sdílení majetku u nás je opakovaný pronájem nemovitostí v období, kdy jej nepotřebujeme. Například pokud máte chatu, kam jezdíte jen jednou do roka, můžete jí po zbytek roku pronajímat případným zájemcům. Obdobně to může fungovat například s autem, které budete potřebovat jen v určité dny a v ty ostatní jej pronajímáte."@cs;
-        skos:definition  "Sdílení skupinových statků různými uživateli, kteří se finančními platbami podílí na jejich financování majitelem. Jedná o ekonomický model, kdy se prostřednictvím technologických platforem propojují dodavatelé ochotní pronajímat svá aktiva se spotřebiteli, kteří mají zájem o dočasné použití těchto aktiv. Typickým nástrojem pro přístup k daným technologickým platformám, který propojuje spotřebitele s dodavatelem, bývá aplikace pro mobilní zařízení. "@cs;
+        skos:definition  "Sdílení skupinových statků různými uživateli, kteří se finančními platbami podílí na jejich financování majitelem. Jedná o ekonomický model, kdy se prostřednictvím technologických platforem propojují dodavatelé ochotní pronajímat svá aktiva se spotřebiteli, kteří mají zájem o dočasné použití těchto aktiv. Typickým nástrojem pro přístup k daným technologickým platformám, který propojuje spotřebitele s dodavatelem, bývá aplikace pro mobilní zařízení. "@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Sdílená ekonomika"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -5480,10 +5372,7 @@ Výklad OeG"@cs
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/dohoda-o-úrovni-provozních-služeb>
         rdf:type         slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída , skos:Concept;
         skos:altLabel    "OLA"@cs;
-        skos:definition  "Dohoda mezi poskytovatelem služeb IT a další součástí téže organizace Dohoda podporuje dodávku služeb IT poskytovatelem služeb IT zákazníkům. Dohoda definuje zboží nebo služby, které by měly být poskytnuty, a odpovědnosti obou stran. Např. dohoda\
-- mezi poskytovatelem služeb IT a oddělením nákupu, aby obstaralo hardware v dohodnutém čase,\
-- mezi Service deskem a podpůrnou skupinou, aby zajistila vyřešení incidentu v dohodnutém čase.\
-Viz Dohoda o úrovních služeb."@cs;
+        skos:definition  "Dohoda mezi poskytovatelem služeb IT a další součástí téže organizace Dohoda podporuje dodávku služeb IT poskytovatelem služeb IT zákazníkům. Dohoda definuje zboží nebo služby, které by měly být poskytnuty, a odpovědnosti obou stran. Např. dohoda- mezi poskytovatelem služeb IT a oddělením nákupu, aby obstaralo hardware v dohodnutém čase,- mezi Service deskem a podpůrnou skupinou, aby zajistila vyřešení incidentu v dohodnutém čase.Viz Dohoda o úrovních služeb."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Dohoda o úrovni provozních služeb"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -5654,7 +5543,7 @@ Viz Dohoda o úrovních služeb."@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/iso-9000>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Pro více informací viz http://www.iso.org/. Viz ISO."@cs;
+        dct:description  "Pro více informací viz http://www.iso.org/. Viz ISO."@cs;
         skos:definition  "Obecný pojem vztahující se k množině mezinárodních norem pro Systémy řízení kvality."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "ISO 9000"@cs;
@@ -5749,7 +5638,7 @@ Viz Dohoda o úrovních služeb."@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/aktiva>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Typy aktiv mohou být následující: management, organizace, proces, znalost, lidé, informace, aplikace, infrastruktura a finanční kapitál. "@cs;
+        dct:description  "Typy aktiv mohou být následující: management, organizace, proces, znalost, lidé, informace, aplikace, infrastruktura a finanční kapitál. "@cs;
         skos:definition  "Zdroj nebo způsobilost. Aktiva poskytovatele služby zahrnují vše, co může přispět k dodávce služby."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Aktiva"@cs;
@@ -5770,7 +5659,7 @@ Viz Dohoda o úrovních služeb."@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/přístup>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "Přístupová vazba modeluje přístup prvků chování k procesním a datovým objektům."@cs;
+        skos:definition  "Přístupová vazba modeluje přístup prvků chování k procesním a datovým objektům."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Přístup"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -5820,12 +5709,7 @@ Viz Dohoda o úrovních služeb."@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/správa-zdrojů>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        dct:description  "Zdroje jsou: \
-- finanční, \
-- personální, \
-- datové, \
-- technologické (včetně konfigurací)\
-Patří do taktického řízení"@cs;
+        dct:description  "Zdroje jsou: - finanční, - personální, - datové, - technologické (včetně konfigurací)Patří do taktického řízení"@cs;
         skos:definition  "Identifikace, odhad, přidělení a sledování prostředků použitých k vývoji produktu nebo k provedení služby"@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Správa zdrojů"@cs;
@@ -5836,22 +5720,15 @@ Patří do taktického řízení"@cs;
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/manažer-kybernetické-bezpečnosti>
         rdf:type                        slovníky:pojem , vsgov:typ-subjektu-práva , slovníky:třída , skos:Concept;
-        dct:description                 "Osoba jmenovaná vedoucím představitelem organizace jako odpovědná za ISMS od prevence přes průběžné testování až po eliminaci následků a vyhodnocení kybernetických incidentů v organizaci, oprávněná v rámci organizace vyhlašovat Kritický kybernetický režim. Jako taková je i výkonným protějškem NÚKIB pro případy řešení kritických kybernetických bezpečnostních událostí."@cs;
-        skos:definition                 "a) je bezpečnostní role odpovědná za systém řízení bezpečnosti informací, přičemž výkonem této role může být pověřena osoba, která je pro tuto činnost vyškolena a prokáže odbornou způsobilost praxí s řízením kybernetické bezpečnosti nebo s řízením bezpečnosti informací \
-1. po dobu nejméně tří let, nebo \
-2. po dobu jednoho roku, pokud absolvovala studium na vysoké škole, \
-b) odpovídá za pravidelné informování vrcholového vedení o \
-1. činnostech vyplývajících z rozsahu jeho odpovědnosti a \
-2. stavu systému řízení bezpečnosti informací a \
-c) nesmí být pověřen výkonem rolí odpovědných za provoz informačního a komunikačního systému."@cs;
+        dct:description                 "Osoba jmenovaná vedoucím představitelem organizace jako odpovědná za ISMS od prevence přes průběžné testování až po eliminaci následků a vyhodnocení kybernetických incidentů v organizaci, oprávněná v rámci organizace vyhlašovat Kritický kybernetický režim. Jako taková je i výkonným protějškem NÚKIB pro případy řešení kritických kybernetických bezpečnostních událostí."@cs;
+        skos:definition                 "a) je bezpečnostní role odpovědná za systém řízení bezpečnosti informací, přičemž výkonem této role může být pověřena osoba, která je pro tuto činnost vyškolena a prokáže odbornou způsobilost praxí s řízením kybernetické bezpečnosti nebo s řízením bezpečnosti informací 1. po dobu nejméně tří let, nebo 2. po dobu jednoho roku, pokud absolvovala studium na vysoké škole, b) odpovídá za pravidelné informování vrcholového vedení o 1. činnostech vyplývajících z rozsahu jeho odpovědnosti a 2. stavu systému řízení bezpečnosti informací a c) nesmí být pověřen výkonem rolí odpovědných za provoz informačního a komunikačního systému."@cs;
         skos:inScheme                   <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel                  "Manažer kybernetické bezpečnosti"@cs;
         slovníky:definující-ustanovení  <https://opendata.eselpoint.cz/esel-esb/eli/cz/sb/2018/82/2018-05-28/dokument/norma/cast_2/hlava_1/par_7/odst_1> .
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/prostorový-objekt>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
-        skos:definition  "1) V reálném světě: jednotlivý existující jev, např. konkrétní řeka, ulice. \
-2) V modelovém světě: synonymum pro entitu nebo geoprvek."@cs;
+        skos:definition  "1) V reálném světě: jednotlivý existující jev, např. konkrétní řeka, ulice. 2) V modelovém světě: synonymum pro entitu nebo geoprvek."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Prostorový objekt"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -5913,14 +5790,12 @@ c) nesmí být pověřen výkonem rolí odpovědných za provoz informačního a
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/kybernetická-bezpečnost>
         rdf:type         slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída , skos:Concept;
         skos:altLabel    "KB"@cs;
-        skos:definition  "Souhrn právních, organizačních, technických a vzdělávacích opatření (a pravidel) směřujících k zajištění ochrany kybernetického prostoru a v něm umístěných aktiv."@cs;
+        skos:definition  "Souhrn právních, organizačních, technických a vzdělávacích opatření (a pravidel) směřujících k zajištění ochrany kybernetického prostoru a v něm umístěných aktiv."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Kybernetická bezpečnost"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
                 [ rdf:type   <https://slovník.gov.cz/generický/digitální-objekty/pojem/digitální-objekt>;
-                  dct:title  "https://nukib.gov.cz/download/publikace/podpurne_materialy/Vkladov%20slovnk_5.ver.pdf\
-\
-Doplňení OHA"@cs
+                  dct:title  "https://nukib.gov.cz/download/publikace/podpurne_materialy/Vkladov%20slovnk_5.ver.pdfDoplňení OHA"@cs
                 ] .
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/rozhraní-infrastruktury>
@@ -6111,11 +5986,7 @@ Doplňení OHA"@cs
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/objekt-práva>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-objektu-práva , slovníky:třída;
         dct:description  "Platí plně i pro vztahy relevantní vzhledem k veřejné správě."@cs;
-        skos:definition  "Objektem právního vztahu je to, k čemu směřují vzájemná práva a povinnosti subjektů. Zejména to mohou být: \
-– věci, ve smyslu ovladatelných hmotných předmětů (auto), \
-– hmotné objekty mající povahu živých tkání, pokud nejsou právně kvalifikovány jako věci (transplantát), \
-– výsledky tvůrčí duševní činnosti, \
-– práva (převod pohledávky)."@cs;
+        skos:definition  "Objektem právního vztahu je to, k čemu směřují vzájemná práva a povinnosti subjektů. Zejména to mohou být: – věci, ve smyslu ovladatelných hmotných předmětů (auto), – hmotné objekty mající povahu živých tkání, pokud nejsou právně kvalifikovány jako věci (transplantát), – výsledky tvůrčí duševní činnosti, – práva (převod pohledávky)."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Objekt práva"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>
@@ -6125,7 +5996,7 @@ Doplňení OHA"@cs
 
 <https://slovník.gov.cz/slovník-pojmů-egovenmentu/pojem/digitální-zmocněnec-ústředního-orgánu-veřejné-správy>
         rdf:type         skos:Concept , slovníky:pojem , vsgov:typ-subjektu-práva , slovníky:třída;
-        skos:definition  "Osoba v ústředním správním úřadu, zejména na ministerstvu, která koordinuje digitalizační iniciativy, vede přehled o agendách a činnostech v gesci úřadu a postupu jejich digitalizace, zejména se zaměřením na digitalizaci služeb pro klienty veřejné správy, zodpovídá za naplňování cílů Digitálního Česka, schvaluje, koordinuje a zodpovídá za realizaci záměrů Digitálního Česka za daný úřad, zajišťuje rozpočtové a lidské zdroje pro plnění úkolů digitální transformace úřadu."@cs;
+        skos:definition  "Osoba v ústředním správním úřadu, zejména na ministerstvu, která koordinuje digitalizační iniciativy, vede přehled o agendách a činnostech v gesci úřadu a postupu jejich digitalizace, zejména se zaměřením na digitalizaci služeb pro klienty veřejné správy, zodpovídá za naplňování cílů Digitálního Česka, schvaluje, koordinuje a zodpovídá za realizaci záměrů Digitálního Česka za daný úřad, zajišťuje rozpočtové a lidské zdroje pro plnění úkolů digitální transformace úřadu."@cs;
         skos:inScheme    <https://slovník.gov.cz/slovník-pro-jednotné-měsíční-hlášení>;
         skos:prefLabel   "Digitální zmocněnec ústředního orgánu veřejné správy"@cs;
         <https://slovník.gov.cz/definující-nelegislativní-zdroj>

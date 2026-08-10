@@ -1,0 +1,69 @@
+{
+  "@context" : "https://ofn.gov.cz/slovníky/2026-02-26/kompletní/kontext.jsonld",
+  "iri" : "https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803",
+  "typ" : [ "Slovník", "Tezaurus", "Konceptuální model" ],
+  "název" : {
+    "cs" : "QA overovaci slovnik NKD sync 20260803"
+  },
+  "popis" : {
+    "cs" : "Zcela novy testovaci slovnik s unikatnimi nazvy pojmu, bez historie mazani."
+  },
+  "okamžik-vytvoření" : "2026-08-03T14:39:17.977969563",
+  "pojmy" : [ {
+    "iri" : "https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-alfa",
+    "typ" : [ "Pojem", "Koncept", "Třída" ],
+    "název" : {
+      "cs" : "Zkusebni entita Alfa"
+    },
+    "definice" : {
+      "cs" : "Zkusebni entita typu Trida, vytvorena pro overeni synchronizace zmen z NKD."
+    },
+    "je-sdílen-v-ppdf" : false
+  }, {
+    "iri" : "https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/popisny-udaj-alfa",
+    "typ" : [ "Pojem", "Koncept", "Vlastnost" ],
+    "název" : {
+      "cs" : "Popisny udaj Alfa"
+    },
+    "definice" : {
+      "cs" : "Zkusebni popisny udaj entity Alfa, vytvoreny pro overeni synchronizace zmen z NKD."
+    },
+    "definiční-obor" : "https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-alfa",
+    "obor-hodnot" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "je-sdílen-v-ppdf" : false
+  }, {
+    "iri" : "https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/je-propojena-s",
+    "typ" : [ "Pojem", "Koncept", "Vztah" ],
+    "název" : {
+      "cs" : "je propojena s"
+    },
+    "definice" : {
+      "cs" : "Zkusebni vztah mezi entitou Beta a entitou Alfa, vytvoreny pro overeni synchronizace zmen z NKD."
+    },
+    "definiční-obor" : "https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-beta",
+    "obor-hodnot" : "https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-alfa",
+    "je-sdílen-v-ppdf" : false
+  }, {
+    "iri" : "https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/popisny-udaj-beta",
+    "typ" : [ "Pojem", "Koncept", "Vlastnost" ],
+    "název" : {
+      "cs" : "Popisny udaj Beta"
+    },
+    "definice" : {
+      "cs" : "Zkusebni popisny udaj entity Beta, vytvoreny pro overeni synchronizace zmen z NKD."
+    },
+    "definiční-obor" : "https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-beta",
+    "obor-hodnot" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "je-sdílen-v-ppdf" : false
+  }, {
+    "iri" : "https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-beta",
+    "typ" : [ "Pojem", "Koncept", "Třída" ],
+    "název" : {
+      "cs" : "Zkusebni entita Beta"
+    },
+    "definice" : {
+      "cs" : "Druha zkusebni entita typu Trida, vytvorena pro overeni synchronizace zmen z NKD."
+    },
+    "je-sdílen-v-ppdf" : false
+  } ]
+}

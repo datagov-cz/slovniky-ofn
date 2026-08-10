@@ -1,0 +1,71 @@
+PREFIX a104:                  <https://slovník.gov.cz/agendový/104/pojem/>
+PREFIX dct:                   <http://purl.org/dc/terms/>
+PREFIX l111-2009:             <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>
+PREFIX owl:                   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:                  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema:                <http://schema.org/>
+PREFIX skos:                  <http://www.w3.org/2004/02/skos/core#>
+PREFIX slovníky:              <https://slovník.gov.cz/generický/datový-slovník-ofn-slovníků/pojem/>
+PREFIX typ-obsahu-údajů:      <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-typ-obsahu-údaje>
+PREFIX vsgov:                 <https://slovník.gov.cz/veřejný-sektor/pojem/>
+PREFIX xsd:                   <http://www.w3.org/2001/XMLSchema#>
+PREFIX způsoby-sdílení-údajů: <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-sdílení-údaje>
+PREFIX způsoby-získání-údajů: <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-získání-údaje>
+PREFIX čas:                   <https://slovník.gov.cz/generický/čas/pojem/>
+
+<https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/casovy-okamzik-vytvoreni>
+        rdf:type         čas:časový-okamžik;
+        čas:datum-a-čas  "2026-08-03T14:39:17.977969563" .
+
+<https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-alfa>
+        rdf:type         slovníky:třída , skos:Concept , slovníky:pojem;
+        skos:definition  "Zkusebni entita typu Trida, vytvorena pro overeni synchronizace zmen z NKD."@cs;
+        skos:inScheme    <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803>;
+        skos:prefLabel   "Zkusebni entita Alfa"@cs;
+        a104:je-sdílen-v-propojeném-datovém-fondu
+                false .
+
+<https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/popisny-udaj-beta>
+        rdf:type         owl:DatatypeProperty , slovníky:pojem , skos:Concept , slovníky:vlastnost;
+        rdfs:domain      <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-beta>;
+        rdfs:range       rdfs:Literal;
+        skos:definition  "Zkusebni popisny udaj entity Beta, vytvoreny pro overeni synchronizace zmen z NKD."@cs;
+        skos:inScheme    <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803>;
+        skos:prefLabel   "Popisny udaj Beta"@cs;
+        a104:je-sdílen-v-propojeném-datovém-fondu
+                false .
+
+<https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/je-propojena-s>
+        rdf:type         slovníky:pojem , slovníky:vztah , owl:ObjectProperty , skos:Concept;
+        rdfs:domain      <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-beta>;
+        rdfs:range       <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-alfa>;
+        skos:definition  "Zkusebni vztah mezi entitou Beta a entitou Alfa, vytvoreny pro overeni synchronizace zmen z NKD."@cs;
+        skos:inScheme    <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803>;
+        skos:prefLabel   "je propojena s"@cs;
+        a104:je-sdílen-v-propojeném-datovém-fondu
+                false .
+
+<https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/popisny-udaj-alfa>
+        rdf:type         owl:DatatypeProperty , slovníky:vlastnost , slovníky:pojem , skos:Concept;
+        rdfs:domain      <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-alfa>;
+        rdfs:range       rdfs:Literal;
+        skos:definition  "Zkusebni popisny udaj entity Alfa, vytvoreny pro overeni synchronizace zmen z NKD."@cs;
+        skos:inScheme    <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803>;
+        skos:prefLabel   "Popisny udaj Alfa"@cs;
+        a104:je-sdílen-v-propojeném-datovém-fondu
+                false .
+
+<https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-beta>
+        rdf:type         slovníky:třída , skos:Concept , slovníky:pojem;
+        skos:definition  "Druha zkusebni entita typu Trida, vytvorena pro overeni synchronizace zmen z NKD."@cs;
+        skos:inScheme    <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803>;
+        skos:prefLabel   "Zkusebni entita Beta"@cs;
+        a104:je-sdílen-v-propojeném-datovém-fondu
+                false .
+
+<https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803>
+        rdf:type                    owl:Ontology , skos:ConceptScheme , slovníky:slovník;
+        dct:description             "Zcela novy testovaci slovnik s unikatnimi nazvy pojmu, bez historie mazani."@cs;
+        skos:prefLabel              "QA overovaci slovnik NKD sync 20260803"@cs;
+        slovníky:okamžik-vytvoření  <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/casovy-okamzik-vytvoreni> .

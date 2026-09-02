@@ -20,7 +20,7 @@ PREFIX čas:                   <https://slovník.gov.cz/generický/čas/pojem/>
 
 <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-alfa>
         rdf:type         slovníky:třída , skos:Concept , slovníky:pojem;
-        skos:definition  "Zkusebni entita typu Trida, vytvorena pro overeni synchronizace zmen z NKD."@cs;
+        skos:definition  "Zkusebni entita typu Trida, vytvorena pro overeni synchronizace zmen z NKD. ZMENA V NKD - TEST."@cs;
         skos:inScheme    <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803>;
         skos:prefLabel   "Zkusebni entita Alfa"@cs;
         a104:je-sdílen-v-propojeném-datovém-fondu

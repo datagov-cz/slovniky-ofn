@@ -40,7 +40,7 @@ PREFIX čas:                   <https://slovník.gov.cz/generický/čas/pojem/>
         rdf:type         slovníky:pojem , slovníky:vztah , owl:ObjectProperty , skos:Concept;
         rdfs:domain      <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-beta>;
         rdfs:range       <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-alfa>;
-        skos:definition  "Zkusebni vztah mezi entitou Beta a entitou Alfa, vytvoreny pro overeni synchronizace zmen z NKD."@cs;
+        skos:definition  "Zkusebni vztah mezi entitou Beta a entitou Alfa, vytvoreny pro overeni synchronizace zmen z NKD. ZMENA V NKD - TEST."@cs;
         skos:inScheme    <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803>;
         skos:prefLabel   "je propojena s"@cs;
         a104:je-sdílen-v-propojeném-datovém-fondu

@@ -26,7 +26,7 @@
       "cs" : "Popisny udaj Alfa"
     },
     "definice" : {
-      "cs" : "Zkusebni popisny udaj entity Alfa, vytvoreny pro overeni synchronizace zmen z NKD."
+      "cs" : "Zkusebni popisny udaj entity Alfa, vytvoreny pro overeni synchronizace zmen z NKD. ZMENA V NKD - TEST."
     },
     "definiční-obor" : "https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-alfa",
     "obor-hodnot" : "http://www.w3.org/2000/01/rdf-schema#Literal",

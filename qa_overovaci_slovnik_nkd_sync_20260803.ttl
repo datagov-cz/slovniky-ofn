@@ -50,7 +50,7 @@ PREFIX čas:                   <https://slovník.gov.cz/generický/čas/pojem/>
         rdf:type         owl:DatatypeProperty , slovníky:vlastnost , slovníky:pojem , skos:Concept;
         rdfs:domain      <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803/pojem/zkusebni-entita-alfa>;
         rdfs:range       rdfs:Literal;
-        skos:definition  "Zkusebni popisny udaj entity Alfa, vytvoreny pro overeni synchronizace zmen z NKD."@cs;
+        skos:definition  "Zkusebni popisny udaj entity Alfa, vytvoreny pro overeni synchronizace zmen z NKD. ZMENA V NKD - TEST."@cs;
         skos:inScheme    <https://slovník.gov.cz/qa-overovaci-slovnik-nkd-sync-20260803>;
         skos:prefLabel   "Popisny udaj Alfa"@cs;
         a104:je-sdílen-v-propojeném-datovém-fondu
